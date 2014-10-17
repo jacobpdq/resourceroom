@@ -1,0 +1,1527 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Resource Room | Just another WordPress site</title>
+
+	<link rel="profile" href="http://gmpg.org/xfn/11">
+	<link rel="pingback" href="http://dev.resourceroom.ca/xmlrpc.php">
+
+	<link rel="alternate" type="application/rss+xml" title="Resource Room &raquo; Feed" href="http://dev.resourceroom.ca/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Resource Room &raquo; Comments Feed" href="http://dev.resourceroom.ca/comments/feed/" />
+<link rel='stylesheet' id='edd-styles-css'  href='http://dev.resourceroom.ca/wp-content/themes/marketify/edd_templates/edd.css?ver=2.1.5' type='text/css' media='all' />
+<link rel='stylesheet' id='edd-points-public-style-css'  href='http://dev.resourceroom.ca/wp-content/plugins/edd-points-and-rewards/includes/css/style-public.css' type='text/css' media='all' />
+<link rel='stylesheet' id='edd-rp-styles-css'  href='http://dev.resourceroom.ca/wp-content/plugins/edd-recommended-products/css/style.css?ver=1.2.2' type='text/css' media='all' />
+<link rel='stylesheet' id='edd-reviews-css'  href='http://dev.resourceroom.ca/wp-content/plugins/edd-reviews/assets/css/edd-reviews.css?ver=1.3.8' type='text/css' media='all' />
+<link rel='stylesheet' id='marketify-fonts-css'  href='//fonts.googleapis.com/css?family=Source+Sans+Pro%3A300%2C400%2C700%2C300italic%2C400italic%2C700italic%7CRoboto+Slab%3A300%2C400%7CMontserrat%3A400%2C700&#038;subset=latin%2Clatin-ext&#038;ver=4.0' type='text/css' media='all' />
+<link rel='stylesheet' id='entypo-css'  href='http://dev.resourceroom.ca/wp-content/themes/marketify/css/entypo.min.css?ver=4.0' type='text/css' media='all' />
+<link rel='stylesheet' id='marketify-plugins-css'  href='http://dev.resourceroom.ca/wp-content/themes/marketify/css/plugins.min.css?ver=4.0' type='text/css' media='all' />
+<link rel='stylesheet' id='marketify-base-css'  href='http://dev.resourceroom.ca/wp-content/themes/marketify/style.css?ver=4.0' type='text/css' media='all' />
+<style type='text/css'>
+.site-header,.site-footer,.page-header,body.minimal,body.custom-background.minimal,.header-outer,.minimal .entry-content .edd-slg-social-container span legend {background-color: #515a63;}button,input[type=reset],input[type=submit],.button,a.button,.fes-button,.main-navigation .edd-cart .cart_item.edd_checkout a,.page-header .button:hover,.content-grid-download .button:hover,body .marketify_widget_slider_hero .soliloquy-caption a.button:hover,#edd_checkout_form_wrap fieldset#edd_cc_fields legend,.marketify_widget_featured_popular .home-widget-title span:hover,.marketify_widget_featured_popular .home-widget-title span.active,.nav-previous a:hover i,.nav-next a:hover i,body-footer.light .site-info .site-title,body a.edd-wl-action,body a.edd-wl-action.edd-wl-button,#recaptcha_area .recaptchatable a,#recaptcha_area .recaptchatable a:hover,.fes-feat-image-btn,.upload_file_button,.fes-avatar-image-btn {color: #515a63;}button,input[type=reset],input[type=submit],.button,a.button,.fes-button,.edd_price_options input[type=radio]:checked,body #edd-wl-modal input[type=radio]:checked,#edd_checkout_form_wrap fieldset#edd_cc_fields legend,.marketify_widget_featured_popular .home-widget-title span:hover,.marketify_widget_featured_popular .home-widget-title span.active,.entry-content blockquote,.nav-previous a:hover,.nav-next a:hover,body a.edd-wl-action,body a.edd-wl-action.edd-wl-button,body a.edd-wl-action.edd-wl-button:hover,.fes-feat-image-btn,.upload_file_button,.fes-avatar-image-btn {border-color: #515a63;}button:hover,input[type=reset]:hover,input[type=submit]:hover,.button:hover,a.button:hover,#edd_checkout_form_wrap fieldset#edd_cc_fields > span:after,.edd-reviews-voting-buttons a:hover,.flex-control-nav a.flex-active,.search-form .search-submit,.fes-pagination a.page-numbers:hover,body a.edd-wl-action.edd-wl-button:hover,.fes-feat-image-btn:hover,.upload_file_button:hover,.fes-avatar-image-btn:hover {background-color: #515a63;}a.edd-cart-saving-button,input[name=edd_update_cart_submit],.main-navigation .edd-cart .cart_item.edd_checkout a,.download-variable .entry-content .edd-add-to-cart.button.edd-submit:hover,.download-variable .entry-content .edd_go_to_checkout.button.edd-submit:hover,.popup .edd-add-to-cart.button.edd-submit:hover,.edd-reviews-voting-buttons a,a.edd-fes-adf-submission-add-option-button,#fes-insert-image,#fes-view-comment a,a.edd_terms_links {color: #4ed0aa;}a.edd-cart-saving-button,input[name=edd_update_cart_submit],.main-navigation .edd-cart .cart_item.edd_checkout a:hover,.download-variable .entry-content .edd-add-to-cart.button.edd-submit:hover,.download-variable .entry-content .edd_go_to_checkout.button.edd-submit:hover,.popup .edd-add-to-cart.button.edd-submit:hover,.popup .edd_go_to_checkout.button.edd-submit,.popup .edd_go_to_checkout.button.edd-submit:hover,.edd-reviews-voting-buttons a,.edd-fes-adf-submission-add-option-button,#fes-insert-image,#fes-view-comment a,.edd_terms_links,.site-footer.dark .mailbag-wrap input[type=submit],.insert-file-row {border-color: #4ed0aa;}a.edd-cart-saving-button:hover,input[name=edd_update_cart_submit]:hover,.minimal #edd_purchase_submit input[type=submit],.main-navigation .edd-cart .cart_item.edd_checkout a:hover,.minimal a.edd-cart-saving-button,.minimal input[name=edd_update_cart_submit],.minimal .fes-form input[type=submit],.popup .edd_go_to_checkout.button.edd-submit,.popup .edd_go_to_checkout.button.edd-submit:hover,.main-navigation .search-form.active .search-submit,.main-navigation.toggled .search-form .search-submit,.edd-fes-adf-submission-add-option-button:hover,#fes-insert-image:hover,.edd-reviews-voting-buttons a:hover,.minimal #edd_login_submit,.minimal input[name=edd_register_submit],.edd_terms_links:hover,.site-footer.dark .mailbag-wrap input[type=submit],.home-search .page-header .search-submit,.search-form-overlay .search-submit,.marketify_widget_taxonomy_stylized,.insert-file-row {background-color: #4ed0aa;}.site-footer.light, {background-color: #;}.content-grid-download .entry-image:hover .overlay,.content-grid-download .entry-image.hover .overlay,.download-image-grid-preview .slides li.active a:before,.download-image-grid-preview .slides li:hover a:before {background: rgba( 81,90,99, .80 );border: 1px solid rgba( 81,90,99, .80 );}.search-form-overlay {background: rgba( 81,90,99, .90 );}
+.site-header, .page-header { background-color: transparent; }
+</style>
+<link rel='stylesheet' id='cpsh-shortcodes-css'  href='http://dev.resourceroom.ca/wp-content/plugins/column-shortcodes/assets/css/shortcodes.css?ver=0.6.6' type='text/css' media='all' />
+<link rel='stylesheet' id='sccss_style-css'  href='http://dev.resourceroom.ca/?sccss=1&#038;ver=4.0' type='text/css' media='all' />
+<link rel='stylesheet' id='edd-wl-styles-css'  href='http://dev.resourceroom.ca/wp-content/plugins/edd-wish-lists/templates/edd-wl.min.css?ver=1.0.6' type='text/css' media='screen' />
+<script type='text/javascript' src='http://dev.resourceroom.ca/wp-includes/js/jquery/jquery.js?ver=1.11.1'></script>
+<script type='text/javascript' src='http://dev.resourceroom.ca/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var edd_scripts = {"ajaxurl":"http:\/\/dev.resourceroom.ca\/wp-admin\/admin-ajax.php","position_in_cart":"","already_in_cart_message":"You have already added this item to your cart","empty_cart_message":"Your cart is empty","loading":"Loading","select_option":"Please select an option","ajax_loader":"http:\/\/dev.resourceroom.ca\/wp-content\/plugins\/easy-digital-downloads\/assets\/images\/loading.gif","is_checkout":"0","default_gateway":"paypal","redirect_to_checkout":"0","checkout_page":"http:\/\/dev.resourceroom.ca\/checkout\/","permalinks":"1"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://dev.resourceroom.ca/wp-content/plugins/easy-digital-downloads/assets/js/edd-ajax.min.js?ver=2.1.5'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://dev.resourceroom.ca/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://dev.resourceroom.ca/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.0" />
+<link rel='canonical' href='http://dev.resourceroom.ca/' />
+<link rel='shortlink' href='http://dev.resourceroom.ca/' />
+<meta name="generator" content="Easy Digital Downloads v2.1.5" />
+<meta name="generator" content="EDD FES v2.2.9.9.1" />
+	<script type="text/javascript">
+		var RecaptchaOptions = {
+			theme : 'clean',
+		};
+	</script>
+	<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
+	<style type="text/css">
+		.site-title a,
+	.site-description,
+	.main-navigation a {
+		color: #fff;
+	}
+
+	.site-title {
+		line-height: 55px
+	}
+	</style>
+	</head>
+<body class="home page page-id-2276 page-template page-template-page-templateshome-php home-1">
+
+<div id="page" class="hfeed site">
+	<div class="header-outer custom-featured-image" style="background-image: url(http://dev.resourceroom.ca/wp-content/uploads/2014/10/old-209152_1280.jpg);">	<header id="masthead" class="site-header" role="banner">
+		<div class="container">
+			<nav id="site-navigation" class="main-navigation" role="navigation">
+				<h1 class="menu-toggle"><i class="icon-list2"></i></h1>
+
+								<div class="header-search-icon"><i class="icon-search"></i></div>
+				
+				
+<form role="search" method="get" class="search-form" action="http://dev.resourceroom.ca/">
+	<button type="submit" class="search-submit"><i class="icon-search"></i></button>
+	<label>
+		<span class="screen-reader-text">Search for:</span>
+		<input type="search" class="search-field" placeholder="Search" value="" name="s" title="Search for:">
+	</label>
+
+	<input type="hidden" name="post_type" value="download" />
+</form>
+
+				<div class="main-menu"><ul id="menu-main-menu" class="menu"><li class="current-cart"><a href="http://dev.resourceroom.ca/checkout/"><i class="icon-cart"></i> <span class="edd-cart-quantity">0</span></a><ul class="sub-menu nav-menu"><li class="widget"><p class="edd-cart-number-of-items"style="display:none;">Number of items in cart: <span class="edd-cart-quantity">0</span></p>
+<ul class="edd-cart">
+
+	<li class="cart_item empty"><span class="edd_empty_cart">Your cart is empty.</span></li>
+<li class="cart_item edd_subtotal" style="display:none;">Subtotal: <span class='subtotal'>&#36;0</span></li>
+<li class="cart_item edd_checkout" style="display:none;"><a href="http://dev.resourceroom.ca/checkout/">Checkout</a></li>
+
+</ul></li></ul></li><li id="menu-item-2265" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-2265"><a href="#">Pages</a>
+<ul class="sub-menu">
+	<li id="menu-item-2472" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2472"><a href="http://dev.resourceroom.ca/vendor/">Author</a></li>
+	<li id="menu-item-2450" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2450"><a href="http://dev.resourceroom.ca/blog/">Blog</a></li>
+	<li id="menu-item-2459" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2459"><a href="http://dev.resourceroom.ca/profile/">Profile</a></li>
+	<li id="menu-item-2455" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2455"><a href="http://dev.resourceroom.ca/popular-items/">Popular Items</a></li>
+	<li id="menu-item-2456" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2456"><a href="http://dev.resourceroom.ca/pricing/">Pricing</a></li>
+	<li id="menu-item-2460" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2460"><a href="http://dev.resourceroom.ca/wishlist/">Wishlist</a></li>
+	<li id="menu-item-2473" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2473"><a href="http://dev.resourceroom.ca/meet-the-team/">Meet the Team</a></li>
+	<li id="menu-item-2475" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2475"><a href="http://dev.resourceroom.ca/sample-page/">Sample Page</a></li>
+	<li id="menu-item-2474" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2474"><a href="http://dev.resourceroom.ca/purchase-history/">Purchase History</a></li>
+	<li id="menu-item-2476" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2476"><a href="http://dev.resourceroom.ca/sign-in/">Sign In</a></li>
+	<li id="menu-item-2457" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2457"><a href="http://dev.resourceroom.ca/terms-of-service/">Terms Of Service</a></li>
+</ul>
+</li>
+<li id="menu-item-2451" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-2451"><a href="http://dev.resourceroom.ca/profile/">Profile</a>
+<ul class="sub-menu">
+	<li id="menu-item-2445" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2445"><a href="http://dev.resourceroom.ca/author-dashboard/">Author Dashboard</a></li>
+	<li id="menu-item-2454" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2454"><a href="http://dev.resourceroom.ca/wishlist/">Wishlist</a></li>
+	<li id="menu-item-2452" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2452"><a href="http://dev.resourceroom.ca/purchase-history/">Purchases</a></li>
+	<li id="menu-item-2453" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2453"><a href="http://dev.resourceroom.ca/settings/">Settings</a></li>
+	<li id="menu-item-2266" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2266"><a href="/marketify/wp-login.php?action=logout">Sign Out</a></li>
+</ul>
+</li>
+<li id="menu-item-2448" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2448"><a href="http://dev.resourceroom.ca/sign-in/">Sign In</a></li>
+<li id="menu-item-2466" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2466"><a href="http://dev.resourceroom.ca/wp-login.php?action=register">Register</a></li>
+</ul></div>			</nav><!-- #site-navigation -->
+
+			<div class="site-branding">
+								
+				<h1 class="site-title"><a href="http://dev.resourceroom.ca/" title="Resource Room" rel="home">Resource Room</a></h1>
+				<h2 class="site-description screen-reader-text">Just another WordPress site</h2>
+			</div>
+		</div>
+	</header><!-- #masthead -->
+
+	
+<div class="search-form-overlay">
+
+	<form role="search" method="get" class="search-form" action="http://dev.resourceroom.ca/">
+		<button type="submit" class="search-submit"><i class="icon-search"></i></button>
+		<label>
+			<span class="screen-reader-text">Search for:</span>
+			<input type="search" class="search-field" placeholder="Search" value="" name="s" title="Search for:">
+		</label>
+
+		<a href="#" class="header-search-toggle"><i class="icon-cross"></i></a>
+
+		<input type="hidden" name="post_type" value="download" />
+	</form>
+
+</div>
+
+				<header class="page-header">
+			<div class="container">
+				<h1 class="page-title">Classroom resources for teachers, by teachers.</h1>
+
+				<p><a class="button" href="/downloads/">Shop Now</a> <a class="button" href="/become-an-author/">Start Selling</a></p>
+			</div>
+		</header><!-- .page-header -->
+		
+	</div>
+
+	<div id="content" class="site-content">
+
+		<section id="primary" class="content-area full">
+			<main id="main" class="site-main" role="main">
+
+				<div class="container">
+					<aside id="search-2" class="home-widget widget_search">
+<form role="search" method="get" class="search-form" action="http://dev.resourceroom.ca/">
+	<button type="submit" class="search-submit"><i class="icon-search"></i></button>
+	<label>
+		<span class="screen-reader-text">Search for:</span>
+		<input type="search" class="search-field" placeholder="Search" value="" name="s" title="Search for:">
+	</label>
+
+	<input type="hidden" name="post_type" value="download" />
+</form>
+</aside><aside id="marketify_widget_featured_popular-1" class="home-widget marketify_widget_featured_popular">
+		<h1 class="home-widget-title">
+						<span>Featured </span>
+			
+						<span>Popular</span>
+					</h1>
+
+				<div id="items-featured" class="row flexslider">
+			<ul class="slides">
+								<li class="col-lg-3 col-sm-6">
+					
+<article id="post-1749" class="post-1749 download type-download status-publish format-standard hentry content-grid-download edd-download edd-download-cat-bootstrap edd-download-cat-drupal edd-download-cat-ghost edd-download-cat-html-2 edd-download-cat-joomla edd-download-cat-misc edd-download-cat-tumblr edd-download-cat-wordpress">
+	
+<div class="entry-image">
+	<div class="overlay">
+		
+		<div class="actions">
+				<form id="edd_purchase_1749" class="edd_download_purchase_form" method="post">
+
+		
+		<div class="edd_purchase_submit_wrapper">
+			<a href="#" class="edd-add-to-cart button blue edd-submit" data-action="edd_add_to_cart" data-download-id="1749" data-variable-price="no" data-price-mode=single ><span class="edd-add-to-cart-label">Purchase</span> <span class="edd-loading"><i class="edd-icon-spinner edd-icon-spin"></i></span></a><input type="submit" class="edd-add-to-cart edd-no-js button blue edd-submit" name="edd_purchase_download" value="Purchase" data-action="edd_add_to_cart" data-download-id="1749" data-variable-price="no" data-price-mode=single /><a href="http://dev.resourceroom.ca/checkout/" class="edd_go_to_checkout button blue edd-submit" style="display:none;">Checkout</a>
+							<span class="edd-cart-ajax-alert">
+					<span class="edd-cart-added-alert" style="display: none;">
+						<i class="edd-icon-ok"></i> Added to cart					</span>
+				</span>
+															</div><!--end .edd_purchase_submit_wrapper-->
+
+		<input type="hidden" name="download_id" value="1749">
+					<input type="hidden" name="edd_action" class="edd_action_input" value="add_to_cart">
+		
+		
+	</form><!--end #edd_purchase_1749-->
+			<a href="http://dev.resourceroom.ca/downloads/50-royalty-free-backgrounds/" rel="bookmark" class="button">Details</a>
+
+			<strong class="item-price"><span>Item Price: <span class="edd_price" id="edd_price_1749">&#36;15.00</span></span></strong>
+
+					</div>
+	</div>
+
+			<span class="image-placeholder"></span>
+	</div>
+
+
+<div id="buy-now-1749" class="popup">
+	<h1 class="section-title"><span>Buying Options</span></h1>
+
+		<form id="edd_purchase_1749" class="edd_download_purchase_form" method="post">
+
+		
+		<div class="edd_purchase_submit_wrapper">
+			<a href="#" class="edd-add-to-cart button blue edd-submit" data-action="edd_add_to_cart" data-download-id="1749" data-variable-price="no" data-price-mode=single ><span class="edd-add-to-cart-label">&#36;15.00&nbsp;&ndash;&nbsp;Purchase</span> <span class="edd-loading"><i class="edd-icon-spinner edd-icon-spin"></i></span></a><input type="submit" class="edd-add-to-cart edd-no-js button blue edd-submit" name="edd_purchase_download" value="&#036;15.00&nbsp;&ndash;&nbsp;Purchase" data-action="edd_add_to_cart" data-download-id="1749" data-variable-price="no" data-price-mode=single /><a href="http://dev.resourceroom.ca/checkout/" class="edd_go_to_checkout button blue edd-submit" style="display:none;">Checkout</a>
+							<span class="edd-cart-ajax-alert">
+					<span class="edd-cart-added-alert" style="display: none;">
+						<i class="edd-icon-ok"></i> Added to cart					</span>
+				</span>
+															</div><!--end .edd_purchase_submit_wrapper-->
+
+		<input type="hidden" name="download_id" value="1749">
+					<input type="hidden" name="edd_action" class="edd_action_input" value="add_to_cart">
+		
+		
+	</form><!--end #edd_purchase_1749-->
+</div>
+	
+<header class="entry-header">
+	<h1 class="entry-title"><a href="http://dev.resourceroom.ca/downloads/50-royalty-free-backgrounds/" rel="bookmark">50+ Royalty Free Backgrounds</a></h1>
+
+	
+	<div class="entry-meta">
+		
+					<span class="byline"> by <span class="author vcard"><a class="url fn n" href="http://dev.resourceroom.ca/vendor/admin" title="View all Downloads by admin">admin <img alt='' src='http://1.gravatar.com/avatar/7d1929548f39f7b9e7eed092c3b34d24?s=50&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D50&amp;r=G' class='avatar avatar-50 photo' height='50' width='50' /></a></span></span>		
+			</div>
+</header><!-- .entry-header --></article><!-- #post-## -->
+				</li>
+								<li class="col-lg-3 col-sm-6">
+					
+<article id="post-1751" class="post-1751 download type-download status-publish format-standard hentry content-grid-download edd-download edd-download-cat-bootstrap edd-download-cat-drupal edd-download-cat-ghost edd-download-cat-html-2 edd-download-cat-joomla edd-download-cat-misc edd-download-cat-tumblr edd-download-cat-wordpress">
+	
+<div class="entry-image">
+	<div class="overlay">
+		
+		<div class="actions">
+			<a href="#buy-now-1751" class="button buy-now popup-trigger">Purchase</a>			<a href="http://dev.resourceroom.ca/downloads/10-ipad-and-iphone-mockups/" rel="bookmark" class="button">Details</a>
+
+			<strong class="item-price"><span>Item Price: <span class="edd_price" id="edd_price_1751">&#36;10.00</span></span></strong>
+
+					</div>
+	</div>
+
+			<span class="image-placeholder"></span>
+	</div>
+
+
+<div id="buy-now-1751" class="popup">
+	<h1 class="section-title"><span>Buying Options</span></h1>
+
+		<form id="edd_purchase_1751" class="edd_download_purchase_form download-variable" method="post">
+
+			<div class="edd_price_options">
+		<ul>
+			<li id="edd_price_option_1751_lowresolutionversion" itemprop="offers" itemscope itemtype="http://schema.org/Offer"><label for="edd_price_option_1751_0"><input type="radio"  name="edd_options[price_id][]" id="edd_price_option_1751_0" class="edd_price_option_1751" value="0"/>&nbsp;<span class="edd_price_option_name" itemprop="description">Low Resolution Version</span><span class="edd_price_option_sep">&nbsp;&ndash;&nbsp;</span><span class="edd_price_option_price" itemprop="price">&#36;10.00</span></label></li><li id="edd_price_option_1751_highresolutionversion" itemprop="offers" itemscope itemtype="http://schema.org/Offer"><label for="edd_price_option_1751_1"><input type="radio"  checked='checked' name="edd_options[price_id][]" id="edd_price_option_1751_1" class="edd_price_option_1751" value="1"/>&nbsp;<span class="edd_price_option_name" itemprop="description">High Resolution Version</span><span class="edd_price_option_sep">&nbsp;&ndash;&nbsp;</span><span class="edd_price_option_price" itemprop="price">&#36;25.00</span></label></li>		</ul>
+	</div><!--end .edd_price_options-->
+
+		<div class="edd_purchase_submit_wrapper">
+			<a href="#" class="edd-add-to-cart button blue edd-submit" data-action="edd_add_to_cart" data-download-id="1751"  data-variable-price="yes" data-price-mode=single ><span class="edd-add-to-cart-label">Purchase</span> <span class="edd-loading"><i class="edd-icon-spinner edd-icon-spin"></i></span></a><input type="submit" class="edd-add-to-cart edd-no-js button blue edd-submit" name="edd_purchase_download" value="Purchase" data-action="edd_add_to_cart" data-download-id="1751"  data-variable-price="yes" data-price-mode=single /><a href="http://dev.resourceroom.ca/checkout/" class="edd_go_to_checkout button blue edd-submit" style="display:none;">Checkout</a>
+							<span class="edd-cart-ajax-alert">
+					<span class="edd-cart-added-alert" style="display: none;">
+						<i class="edd-icon-ok"></i> Added to cart					</span>
+				</span>
+															</div><!--end .edd_purchase_submit_wrapper-->
+
+		<input type="hidden" name="download_id" value="1751">
+					<input type="hidden" name="edd_action" class="edd_action_input" value="add_to_cart">
+		
+		
+	</form><!--end #edd_purchase_1751-->
+</div>
+	
+<header class="entry-header">
+	<h1 class="entry-title"><a href="http://dev.resourceroom.ca/downloads/10-ipad-and-iphone-mockups/" rel="bookmark">10+ iPad and iPhone Mockups</a></h1>
+
+	
+	<div class="entry-meta">
+		
+					<span class="byline"> by <span class="author vcard"><a class="url fn n" href="http://dev.resourceroom.ca/vendor/admin" title="View all Downloads by admin">admin <img alt='' src='http://1.gravatar.com/avatar/7d1929548f39f7b9e7eed092c3b34d24?s=50&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D50&amp;r=G' class='avatar avatar-50 photo' height='50' width='50' /></a></span></span>		
+			</div>
+</header><!-- .entry-header --></article><!-- #post-## -->
+				</li>
+								<li class="col-lg-3 col-sm-6">
+					
+<article id="post-1752" class="post-1752 download type-download status-publish format-standard hentry content-grid-download edd-download edd-download-cat-bootstrap edd-download-cat-drupal edd-download-cat-ghost edd-download-cat-html-2 edd-download-cat-joomla edd-download-cat-misc edd-download-cat-tumblr edd-download-cat-wordpress">
+	
+<div class="entry-image">
+	<div class="overlay">
+		
+		<div class="actions">
+			<a href="#buy-now-1752" class="button buy-now popup-trigger">Purchase</a>			<a href="http://dev.resourceroom.ca/downloads/jobify-theme/" rel="bookmark" class="button">Details</a>
+
+			<strong class="item-price"><span>Item Price: <span class="edd_price" id="edd_price_1752">&#36;60.00</span></span></strong>
+
+					</div>
+	</div>
+
+			<span class="image-placeholder"></span>
+	</div>
+
+
+<div id="buy-now-1752" class="popup">
+	<h1 class="section-title"><span>Buying Options</span></h1>
+
+		<form id="edd_purchase_1752" class="edd_download_purchase_form download-variable" method="post">
+
+			<div class="edd_price_options">
+		<ul>
+			<li id="edd_price_option_1752_jobifywordpresstheme" itemprop="offers" itemscope itemtype="http://schema.org/Offer"><label for="edd_price_option_1752_0"><input type="radio"  name="edd_options[price_id][]" id="edd_price_option_1752_0" class="edd_price_option_1752" value="0"/>&nbsp;<span class="edd_price_option_name" itemprop="description">Jobify WordPress Theme</span><span class="edd_price_option_sep">&nbsp;&ndash;&nbsp;</span><span class="edd_price_option_price" itemprop="price">&#36;60.00</span></label></li><li id="edd_price_option_1752_jobifywordpressthemepsdfiles" itemprop="offers" itemscope itemtype="http://schema.org/Offer"><label for="edd_price_option_1752_1"><input type="radio"  checked='checked' name="edd_options[price_id][]" id="edd_price_option_1752_1" class="edd_price_option_1752" value="1"/>&nbsp;<span class="edd_price_option_name" itemprop="description">Jobify WordPress Theme &amp; PSD Files</span><span class="edd_price_option_sep">&nbsp;&ndash;&nbsp;</span><span class="edd_price_option_price" itemprop="price">&#36;90.00</span></label></li>		</ul>
+	</div><!--end .edd_price_options-->
+
+		<div class="edd_purchase_submit_wrapper">
+			<a href="#" class="edd-add-to-cart button blue edd-submit" data-action="edd_add_to_cart" data-download-id="1752"  data-variable-price="yes" data-price-mode=single ><span class="edd-add-to-cart-label">Purchase</span> <span class="edd-loading"><i class="edd-icon-spinner edd-icon-spin"></i></span></a><input type="submit" class="edd-add-to-cart edd-no-js button blue edd-submit" name="edd_purchase_download" value="Purchase" data-action="edd_add_to_cart" data-download-id="1752"  data-variable-price="yes" data-price-mode=single /><a href="http://dev.resourceroom.ca/checkout/" class="edd_go_to_checkout button blue edd-submit" style="display:none;">Checkout</a>
+							<span class="edd-cart-ajax-alert">
+					<span class="edd-cart-added-alert" style="display: none;">
+						<i class="edd-icon-ok"></i> Added to cart					</span>
+				</span>
+															</div><!--end .edd_purchase_submit_wrapper-->
+
+		<input type="hidden" name="download_id" value="1752">
+					<input type="hidden" name="edd_action" class="edd_action_input" value="add_to_cart">
+		
+		
+	</form><!--end #edd_purchase_1752-->
+</div>
+	
+<header class="entry-header">
+	<h1 class="entry-title"><a href="http://dev.resourceroom.ca/downloads/jobify-theme/" rel="bookmark">Jobify WordPress Theme</a></h1>
+
+	
+	<div class="entry-meta">
+		
+					<span class="byline"> by <span class="author vcard"><a class="url fn n" href="http://dev.resourceroom.ca/vendor/admin" title="View all Downloads by admin">admin <img alt='' src='http://1.gravatar.com/avatar/7d1929548f39f7b9e7eed092c3b34d24?s=50&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D50&amp;r=G' class='avatar avatar-50 photo' height='50' width='50' /></a></span></span>		
+			</div>
+</header><!-- .entry-header --></article><!-- #post-## -->
+				</li>
+								<li class="col-lg-3 col-sm-6">
+					
+<article id="post-2115" class="post-2115 download type-download status-publish format-standard hentry content-grid-download edd-download edd-download-cat-video-2 edd-download-tag-test">
+	
+<div class="entry-image">
+	<div class="overlay">
+		
+		<div class="actions">
+			<a href="#buy-now-2115" class="button buy-now popup-trigger">Purchase</a>			<a href="http://dev.resourceroom.ca/downloads/in-the-city-at-night/" rel="bookmark" class="button">Details</a>
+
+			<strong class="item-price"><span>Item Price: <span class="edd_price" id="edd_price_2115">&#36;10.00</span></span></strong>
+
+					</div>
+	</div>
+
+			<span class="image-placeholder"></span>
+	</div>
+
+
+<div id="buy-now-2115" class="popup">
+	<h1 class="section-title"><span>Buying Options</span></h1>
+
+		<form id="edd_purchase_2115" class="edd_download_purchase_form download-variable" method="post">
+
+			<div class="edd_price_options">
+		<ul>
+			<li id="edd_price_option_2115_hd720pversion" itemprop="offers" itemscope itemtype="http://schema.org/Offer"><label for="edd_price_option_2115_0"><input type="radio"  name="edd_options[price_id][]" id="edd_price_option_2115_0" class="edd_price_option_2115" value="0"/>&nbsp;<span class="edd_price_option_name" itemprop="description">HD 720p Version</span><span class="edd_price_option_sep">&nbsp;&ndash;&nbsp;</span><span class="edd_price_option_price" itemprop="price">&#36;10.00</span></label></li><li id="edd_price_option_2115_hd1080pversion" itemprop="offers" itemscope itemtype="http://schema.org/Offer"><label for="edd_price_option_2115_1"><input type="radio"  checked='checked' name="edd_options[price_id][]" id="edd_price_option_2115_1" class="edd_price_option_2115" value="1"/>&nbsp;<span class="edd_price_option_name" itemprop="description">HD 1080p Version</span><span class="edd_price_option_sep">&nbsp;&ndash;&nbsp;</span><span class="edd_price_option_price" itemprop="price">&#36;20.00</span></label></li>		</ul>
+	</div><!--end .edd_price_options-->
+
+		<div class="edd_purchase_submit_wrapper">
+			<a href="#" class="edd-add-to-cart button blue edd-submit" data-action="edd_add_to_cart" data-download-id="2115"  data-variable-price="yes" data-price-mode=single ><span class="edd-add-to-cart-label">Purchase</span> <span class="edd-loading"><i class="edd-icon-spinner edd-icon-spin"></i></span></a><input type="submit" class="edd-add-to-cart edd-no-js button blue edd-submit" name="edd_purchase_download" value="Purchase" data-action="edd_add_to_cart" data-download-id="2115"  data-variable-price="yes" data-price-mode=single /><a href="http://dev.resourceroom.ca/checkout/" class="edd_go_to_checkout button blue edd-submit" style="display:none;">Checkout</a>
+							<span class="edd-cart-ajax-alert">
+					<span class="edd-cart-added-alert" style="display: none;">
+						<i class="edd-icon-ok"></i> Added to cart					</span>
+				</span>
+															</div><!--end .edd_purchase_submit_wrapper-->
+
+		<input type="hidden" name="download_id" value="2115">
+					<input type="hidden" name="edd_action" class="edd_action_input" value="add_to_cart">
+		
+		
+	</form><!--end #edd_purchase_2115-->
+</div>
+	
+<header class="entry-header">
+	<h1 class="entry-title"><a href="http://dev.resourceroom.ca/downloads/in-the-city-at-night/" rel="bookmark">In the City At Night Movie</a></h1>
+
+	
+	<div class="entry-meta">
+		
+					<span class="byline"> by <span class="author vcard"><a class="url fn n" href="http://dev.resourceroom.ca/vendor/admin" title="View all Downloads by admin">admin <img alt='' src='http://1.gravatar.com/avatar/7d1929548f39f7b9e7eed092c3b34d24?s=50&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D50&amp;r=G' class='avatar avatar-50 photo' height='50' width='50' /></a></span></span>		
+			</div>
+</header><!-- .entry-header --></article><!-- #post-## -->
+				</li>
+								<li class="col-lg-3 col-sm-6">
+					
+<article id="post-1732" class="post-1732 download type-download status-publish format-standard hentry content-grid-download edd-download edd-download-cat-bootstrap edd-download-cat-drupal edd-download-cat-ghost edd-download-cat-html-2 edd-download-cat-joomla edd-download-cat-misc edd-download-cat-tumblr edd-download-cat-wordpress">
+	
+<div class="entry-image">
+	<div class="overlay">
+		
+		<div class="actions">
+			<a href="#buy-now-1732" class="button buy-now popup-trigger">Purchase</a>			<a href="http://dev.resourceroom.ca/downloads/190-photoshop-actions-bundle-pack/" rel="bookmark" class="button">Details</a>
+
+			<strong class="item-price"><span>Item Price: <span class="edd_price" id="edd_price_1732">&#36;10.00</span></span></strong>
+
+					</div>
+	</div>
+
+			<span class="image-placeholder"></span>
+	</div>
+
+
+<div id="buy-now-1732" class="popup">
+	<h1 class="section-title"><span>Buying Options</span></h1>
+
+		<form id="edd_purchase_1732" class="edd_download_purchase_form download-variable" method="post">
+
+			<div class="edd_price_options">
+		<ul>
+			<li id="edd_price_option_1732_heresaprices" itemprop="offers" itemscope itemtype="http://schema.org/Offer"><label for="edd_price_option_1732_0"><input type="radio"  name="edd_options[price_id][]" id="edd_price_option_1732_0" class="edd_price_option_1732" value="0"/>&nbsp;<span class="edd_price_option_name" itemprop="description">Here&#039;s a prices</span><span class="edd_price_option_sep">&nbsp;&ndash;&nbsp;</span><span class="edd_price_option_price" itemprop="price">&#36;10.00</span></label></li><li id="edd_price_option_1732_heresanotherprice" itemprop="offers" itemscope itemtype="http://schema.org/Offer"><label for="edd_price_option_1732_1"><input type="radio"  checked='checked' name="edd_options[price_id][]" id="edd_price_option_1732_1" class="edd_price_option_1732" value="1"/>&nbsp;<span class="edd_price_option_name" itemprop="description">Here&#039;s another price</span><span class="edd_price_option_sep">&nbsp;&ndash;&nbsp;</span><span class="edd_price_option_price" itemprop="price">&#36;25.00</span></label></li><li id="edd_price_option_1732_andheresonemoreprice" itemprop="offers" itemscope itemtype="http://schema.org/Offer"><label for="edd_price_option_1732_2"><input type="radio"  name="edd_options[price_id][]" id="edd_price_option_1732_2" class="edd_price_option_1732" value="2"/>&nbsp;<span class="edd_price_option_name" itemprop="description">And here&#039;s one more price</span><span class="edd_price_option_sep">&nbsp;&ndash;&nbsp;</span><span class="edd_price_option_price" itemprop="price">&#36;35.00</span></label></li>		</ul>
+	</div><!--end .edd_price_options-->
+
+		<div class="edd_purchase_submit_wrapper">
+			<a href="#" class="edd-add-to-cart button blue edd-submit" data-action="edd_add_to_cart" data-download-id="1732"  data-variable-price="yes" data-price-mode=single ><span class="edd-add-to-cart-label">Purchase</span> <span class="edd-loading"><i class="edd-icon-spinner edd-icon-spin"></i></span></a><input type="submit" class="edd-add-to-cart edd-no-js button blue edd-submit" name="edd_purchase_download" value="Purchase" data-action="edd_add_to_cart" data-download-id="1732"  data-variable-price="yes" data-price-mode=single /><a href="http://dev.resourceroom.ca/checkout/" class="edd_go_to_checkout button blue edd-submit" style="display:none;">Checkout</a>
+							<span class="edd-cart-ajax-alert">
+					<span class="edd-cart-added-alert" style="display: none;">
+						<i class="edd-icon-ok"></i> Added to cart					</span>
+				</span>
+															</div><!--end .edd_purchase_submit_wrapper-->
+
+		<input type="hidden" name="download_id" value="1732">
+					<input type="hidden" name="edd_action" class="edd_action_input" value="add_to_cart">
+		
+		
+	</form><!--end #edd_purchase_1732-->
+</div>
+	
+<header class="entry-header">
+	<h1 class="entry-title"><a href="http://dev.resourceroom.ca/downloads/190-photoshop-actions-bundle-pack/" rel="bookmark">190 Photoshop Actions Bundle</a></h1>
+
+	
+	<div class="entry-meta">
+		
+					<span class="byline"> by <span class="author vcard"><a class="url fn n" href="http://dev.resourceroom.ca/vendor/admin" title="View all Downloads by admin">admin <img alt='' src='http://1.gravatar.com/avatar/7d1929548f39f7b9e7eed092c3b34d24?s=50&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D50&amp;r=G' class='avatar avatar-50 photo' height='50' width='50' /></a></span></span>		
+			</div>
+</header><!-- .entry-header --></article><!-- #post-## -->
+				</li>
+							</ul>
+		</div>
+		
+				<div id="items-popular" class="row flexslider">
+			<ul class="slides">
+								<li class="col-lg-3 col-sm-6">
+					
+<article id="post-1752" class="post-1752 download type-download status-publish format-standard hentry content-grid-download edd-download edd-download-cat-bootstrap edd-download-cat-drupal edd-download-cat-ghost edd-download-cat-html-2 edd-download-cat-joomla edd-download-cat-misc edd-download-cat-tumblr edd-download-cat-wordpress">
+	
+<div class="entry-image">
+	<div class="overlay">
+		
+		<div class="actions">
+			<a href="#buy-now-1752" class="button buy-now popup-trigger">Purchase</a>			<a href="http://dev.resourceroom.ca/downloads/jobify-theme/" rel="bookmark" class="button">Details</a>
+
+			<strong class="item-price"><span>Item Price: <span class="edd_price" id="edd_price_1752">&#36;60.00</span></span></strong>
+
+					</div>
+	</div>
+
+			<span class="image-placeholder"></span>
+	</div>
+
+
+<div id="buy-now-1752" class="popup">
+	<h1 class="section-title"><span>Buying Options</span></h1>
+
+		<form id="edd_purchase_1752" class="edd_download_purchase_form download-variable" method="post">
+
+			<div class="edd_price_options">
+		<ul>
+			<li id="edd_price_option_1752_jobifywordpresstheme" itemprop="offers" itemscope itemtype="http://schema.org/Offer"><label for="edd_price_option_1752_0"><input type="radio"  name="edd_options[price_id][]" id="edd_price_option_1752_0" class="edd_price_option_1752" value="0"/>&nbsp;<span class="edd_price_option_name" itemprop="description">Jobify WordPress Theme</span><span class="edd_price_option_sep">&nbsp;&ndash;&nbsp;</span><span class="edd_price_option_price" itemprop="price">&#36;60.00</span></label></li><li id="edd_price_option_1752_jobifywordpressthemepsdfiles" itemprop="offers" itemscope itemtype="http://schema.org/Offer"><label for="edd_price_option_1752_1"><input type="radio"  checked='checked' name="edd_options[price_id][]" id="edd_price_option_1752_1" class="edd_price_option_1752" value="1"/>&nbsp;<span class="edd_price_option_name" itemprop="description">Jobify WordPress Theme &amp; PSD Files</span><span class="edd_price_option_sep">&nbsp;&ndash;&nbsp;</span><span class="edd_price_option_price" itemprop="price">&#36;90.00</span></label></li>		</ul>
+	</div><!--end .edd_price_options-->
+
+		<div class="edd_purchase_submit_wrapper">
+			<a href="#" class="edd-add-to-cart button blue edd-submit" data-action="edd_add_to_cart" data-download-id="1752"  data-variable-price="yes" data-price-mode=single ><span class="edd-add-to-cart-label">Purchase</span> <span class="edd-loading"><i class="edd-icon-spinner edd-icon-spin"></i></span></a><input type="submit" class="edd-add-to-cart edd-no-js button blue edd-submit" name="edd_purchase_download" value="Purchase" data-action="edd_add_to_cart" data-download-id="1752"  data-variable-price="yes" data-price-mode=single /><a href="http://dev.resourceroom.ca/checkout/" class="edd_go_to_checkout button blue edd-submit" style="display:none;">Checkout</a>
+							<span class="edd-cart-ajax-alert">
+					<span class="edd-cart-added-alert" style="display: none;">
+						<i class="edd-icon-ok"></i> Added to cart					</span>
+				</span>
+															</div><!--end .edd_purchase_submit_wrapper-->
+
+		<input type="hidden" name="download_id" value="1752">
+					<input type="hidden" name="edd_action" class="edd_action_input" value="add_to_cart">
+		
+		
+	</form><!--end #edd_purchase_1752-->
+</div>
+	
+<header class="entry-header">
+	<h1 class="entry-title"><a href="http://dev.resourceroom.ca/downloads/jobify-theme/" rel="bookmark">Jobify WordPress Theme</a></h1>
+
+	
+	<div class="entry-meta">
+		
+					<span class="byline"> by <span class="author vcard"><a class="url fn n" href="http://dev.resourceroom.ca/vendor/admin" title="View all Downloads by admin">admin <img alt='' src='http://1.gravatar.com/avatar/7d1929548f39f7b9e7eed092c3b34d24?s=50&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D50&amp;r=G' class='avatar avatar-50 photo' height='50' width='50' /></a></span></span>		
+			</div>
+</header><!-- .entry-header --></article><!-- #post-## -->
+				</li>
+								<li class="col-lg-3 col-sm-6">
+					
+<article id="post-1751" class="post-1751 download type-download status-publish format-standard hentry content-grid-download edd-download edd-download-cat-bootstrap edd-download-cat-drupal edd-download-cat-ghost edd-download-cat-html-2 edd-download-cat-joomla edd-download-cat-misc edd-download-cat-tumblr edd-download-cat-wordpress">
+	
+<div class="entry-image">
+	<div class="overlay">
+		
+		<div class="actions">
+			<a href="#buy-now-1751" class="button buy-now popup-trigger">Purchase</a>			<a href="http://dev.resourceroom.ca/downloads/10-ipad-and-iphone-mockups/" rel="bookmark" class="button">Details</a>
+
+			<strong class="item-price"><span>Item Price: <span class="edd_price" id="edd_price_1751">&#36;10.00</span></span></strong>
+
+					</div>
+	</div>
+
+			<span class="image-placeholder"></span>
+	</div>
+
+
+<div id="buy-now-1751" class="popup">
+	<h1 class="section-title"><span>Buying Options</span></h1>
+
+		<form id="edd_purchase_1751" class="edd_download_purchase_form download-variable" method="post">
+
+			<div class="edd_price_options">
+		<ul>
+			<li id="edd_price_option_1751_lowresolutionversion" itemprop="offers" itemscope itemtype="http://schema.org/Offer"><label for="edd_price_option_1751_0"><input type="radio"  name="edd_options[price_id][]" id="edd_price_option_1751_0" class="edd_price_option_1751" value="0"/>&nbsp;<span class="edd_price_option_name" itemprop="description">Low Resolution Version</span><span class="edd_price_option_sep">&nbsp;&ndash;&nbsp;</span><span class="edd_price_option_price" itemprop="price">&#36;10.00</span></label></li><li id="edd_price_option_1751_highresolutionversion" itemprop="offers" itemscope itemtype="http://schema.org/Offer"><label for="edd_price_option_1751_1"><input type="radio"  checked='checked' name="edd_options[price_id][]" id="edd_price_option_1751_1" class="edd_price_option_1751" value="1"/>&nbsp;<span class="edd_price_option_name" itemprop="description">High Resolution Version</span><span class="edd_price_option_sep">&nbsp;&ndash;&nbsp;</span><span class="edd_price_option_price" itemprop="price">&#36;25.00</span></label></li>		</ul>
+	</div><!--end .edd_price_options-->
+
+		<div class="edd_purchase_submit_wrapper">
+			<a href="#" class="edd-add-to-cart button blue edd-submit" data-action="edd_add_to_cart" data-download-id="1751"  data-variable-price="yes" data-price-mode=single ><span class="edd-add-to-cart-label">Purchase</span> <span class="edd-loading"><i class="edd-icon-spinner edd-icon-spin"></i></span></a><input type="submit" class="edd-add-to-cart edd-no-js button blue edd-submit" name="edd_purchase_download" value="Purchase" data-action="edd_add_to_cart" data-download-id="1751"  data-variable-price="yes" data-price-mode=single /><a href="http://dev.resourceroom.ca/checkout/" class="edd_go_to_checkout button blue edd-submit" style="display:none;">Checkout</a>
+							<span class="edd-cart-ajax-alert">
+					<span class="edd-cart-added-alert" style="display: none;">
+						<i class="edd-icon-ok"></i> Added to cart					</span>
+				</span>
+															</div><!--end .edd_purchase_submit_wrapper-->
+
+		<input type="hidden" name="download_id" value="1751">
+					<input type="hidden" name="edd_action" class="edd_action_input" value="add_to_cart">
+		
+		
+	</form><!--end #edd_purchase_1751-->
+</div>
+	
+<header class="entry-header">
+	<h1 class="entry-title"><a href="http://dev.resourceroom.ca/downloads/10-ipad-and-iphone-mockups/" rel="bookmark">10+ iPad and iPhone Mockups</a></h1>
+
+	
+	<div class="entry-meta">
+		
+					<span class="byline"> by <span class="author vcard"><a class="url fn n" href="http://dev.resourceroom.ca/vendor/admin" title="View all Downloads by admin">admin <img alt='' src='http://1.gravatar.com/avatar/7d1929548f39f7b9e7eed092c3b34d24?s=50&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D50&amp;r=G' class='avatar avatar-50 photo' height='50' width='50' /></a></span></span>		
+			</div>
+</header><!-- .entry-header --></article><!-- #post-## -->
+				</li>
+								<li class="col-lg-3 col-sm-6">
+					
+<article id="post-1732" class="post-1732 download type-download status-publish format-standard hentry content-grid-download edd-download edd-download-cat-bootstrap edd-download-cat-drupal edd-download-cat-ghost edd-download-cat-html-2 edd-download-cat-joomla edd-download-cat-misc edd-download-cat-tumblr edd-download-cat-wordpress">
+	
+<div class="entry-image">
+	<div class="overlay">
+		
+		<div class="actions">
+			<a href="#buy-now-1732" class="button buy-now popup-trigger">Purchase</a>			<a href="http://dev.resourceroom.ca/downloads/190-photoshop-actions-bundle-pack/" rel="bookmark" class="button">Details</a>
+
+			<strong class="item-price"><span>Item Price: <span class="edd_price" id="edd_price_1732">&#36;10.00</span></span></strong>
+
+					</div>
+	</div>
+
+			<span class="image-placeholder"></span>
+	</div>
+
+
+<div id="buy-now-1732" class="popup">
+	<h1 class="section-title"><span>Buying Options</span></h1>
+
+		<form id="edd_purchase_1732" class="edd_download_purchase_form download-variable" method="post">
+
+			<div class="edd_price_options">
+		<ul>
+			<li id="edd_price_option_1732_heresaprices" itemprop="offers" itemscope itemtype="http://schema.org/Offer"><label for="edd_price_option_1732_0"><input type="radio"  name="edd_options[price_id][]" id="edd_price_option_1732_0" class="edd_price_option_1732" value="0"/>&nbsp;<span class="edd_price_option_name" itemprop="description">Here&#039;s a prices</span><span class="edd_price_option_sep">&nbsp;&ndash;&nbsp;</span><span class="edd_price_option_price" itemprop="price">&#36;10.00</span></label></li><li id="edd_price_option_1732_heresanotherprice" itemprop="offers" itemscope itemtype="http://schema.org/Offer"><label for="edd_price_option_1732_1"><input type="radio"  checked='checked' name="edd_options[price_id][]" id="edd_price_option_1732_1" class="edd_price_option_1732" value="1"/>&nbsp;<span class="edd_price_option_name" itemprop="description">Here&#039;s another price</span><span class="edd_price_option_sep">&nbsp;&ndash;&nbsp;</span><span class="edd_price_option_price" itemprop="price">&#36;25.00</span></label></li><li id="edd_price_option_1732_andheresonemoreprice" itemprop="offers" itemscope itemtype="http://schema.org/Offer"><label for="edd_price_option_1732_2"><input type="radio"  name="edd_options[price_id][]" id="edd_price_option_1732_2" class="edd_price_option_1732" value="2"/>&nbsp;<span class="edd_price_option_name" itemprop="description">And here&#039;s one more price</span><span class="edd_price_option_sep">&nbsp;&ndash;&nbsp;</span><span class="edd_price_option_price" itemprop="price">&#36;35.00</span></label></li>		</ul>
+	</div><!--end .edd_price_options-->
+
+		<div class="edd_purchase_submit_wrapper">
+			<a href="#" class="edd-add-to-cart button blue edd-submit" data-action="edd_add_to_cart" data-download-id="1732"  data-variable-price="yes" data-price-mode=single ><span class="edd-add-to-cart-label">Purchase</span> <span class="edd-loading"><i class="edd-icon-spinner edd-icon-spin"></i></span></a><input type="submit" class="edd-add-to-cart edd-no-js button blue edd-submit" name="edd_purchase_download" value="Purchase" data-action="edd_add_to_cart" data-download-id="1732"  data-variable-price="yes" data-price-mode=single /><a href="http://dev.resourceroom.ca/checkout/" class="edd_go_to_checkout button blue edd-submit" style="display:none;">Checkout</a>
+							<span class="edd-cart-ajax-alert">
+					<span class="edd-cart-added-alert" style="display: none;">
+						<i class="edd-icon-ok"></i> Added to cart					</span>
+				</span>
+															</div><!--end .edd_purchase_submit_wrapper-->
+
+		<input type="hidden" name="download_id" value="1732">
+					<input type="hidden" name="edd_action" class="edd_action_input" value="add_to_cart">
+		
+		
+	</form><!--end #edd_purchase_1732-->
+</div>
+	
+<header class="entry-header">
+	<h1 class="entry-title"><a href="http://dev.resourceroom.ca/downloads/190-photoshop-actions-bundle-pack/" rel="bookmark">190 Photoshop Actions Bundle</a></h1>
+
+	
+	<div class="entry-meta">
+		
+					<span class="byline"> by <span class="author vcard"><a class="url fn n" href="http://dev.resourceroom.ca/vendor/admin" title="View all Downloads by admin">admin <img alt='' src='http://1.gravatar.com/avatar/7d1929548f39f7b9e7eed092c3b34d24?s=50&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D50&amp;r=G' class='avatar avatar-50 photo' height='50' width='50' /></a></span></span>		
+			</div>
+</header><!-- .entry-header --></article><!-- #post-## -->
+				</li>
+								<li class="col-lg-3 col-sm-6">
+					
+<article id="post-1749" class="post-1749 download type-download status-publish format-standard hentry content-grid-download edd-download edd-download-cat-bootstrap edd-download-cat-drupal edd-download-cat-ghost edd-download-cat-html-2 edd-download-cat-joomla edd-download-cat-misc edd-download-cat-tumblr edd-download-cat-wordpress">
+	
+<div class="entry-image">
+	<div class="overlay">
+		
+		<div class="actions">
+				<form id="edd_purchase_1749" class="edd_download_purchase_form" method="post">
+
+		
+		<div class="edd_purchase_submit_wrapper">
+			<a href="#" class="edd-add-to-cart button blue edd-submit" data-action="edd_add_to_cart" data-download-id="1749" data-variable-price="no" data-price-mode=single ><span class="edd-add-to-cart-label">Purchase</span> <span class="edd-loading"><i class="edd-icon-spinner edd-icon-spin"></i></span></a><input type="submit" class="edd-add-to-cart edd-no-js button blue edd-submit" name="edd_purchase_download" value="Purchase" data-action="edd_add_to_cart" data-download-id="1749" data-variable-price="no" data-price-mode=single /><a href="http://dev.resourceroom.ca/checkout/" class="edd_go_to_checkout button blue edd-submit" style="display:none;">Checkout</a>
+							<span class="edd-cart-ajax-alert">
+					<span class="edd-cart-added-alert" style="display: none;">
+						<i class="edd-icon-ok"></i> Added to cart					</span>
+				</span>
+															</div><!--end .edd_purchase_submit_wrapper-->
+
+		<input type="hidden" name="download_id" value="1749">
+					<input type="hidden" name="edd_action" class="edd_action_input" value="add_to_cart">
+		
+		
+	</form><!--end #edd_purchase_1749-->
+			<a href="http://dev.resourceroom.ca/downloads/50-royalty-free-backgrounds/" rel="bookmark" class="button">Details</a>
+
+			<strong class="item-price"><span>Item Price: <span class="edd_price" id="edd_price_1749">&#36;15.00</span></span></strong>
+
+					</div>
+	</div>
+
+			<span class="image-placeholder"></span>
+	</div>
+
+
+<div id="buy-now-1749" class="popup">
+	<h1 class="section-title"><span>Buying Options</span></h1>
+
+		<form id="edd_purchase_1749" class="edd_download_purchase_form" method="post">
+
+		
+		<div class="edd_purchase_submit_wrapper">
+			<a href="#" class="edd-add-to-cart button blue edd-submit" data-action="edd_add_to_cart" data-download-id="1749" data-variable-price="no" data-price-mode=single ><span class="edd-add-to-cart-label">&#36;15.00&nbsp;&ndash;&nbsp;Purchase</span> <span class="edd-loading"><i class="edd-icon-spinner edd-icon-spin"></i></span></a><input type="submit" class="edd-add-to-cart edd-no-js button blue edd-submit" name="edd_purchase_download" value="&#036;15.00&nbsp;&ndash;&nbsp;Purchase" data-action="edd_add_to_cart" data-download-id="1749" data-variable-price="no" data-price-mode=single /><a href="http://dev.resourceroom.ca/checkout/" class="edd_go_to_checkout button blue edd-submit" style="display:none;">Checkout</a>
+							<span class="edd-cart-ajax-alert">
+					<span class="edd-cart-added-alert" style="display: none;">
+						<i class="edd-icon-ok"></i> Added to cart					</span>
+				</span>
+															</div><!--end .edd_purchase_submit_wrapper-->
+
+		<input type="hidden" name="download_id" value="1749">
+					<input type="hidden" name="edd_action" class="edd_action_input" value="add_to_cart">
+		
+		
+	</form><!--end #edd_purchase_1749-->
+</div>
+	
+<header class="entry-header">
+	<h1 class="entry-title"><a href="http://dev.resourceroom.ca/downloads/50-royalty-free-backgrounds/" rel="bookmark">50+ Royalty Free Backgrounds</a></h1>
+
+	
+	<div class="entry-meta">
+		
+					<span class="byline"> by <span class="author vcard"><a class="url fn n" href="http://dev.resourceroom.ca/vendor/admin" title="View all Downloads by admin">admin <img alt='' src='http://1.gravatar.com/avatar/7d1929548f39f7b9e7eed092c3b34d24?s=50&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D50&amp;r=G' class='avatar avatar-50 photo' height='50' width='50' /></a></span></span>		
+			</div>
+</header><!-- .entry-header --></article><!-- #post-## -->
+				</li>
+								<li class="col-lg-3 col-sm-6">
+					
+<article id="post-1750" class="post-1750 download type-download status-publish format-standard hentry content-grid-download edd-download edd-download-cat-bootstrap edd-download-cat-drupal edd-download-cat-ghost edd-download-cat-html-2 edd-download-cat-joomla edd-download-cat-misc edd-download-cat-tumblr edd-download-cat-wordpress">
+	
+<div class="entry-image">
+	<div class="overlay">
+		
+		<div class="actions">
+			<a href="#buy-now-1750" class="button buy-now popup-trigger">Purchase</a>			<a href="http://dev.resourceroom.ca/downloads/20-high-res-textures/" rel="bookmark" class="button">Details</a>
+
+			<strong class="item-price"><span>Item Price: <span class="edd_price" id="edd_price_1750">&#36;9.00</span></span></strong>
+
+					</div>
+	</div>
+
+			<span class="image-placeholder"></span>
+	</div>
+
+
+<div id="buy-now-1750" class="popup">
+	<h1 class="section-title"><span>Buying Options</span></h1>
+
+		<form id="edd_purchase_1750" class="edd_download_purchase_form download-variable" method="post">
+
+			<div class="edd_price_options">
+		<ul>
+			<li id="edd_price_option_1750_20highrestextures" itemprop="offers" itemscope itemtype="http://schema.org/Offer"><label for="edd_price_option_1750_0"><input type="radio"  name="edd_options[price_id][]" id="edd_price_option_1750_0" class="edd_price_option_1750" value="0"/>&nbsp;<span class="edd_price_option_name" itemprop="description">20 High Res Textures</span><span class="edd_price_option_sep">&nbsp;&ndash;&nbsp;</span><span class="edd_price_option_price" itemprop="price">&#36;9.00</span></label></li><li id="edd_price_option_1750_20highrestexturesextrabonus" itemprop="offers" itemscope itemtype="http://schema.org/Offer"><label for="edd_price_option_1750_1"><input type="radio"  checked='checked' name="edd_options[price_id][]" id="edd_price_option_1750_1" class="edd_price_option_1750" value="1"/>&nbsp;<span class="edd_price_option_name" itemprop="description">20 High Res Textures + Extra Bonus</span><span class="edd_price_option_sep">&nbsp;&ndash;&nbsp;</span><span class="edd_price_option_price" itemprop="price">&#36;12.00</span></label></li>		</ul>
+	</div><!--end .edd_price_options-->
+
+		<div class="edd_purchase_submit_wrapper">
+			<a href="#" class="edd-add-to-cart button blue edd-submit" data-action="edd_add_to_cart" data-download-id="1750"  data-variable-price="yes" data-price-mode=single ><span class="edd-add-to-cart-label">Purchase</span> <span class="edd-loading"><i class="edd-icon-spinner edd-icon-spin"></i></span></a><input type="submit" class="edd-add-to-cart edd-no-js button blue edd-submit" name="edd_purchase_download" value="Purchase" data-action="edd_add_to_cart" data-download-id="1750"  data-variable-price="yes" data-price-mode=single /><a href="http://dev.resourceroom.ca/checkout/" class="edd_go_to_checkout button blue edd-submit" style="display:none;">Checkout</a>
+							<span class="edd-cart-ajax-alert">
+					<span class="edd-cart-added-alert" style="display: none;">
+						<i class="edd-icon-ok"></i> Added to cart					</span>
+				</span>
+															</div><!--end .edd_purchase_submit_wrapper-->
+
+		<input type="hidden" name="download_id" value="1750">
+					<input type="hidden" name="edd_action" class="edd_action_input" value="add_to_cart">
+		
+		
+	</form><!--end #edd_purchase_1750-->
+</div>
+	
+<header class="entry-header">
+	<h1 class="entry-title"><a href="http://dev.resourceroom.ca/downloads/20-high-res-textures/" rel="bookmark">20 High Res Textures</a></h1>
+
+	
+	<div class="entry-meta">
+		
+					<span class="byline"> by <span class="author vcard"><a class="url fn n" href="http://dev.resourceroom.ca/vendor/admin" title="View all Downloads by admin">admin <img alt='' src='http://1.gravatar.com/avatar/7d1929548f39f7b9e7eed092c3b34d24?s=50&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D50&amp;r=G' class='avatar avatar-50 photo' height='50' width='50' /></a></span></span>		
+			</div>
+</header><!-- .entry-header --></article><!-- #post-## -->
+				</li>
+								<li class="col-lg-3 col-sm-6">
+					
+<article id="post-1753" class="post-1753 download type-download status-publish format-standard hentry content-grid-download edd-download edd-download-cat-bootstrap edd-download-cat-drupal edd-download-cat-ghost edd-download-cat-html-2 edd-download-cat-joomla edd-download-cat-misc edd-download-cat-tumblr edd-download-cat-wordpress">
+	
+<div class="entry-image">
+	<div class="overlay">
+		
+		<div class="actions">
+				<form id="edd_purchase_1753" class="edd_download_purchase_form" method="post">
+
+		
+		<div class="edd_purchase_submit_wrapper">
+			<a href="#" class="edd-add-to-cart button blue edd-submit" data-action="edd_add_to_cart" data-download-id="1753" data-variable-price="no" data-price-mode=single ><span class="edd-add-to-cart-label">Purchase</span> <span class="edd-loading"><i class="edd-icon-spinner edd-icon-spin"></i></span></a><input type="submit" class="edd-add-to-cart edd-no-js button blue edd-submit" name="edd_purchase_download" value="Purchase" data-action="edd_add_to_cart" data-download-id="1753" data-variable-price="no" data-price-mode=single /><a href="http://dev.resourceroom.ca/checkout/" class="edd_go_to_checkout button blue edd-submit" style="display:none;">Checkout</a>
+							<span class="edd-cart-ajax-alert">
+					<span class="edd-cart-added-alert" style="display: none;">
+						<i class="edd-icon-ok"></i> Added to cart					</span>
+				</span>
+															</div><!--end .edd_purchase_submit_wrapper-->
+
+		<input type="hidden" name="download_id" value="1753">
+					<input type="hidden" name="edd_action" class="edd_action_input" value="add_to_cart">
+		
+		
+	</form><!--end #edd_purchase_1753-->
+			<a href="http://dev.resourceroom.ca/downloads/50-music-icons/" rel="bookmark" class="button">Details</a>
+
+			<strong class="item-price"><span>Item Price: <span class="edd_price" id="edd_price_1753">&#36;4.00</span></span></strong>
+
+					</div>
+	</div>
+
+			<span class="image-placeholder"></span>
+	</div>
+
+
+<div id="buy-now-1753" class="popup">
+	<h1 class="section-title"><span>Buying Options</span></h1>
+
+		<form id="edd_purchase_1753" class="edd_download_purchase_form" method="post">
+
+		
+		<div class="edd_purchase_submit_wrapper">
+			<a href="#" class="edd-add-to-cart button blue edd-submit" data-action="edd_add_to_cart" data-download-id="1753" data-variable-price="no" data-price-mode=single ><span class="edd-add-to-cart-label">&#36;4.00&nbsp;&ndash;&nbsp;Purchase</span> <span class="edd-loading"><i class="edd-icon-spinner edd-icon-spin"></i></span></a><input type="submit" class="edd-add-to-cart edd-no-js button blue edd-submit" name="edd_purchase_download" value="&#036;4.00&nbsp;&ndash;&nbsp;Purchase" data-action="edd_add_to_cart" data-download-id="1753" data-variable-price="no" data-price-mode=single /><a href="http://dev.resourceroom.ca/checkout/" class="edd_go_to_checkout button blue edd-submit" style="display:none;">Checkout</a>
+							<span class="edd-cart-ajax-alert">
+					<span class="edd-cart-added-alert" style="display: none;">
+						<i class="edd-icon-ok"></i> Added to cart					</span>
+				</span>
+															</div><!--end .edd_purchase_submit_wrapper-->
+
+		<input type="hidden" name="download_id" value="1753">
+					<input type="hidden" name="edd_action" class="edd_action_input" value="add_to_cart">
+		
+		
+	</form><!--end #edd_purchase_1753-->
+</div>
+	
+<header class="entry-header">
+	<h1 class="entry-title"><a href="http://dev.resourceroom.ca/downloads/50-music-icons/" rel="bookmark">50+ Music Icons</a></h1>
+
+	
+	<div class="entry-meta">
+		
+					<span class="byline"> by <span class="author vcard"><a class="url fn n" href="http://dev.resourceroom.ca/vendor/admin" title="View all Downloads by admin">admin <img alt='' src='http://1.gravatar.com/avatar/7d1929548f39f7b9e7eed092c3b34d24?s=50&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D50&amp;r=G' class='avatar avatar-50 photo' height='50' width='50' /></a></span></span>		
+			</div>
+</header><!-- .entry-header --></article><!-- #post-## -->
+				</li>
+								<li class="col-lg-3 col-sm-6">
+					
+<article id="post-1754" class="post-1754 download type-download status-publish format-standard hentry content-grid-download edd-download edd-download-cat-bootstrap edd-download-cat-drupal edd-download-cat-ghost edd-download-cat-html-2 edd-download-cat-joomla edd-download-cat-misc edd-download-cat-tumblr edd-download-cat-wordpress">
+	
+<div class="entry-image">
+	<div class="overlay">
+		
+		<div class="actions">
+			<a href="#buy-now-1754" class="button buy-now popup-trigger">Purchase</a>			<a href="http://dev.resourceroom.ca/downloads/campaignify-wordpress-theme/" rel="bookmark" class="button">Details</a>
+
+			<strong class="item-price"><span>Item Price: <span class="edd_price" id="edd_price_1754">&#36;75.00</span></span></strong>
+
+					</div>
+	</div>
+
+			<span class="image-placeholder"></span>
+	</div>
+
+
+<div id="buy-now-1754" class="popup">
+	<h1 class="section-title"><span>Buying Options</span></h1>
+
+		<form id="edd_purchase_1754" class="edd_download_purchase_form download-variable" method="post">
+
+			<div class="edd_price_options">
+		<ul>
+			<li id="edd_price_option_1754_campaignifywordpresstheme" itemprop="offers" itemscope itemtype="http://schema.org/Offer"><label for="edd_price_option_1754_0"><input type="radio"  name="edd_options[price_id][]" id="edd_price_option_1754_0" class="edd_price_option_1754" value="0"/>&nbsp;<span class="edd_price_option_name" itemprop="description">Campaignify WordPress Theme</span><span class="edd_price_option_sep">&nbsp;&ndash;&nbsp;</span><span class="edd_price_option_price" itemprop="price">&#36;75.00</span></label></li><li id="edd_price_option_1754_campaignifythemepsdfiles" itemprop="offers" itemscope itemtype="http://schema.org/Offer"><label for="edd_price_option_1754_1"><input type="radio"  checked='checked' name="edd_options[price_id][]" id="edd_price_option_1754_1" class="edd_price_option_1754" value="1"/>&nbsp;<span class="edd_price_option_name" itemprop="description">Campaignify Theme + PSD Files</span><span class="edd_price_option_sep">&nbsp;&ndash;&nbsp;</span><span class="edd_price_option_price" itemprop="price">&#36;125.00</span></label></li>		</ul>
+	</div><!--end .edd_price_options-->
+
+		<div class="edd_purchase_submit_wrapper">
+			<a href="#" class="edd-add-to-cart button blue edd-submit" data-action="edd_add_to_cart" data-download-id="1754"  data-variable-price="yes" data-price-mode=single ><span class="edd-add-to-cart-label">Purchase</span> <span class="edd-loading"><i class="edd-icon-spinner edd-icon-spin"></i></span></a><input type="submit" class="edd-add-to-cart edd-no-js button blue edd-submit" name="edd_purchase_download" value="Purchase" data-action="edd_add_to_cart" data-download-id="1754"  data-variable-price="yes" data-price-mode=single /><a href="http://dev.resourceroom.ca/checkout/" class="edd_go_to_checkout button blue edd-submit" style="display:none;">Checkout</a>
+							<span class="edd-cart-ajax-alert">
+					<span class="edd-cart-added-alert" style="display: none;">
+						<i class="edd-icon-ok"></i> Added to cart					</span>
+				</span>
+															</div><!--end .edd_purchase_submit_wrapper-->
+
+		<input type="hidden" name="download_id" value="1754">
+					<input type="hidden" name="edd_action" class="edd_action_input" value="add_to_cart">
+		
+		
+	</form><!--end #edd_purchase_1754-->
+</div>
+	
+<header class="entry-header">
+	<h1 class="entry-title"><a href="http://dev.resourceroom.ca/downloads/campaignify-wordpress-theme/" rel="bookmark">Campaignify WordPress Theme</a></h1>
+
+	
+	<div class="entry-meta">
+		
+					<span class="byline"> by <span class="author vcard"><a class="url fn n" href="http://dev.resourceroom.ca/vendor/admin" title="View all Downloads by admin">admin <img alt='' src='http://1.gravatar.com/avatar/7d1929548f39f7b9e7eed092c3b34d24?s=50&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D50&amp;r=G' class='avatar avatar-50 photo' height='50' width='50' /></a></span></span>		
+			</div>
+</header><!-- .entry-header --></article><!-- #post-## -->
+				</li>
+								<li class="col-lg-3 col-sm-6">
+					
+<article id="post-2115" class="post-2115 download type-download status-publish format-standard hentry content-grid-download edd-download edd-download-cat-video-2 edd-download-tag-test">
+	
+<div class="entry-image">
+	<div class="overlay">
+		
+		<div class="actions">
+			<a href="#buy-now-2115" class="button buy-now popup-trigger">Purchase</a>			<a href="http://dev.resourceroom.ca/downloads/in-the-city-at-night/" rel="bookmark" class="button">Details</a>
+
+			<strong class="item-price"><span>Item Price: <span class="edd_price" id="edd_price_2115">&#36;10.00</span></span></strong>
+
+					</div>
+	</div>
+
+			<span class="image-placeholder"></span>
+	</div>
+
+
+<div id="buy-now-2115" class="popup">
+	<h1 class="section-title"><span>Buying Options</span></h1>
+
+		<form id="edd_purchase_2115" class="edd_download_purchase_form download-variable" method="post">
+
+			<div class="edd_price_options">
+		<ul>
+			<li id="edd_price_option_2115_hd720pversion" itemprop="offers" itemscope itemtype="http://schema.org/Offer"><label for="edd_price_option_2115_0"><input type="radio"  name="edd_options[price_id][]" id="edd_price_option_2115_0" class="edd_price_option_2115" value="0"/>&nbsp;<span class="edd_price_option_name" itemprop="description">HD 720p Version</span><span class="edd_price_option_sep">&nbsp;&ndash;&nbsp;</span><span class="edd_price_option_price" itemprop="price">&#36;10.00</span></label></li><li id="edd_price_option_2115_hd1080pversion" itemprop="offers" itemscope itemtype="http://schema.org/Offer"><label for="edd_price_option_2115_1"><input type="radio"  checked='checked' name="edd_options[price_id][]" id="edd_price_option_2115_1" class="edd_price_option_2115" value="1"/>&nbsp;<span class="edd_price_option_name" itemprop="description">HD 1080p Version</span><span class="edd_price_option_sep">&nbsp;&ndash;&nbsp;</span><span class="edd_price_option_price" itemprop="price">&#36;20.00</span></label></li>		</ul>
+	</div><!--end .edd_price_options-->
+
+		<div class="edd_purchase_submit_wrapper">
+			<a href="#" class="edd-add-to-cart button blue edd-submit" data-action="edd_add_to_cart" data-download-id="2115"  data-variable-price="yes" data-price-mode=single ><span class="edd-add-to-cart-label">Purchase</span> <span class="edd-loading"><i class="edd-icon-spinner edd-icon-spin"></i></span></a><input type="submit" class="edd-add-to-cart edd-no-js button blue edd-submit" name="edd_purchase_download" value="Purchase" data-action="edd_add_to_cart" data-download-id="2115"  data-variable-price="yes" data-price-mode=single /><a href="http://dev.resourceroom.ca/checkout/" class="edd_go_to_checkout button blue edd-submit" style="display:none;">Checkout</a>
+							<span class="edd-cart-ajax-alert">
+					<span class="edd-cart-added-alert" style="display: none;">
+						<i class="edd-icon-ok"></i> Added to cart					</span>
+				</span>
+															</div><!--end .edd_purchase_submit_wrapper-->
+
+		<input type="hidden" name="download_id" value="2115">
+					<input type="hidden" name="edd_action" class="edd_action_input" value="add_to_cart">
+		
+		
+	</form><!--end #edd_purchase_2115-->
+</div>
+	
+<header class="entry-header">
+	<h1 class="entry-title"><a href="http://dev.resourceroom.ca/downloads/in-the-city-at-night/" rel="bookmark">In the City At Night Movie</a></h1>
+
+	
+	<div class="entry-meta">
+		
+					<span class="byline"> by <span class="author vcard"><a class="url fn n" href="http://dev.resourceroom.ca/vendor/admin" title="View all Downloads by admin">admin <img alt='' src='http://1.gravatar.com/avatar/7d1929548f39f7b9e7eed092c3b34d24?s=50&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D50&amp;r=G' class='avatar avatar-50 photo' height='50' width='50' /></a></span></span>		
+			</div>
+</header><!-- .entry-header --></article><!-- #post-## -->
+				</li>
+							</ul>
+		</div>
+		
+		</aside><aside id="marketify_widget_recent_downloads-1" class="home-widget marketify_widget_recent_downloads"><h1 class="home-widget-title"><span>Recent</span></h1>
+		
+		<div class="download-grid-wrapper columns-4 row" data-columns>
+						
+<article id="post-2506" class="post-2506 download type-download status-publish format-standard has-post-thumbnail hentry content-grid-download edd-download">
+	
+<div class="entry-image">
+	<div class="overlay">
+		
+		<div class="actions">
+				<form id="edd_purchase_2506" class="edd_download_purchase_form" method="post">
+
+		
+		<div class="edd_purchase_submit_wrapper">
+			<a href="#" class="edd-add-to-cart button blue edd-submit" data-action="edd_add_to_cart" data-download-id="2506" data-variable-price="no" data-price-mode=single ><span class="edd-add-to-cart-label">Purchase</span> <span class="edd-loading"><i class="edd-icon-spinner edd-icon-spin"></i></span></a><input type="submit" class="edd-add-to-cart edd-no-js button blue edd-submit" name="edd_purchase_download" value="Purchase" data-action="edd_add_to_cart" data-download-id="2506" data-variable-price="no" data-price-mode=single /><a href="http://dev.resourceroom.ca/checkout/" class="edd_go_to_checkout button blue edd-submit" style="display:none;">Checkout</a>
+							<span class="edd-cart-ajax-alert">
+					<span class="edd-cart-added-alert" style="display: none;">
+						<i class="edd-icon-ok"></i> Added to cart					</span>
+				</span>
+								</div><!--end .edd_purchase_submit_wrapper-->
+
+		<input type="hidden" name="download_id" value="2506">
+					<input type="hidden" name="edd_action" class="edd_action_input" value="add_to_cart">
+		
+		
+	</form><!--end #edd_purchase_2506-->
+			<a href="http://dev.resourceroom.ca/downloads/asdasdasdasd/" rel="bookmark" class="button">Details</a>
+
+			<strong class="item-price"><span>Item Price: <span class="edd_price" id="edd_price_2506">&#36;0.00</span></span></strong>
+
+					</div>
+	</div>
+
+			<img width="218" height="273" src="http://dev.resourceroom.ca/wp-content/uploads/edd/2014/10/Screen-Shot-2014-10-15-at-9.31.50-PM.png" class="attachment-content-grid-download wp-post-image" alt="Screen Shot 2014-10-15 at 9.31.50 PM" />	</div>
+
+
+<div id="buy-now-2506" class="popup">
+	<h1 class="section-title"><span>Buying Options</span></h1>
+
+		<form id="edd_purchase_2506" class="edd_download_purchase_form" method="post">
+
+		
+		<div class="edd_purchase_submit_wrapper">
+			<a href="#" class="edd-add-to-cart button blue edd-submit" data-action="edd_add_to_cart" data-download-id="2506" data-variable-price="no" data-price-mode=single ><span class="edd-add-to-cart-label">Free&nbsp;&ndash;&nbsp;Purchase</span> <span class="edd-loading"><i class="edd-icon-spinner edd-icon-spin"></i></span></a><input type="submit" class="edd-add-to-cart edd-no-js button blue edd-submit" name="edd_purchase_download" value="Free&nbsp;&ndash;&nbsp;Purchase" data-action="edd_add_to_cart" data-download-id="2506" data-variable-price="no" data-price-mode=single /><a href="http://dev.resourceroom.ca/checkout/" class="edd_go_to_checkout button blue edd-submit" style="display:none;">Checkout</a>
+							<span class="edd-cart-ajax-alert">
+					<span class="edd-cart-added-alert" style="display: none;">
+						<i class="edd-icon-ok"></i> Added to cart					</span>
+				</span>
+								</div><!--end .edd_purchase_submit_wrapper-->
+
+		<input type="hidden" name="download_id" value="2506">
+					<input type="hidden" name="edd_action" class="edd_action_input" value="add_to_cart">
+		
+		
+	</form><!--end #edd_purchase_2506-->
+</div>
+	
+<header class="entry-header">
+	<h1 class="entry-title"><a href="http://dev.resourceroom.ca/downloads/asdasdasdasd/" rel="bookmark">asdasdasdasd</a></h1>
+
+	
+	<div class="entry-meta">
+		
+					<span class="byline"> by <span class="author vcard"><a class="url fn n" href="http://dev.resourceroom.ca/vendor/busheikin" title="View all Downloads by busheikin">busheikin <img alt='' src='http://0.gravatar.com/avatar/6200c70be41109e8830e288eeb81089b?s=50&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D50&amp;r=G' class='avatar avatar-50 photo' height='50' width='50' /></a></span></span>		
+			</div>
+</header><!-- .entry-header --></article><!-- #post-## -->
+						
+<article id="post-2148" class="post-2148 download type-download status-publish format-standard has-post-thumbnail hentry content-grid-download edd-download edd-download-cat-math">
+	
+<div class="entry-image">
+	<div class="overlay">
+		
+		<div class="actions">
+			<a href="#buy-now-2148" class="button buy-now popup-trigger">Purchase</a>			<a href="http://dev.resourceroom.ca/downloads/up-lifting-audio-pack/" rel="bookmark" class="button">Details</a>
+
+			<strong class="item-price"><span>Item Price: <span class="edd_price" id="edd_price_2148">&#36;9.00</span></span></strong>
+
+					</div>
+	</div>
+
+			<img width="640" height="520" src="http://dev.resourceroom.ca/wp-content/uploads/2014/10/Funny_wallpapers_242-640x520.jpg" class="attachment-content-grid-download" alt="Funny_wallpapers_242" />	</div>
+
+
+<div id="buy-now-2148" class="popup">
+	<h1 class="section-title"><span>Buying Options</span></h1>
+
+		<form id="edd_purchase_2148" class="edd_download_purchase_form download-variable" method="post">
+
+			<div class="edd_price_options">
+		<ul>
+			<li id="edd_price_option_2148_wavaudiofilesversion" itemprop="offers" itemscope itemtype="http://schema.org/Offer"><label for="edd_price_option_2148_0"><input type="radio"  name="edd_options[price_id][]" id="edd_price_option_2148_0" class="edd_price_option_2148" value="0"/>&nbsp;<span class="edd_price_option_name" itemprop="description">Wav Audio Files Version</span><span class="edd_price_option_sep">&nbsp;&ndash;&nbsp;</span><span class="edd_price_option_price" itemprop="price">&#36;9.00</span></label></li><li id="edd_price_option_2148_flacaudiofilesversion" itemprop="offers" itemscope itemtype="http://schema.org/Offer"><label for="edd_price_option_2148_1"><input type="radio"  checked='checked' name="edd_options[price_id][]" id="edd_price_option_2148_1" class="edd_price_option_2148" value="1"/>&nbsp;<span class="edd_price_option_name" itemprop="description">Flac Audio Files Version</span><span class="edd_price_option_sep">&nbsp;&ndash;&nbsp;</span><span class="edd_price_option_price" itemprop="price">&#36;12.00</span></label></li>		</ul>
+	</div><!--end .edd_price_options-->
+
+		<div class="edd_purchase_submit_wrapper">
+			<a href="#" class="edd-add-to-cart button blue edd-submit" data-action="edd_add_to_cart" data-download-id="2148"  data-variable-price="yes" data-price-mode=single ><span class="edd-add-to-cart-label">Purchase</span> <span class="edd-loading"><i class="edd-icon-spinner edd-icon-spin"></i></span></a><input type="submit" class="edd-add-to-cart edd-no-js button blue edd-submit" name="edd_purchase_download" value="Purchase" data-action="edd_add_to_cart" data-download-id="2148"  data-variable-price="yes" data-price-mode=single /><a href="http://dev.resourceroom.ca/checkout/" class="edd_go_to_checkout button blue edd-submit" style="display:none;">Checkout</a>
+							<span class="edd-cart-ajax-alert">
+					<span class="edd-cart-added-alert" style="display: none;">
+						<i class="edd-icon-ok"></i> Added to cart					</span>
+				</span>
+															</div><!--end .edd_purchase_submit_wrapper-->
+
+		<input type="hidden" name="download_id" value="2148">
+					<input type="hidden" name="edd_action" class="edd_action_input" value="add_to_cart">
+		
+		
+	</form><!--end #edd_purchase_2148-->
+</div>
+	
+<header class="entry-header">
+	<h1 class="entry-title"><a href="http://dev.resourceroom.ca/downloads/up-lifting-audio-pack/" rel="bookmark">A Great Math Game Thing</a></h1>
+
+	
+	<div class="entry-meta">
+		
+					<span class="byline"> by <span class="author vcard"><a class="url fn n" href="http://dev.resourceroom.ca/vendor/busheikin" title="View all Downloads by busheikin">busheikin <img alt='' src='http://0.gravatar.com/avatar/6200c70be41109e8830e288eeb81089b?s=50&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D50&amp;r=G' class='avatar avatar-50 photo' height='50' width='50' /></a></span></span>		
+			</div>
+</header><!-- .entry-header --></article><!-- #post-## -->
+						
+<article id="post-1753" class="post-1753 download type-download status-publish format-standard hentry content-grid-download edd-download edd-download-cat-bootstrap edd-download-cat-drupal edd-download-cat-ghost edd-download-cat-html-2 edd-download-cat-joomla edd-download-cat-misc edd-download-cat-tumblr edd-download-cat-wordpress">
+	
+<div class="entry-image">
+	<div class="overlay">
+		
+		<div class="actions">
+				<form id="edd_purchase_1753" class="edd_download_purchase_form" method="post">
+
+		
+		<div class="edd_purchase_submit_wrapper">
+			<a href="#" class="edd-add-to-cart button blue edd-submit" data-action="edd_add_to_cart" data-download-id="1753" data-variable-price="no" data-price-mode=single ><span class="edd-add-to-cart-label">Purchase</span> <span class="edd-loading"><i class="edd-icon-spinner edd-icon-spin"></i></span></a><input type="submit" class="edd-add-to-cart edd-no-js button blue edd-submit" name="edd_purchase_download" value="Purchase" data-action="edd_add_to_cart" data-download-id="1753" data-variable-price="no" data-price-mode=single /><a href="http://dev.resourceroom.ca/checkout/" class="edd_go_to_checkout button blue edd-submit" style="display:none;">Checkout</a>
+							<span class="edd-cart-ajax-alert">
+					<span class="edd-cart-added-alert" style="display: none;">
+						<i class="edd-icon-ok"></i> Added to cart					</span>
+				</span>
+															</div><!--end .edd_purchase_submit_wrapper-->
+
+		<input type="hidden" name="download_id" value="1753">
+					<input type="hidden" name="edd_action" class="edd_action_input" value="add_to_cart">
+		
+		
+	</form><!--end #edd_purchase_1753-->
+			<a href="http://dev.resourceroom.ca/downloads/50-music-icons/" rel="bookmark" class="button">Details</a>
+
+			<strong class="item-price"><span>Item Price: <span class="edd_price" id="edd_price_1753">&#36;4.00</span></span></strong>
+
+					</div>
+	</div>
+
+			<span class="image-placeholder"></span>
+	</div>
+
+
+<div id="buy-now-1753" class="popup">
+	<h1 class="section-title"><span>Buying Options</span></h1>
+
+		<form id="edd_purchase_1753" class="edd_download_purchase_form" method="post">
+
+		
+		<div class="edd_purchase_submit_wrapper">
+			<a href="#" class="edd-add-to-cart button blue edd-submit" data-action="edd_add_to_cart" data-download-id="1753" data-variable-price="no" data-price-mode=single ><span class="edd-add-to-cart-label">&#36;4.00&nbsp;&ndash;&nbsp;Purchase</span> <span class="edd-loading"><i class="edd-icon-spinner edd-icon-spin"></i></span></a><input type="submit" class="edd-add-to-cart edd-no-js button blue edd-submit" name="edd_purchase_download" value="&#036;4.00&nbsp;&ndash;&nbsp;Purchase" data-action="edd_add_to_cart" data-download-id="1753" data-variable-price="no" data-price-mode=single /><a href="http://dev.resourceroom.ca/checkout/" class="edd_go_to_checkout button blue edd-submit" style="display:none;">Checkout</a>
+							<span class="edd-cart-ajax-alert">
+					<span class="edd-cart-added-alert" style="display: none;">
+						<i class="edd-icon-ok"></i> Added to cart					</span>
+				</span>
+															</div><!--end .edd_purchase_submit_wrapper-->
+
+		<input type="hidden" name="download_id" value="1753">
+					<input type="hidden" name="edd_action" class="edd_action_input" value="add_to_cart">
+		
+		
+	</form><!--end #edd_purchase_1753-->
+</div>
+	
+<header class="entry-header">
+	<h1 class="entry-title"><a href="http://dev.resourceroom.ca/downloads/50-music-icons/" rel="bookmark">50+ Music Icons</a></h1>
+
+	
+	<div class="entry-meta">
+		
+					<span class="byline"> by <span class="author vcard"><a class="url fn n" href="http://dev.resourceroom.ca/vendor/admin" title="View all Downloads by admin">admin <img alt='' src='http://1.gravatar.com/avatar/7d1929548f39f7b9e7eed092c3b34d24?s=50&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D50&amp;r=G' class='avatar avatar-50 photo' height='50' width='50' /></a></span></span>		
+			</div>
+</header><!-- .entry-header --></article><!-- #post-## -->
+						
+<article id="post-1752" class="post-1752 download type-download status-publish format-standard hentry content-grid-download edd-download edd-download-cat-bootstrap edd-download-cat-drupal edd-download-cat-ghost edd-download-cat-html-2 edd-download-cat-joomla edd-download-cat-misc edd-download-cat-tumblr edd-download-cat-wordpress">
+	
+<div class="entry-image">
+	<div class="overlay">
+		
+		<div class="actions">
+			<a href="#buy-now-1752" class="button buy-now popup-trigger">Purchase</a>			<a href="http://dev.resourceroom.ca/downloads/jobify-theme/" rel="bookmark" class="button">Details</a>
+
+			<strong class="item-price"><span>Item Price: <span class="edd_price" id="edd_price_1752">&#36;60.00</span></span></strong>
+
+					</div>
+	</div>
+
+			<span class="image-placeholder"></span>
+	</div>
+
+
+<div id="buy-now-1752" class="popup">
+	<h1 class="section-title"><span>Buying Options</span></h1>
+
+		<form id="edd_purchase_1752" class="edd_download_purchase_form download-variable" method="post">
+
+			<div class="edd_price_options">
+		<ul>
+			<li id="edd_price_option_1752_jobifywordpresstheme" itemprop="offers" itemscope itemtype="http://schema.org/Offer"><label for="edd_price_option_1752_0"><input type="radio"  name="edd_options[price_id][]" id="edd_price_option_1752_0" class="edd_price_option_1752" value="0"/>&nbsp;<span class="edd_price_option_name" itemprop="description">Jobify WordPress Theme</span><span class="edd_price_option_sep">&nbsp;&ndash;&nbsp;</span><span class="edd_price_option_price" itemprop="price">&#36;60.00</span></label></li><li id="edd_price_option_1752_jobifywordpressthemepsdfiles" itemprop="offers" itemscope itemtype="http://schema.org/Offer"><label for="edd_price_option_1752_1"><input type="radio"  checked='checked' name="edd_options[price_id][]" id="edd_price_option_1752_1" class="edd_price_option_1752" value="1"/>&nbsp;<span class="edd_price_option_name" itemprop="description">Jobify WordPress Theme &amp; PSD Files</span><span class="edd_price_option_sep">&nbsp;&ndash;&nbsp;</span><span class="edd_price_option_price" itemprop="price">&#36;90.00</span></label></li>		</ul>
+	</div><!--end .edd_price_options-->
+
+		<div class="edd_purchase_submit_wrapper">
+			<a href="#" class="edd-add-to-cart button blue edd-submit" data-action="edd_add_to_cart" data-download-id="1752"  data-variable-price="yes" data-price-mode=single ><span class="edd-add-to-cart-label">Purchase</span> <span class="edd-loading"><i class="edd-icon-spinner edd-icon-spin"></i></span></a><input type="submit" class="edd-add-to-cart edd-no-js button blue edd-submit" name="edd_purchase_download" value="Purchase" data-action="edd_add_to_cart" data-download-id="1752"  data-variable-price="yes" data-price-mode=single /><a href="http://dev.resourceroom.ca/checkout/" class="edd_go_to_checkout button blue edd-submit" style="display:none;">Checkout</a>
+							<span class="edd-cart-ajax-alert">
+					<span class="edd-cart-added-alert" style="display: none;">
+						<i class="edd-icon-ok"></i> Added to cart					</span>
+				</span>
+															</div><!--end .edd_purchase_submit_wrapper-->
+
+		<input type="hidden" name="download_id" value="1752">
+					<input type="hidden" name="edd_action" class="edd_action_input" value="add_to_cart">
+		
+		
+	</form><!--end #edd_purchase_1752-->
+</div>
+	
+<header class="entry-header">
+	<h1 class="entry-title"><a href="http://dev.resourceroom.ca/downloads/jobify-theme/" rel="bookmark">Jobify WordPress Theme</a></h1>
+
+	
+	<div class="entry-meta">
+		
+					<span class="byline"> by <span class="author vcard"><a class="url fn n" href="http://dev.resourceroom.ca/vendor/admin" title="View all Downloads by admin">admin <img alt='' src='http://1.gravatar.com/avatar/7d1929548f39f7b9e7eed092c3b34d24?s=50&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D50&amp;r=G' class='avatar avatar-50 photo' height='50' width='50' /></a></span></span>		
+			</div>
+</header><!-- .entry-header --></article><!-- #post-## -->
+						
+<article id="post-1751" class="post-1751 download type-download status-publish format-standard hentry content-grid-download edd-download edd-download-cat-bootstrap edd-download-cat-drupal edd-download-cat-ghost edd-download-cat-html-2 edd-download-cat-joomla edd-download-cat-misc edd-download-cat-tumblr edd-download-cat-wordpress">
+	
+<div class="entry-image">
+	<div class="overlay">
+		
+		<div class="actions">
+			<a href="#buy-now-1751" class="button buy-now popup-trigger">Purchase</a>			<a href="http://dev.resourceroom.ca/downloads/10-ipad-and-iphone-mockups/" rel="bookmark" class="button">Details</a>
+
+			<strong class="item-price"><span>Item Price: <span class="edd_price" id="edd_price_1751">&#36;10.00</span></span></strong>
+
+					</div>
+	</div>
+
+			<span class="image-placeholder"></span>
+	</div>
+
+
+<div id="buy-now-1751" class="popup">
+	<h1 class="section-title"><span>Buying Options</span></h1>
+
+		<form id="edd_purchase_1751" class="edd_download_purchase_form download-variable" method="post">
+
+			<div class="edd_price_options">
+		<ul>
+			<li id="edd_price_option_1751_lowresolutionversion" itemprop="offers" itemscope itemtype="http://schema.org/Offer"><label for="edd_price_option_1751_0"><input type="radio"  name="edd_options[price_id][]" id="edd_price_option_1751_0" class="edd_price_option_1751" value="0"/>&nbsp;<span class="edd_price_option_name" itemprop="description">Low Resolution Version</span><span class="edd_price_option_sep">&nbsp;&ndash;&nbsp;</span><span class="edd_price_option_price" itemprop="price">&#36;10.00</span></label></li><li id="edd_price_option_1751_highresolutionversion" itemprop="offers" itemscope itemtype="http://schema.org/Offer"><label for="edd_price_option_1751_1"><input type="radio"  checked='checked' name="edd_options[price_id][]" id="edd_price_option_1751_1" class="edd_price_option_1751" value="1"/>&nbsp;<span class="edd_price_option_name" itemprop="description">High Resolution Version</span><span class="edd_price_option_sep">&nbsp;&ndash;&nbsp;</span><span class="edd_price_option_price" itemprop="price">&#36;25.00</span></label></li>		</ul>
+	</div><!--end .edd_price_options-->
+
+		<div class="edd_purchase_submit_wrapper">
+			<a href="#" class="edd-add-to-cart button blue edd-submit" data-action="edd_add_to_cart" data-download-id="1751"  data-variable-price="yes" data-price-mode=single ><span class="edd-add-to-cart-label">Purchase</span> <span class="edd-loading"><i class="edd-icon-spinner edd-icon-spin"></i></span></a><input type="submit" class="edd-add-to-cart edd-no-js button blue edd-submit" name="edd_purchase_download" value="Purchase" data-action="edd_add_to_cart" data-download-id="1751"  data-variable-price="yes" data-price-mode=single /><a href="http://dev.resourceroom.ca/checkout/" class="edd_go_to_checkout button blue edd-submit" style="display:none;">Checkout</a>
+							<span class="edd-cart-ajax-alert">
+					<span class="edd-cart-added-alert" style="display: none;">
+						<i class="edd-icon-ok"></i> Added to cart					</span>
+				</span>
+															</div><!--end .edd_purchase_submit_wrapper-->
+
+		<input type="hidden" name="download_id" value="1751">
+					<input type="hidden" name="edd_action" class="edd_action_input" value="add_to_cart">
+		
+		
+	</form><!--end #edd_purchase_1751-->
+</div>
+	
+<header class="entry-header">
+	<h1 class="entry-title"><a href="http://dev.resourceroom.ca/downloads/10-ipad-and-iphone-mockups/" rel="bookmark">10+ iPad and iPhone Mockups</a></h1>
+
+	
+	<div class="entry-meta">
+		
+					<span class="byline"> by <span class="author vcard"><a class="url fn n" href="http://dev.resourceroom.ca/vendor/admin" title="View all Downloads by admin">admin <img alt='' src='http://1.gravatar.com/avatar/7d1929548f39f7b9e7eed092c3b34d24?s=50&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D50&amp;r=G' class='avatar avatar-50 photo' height='50' width='50' /></a></span></span>		
+			</div>
+</header><!-- .entry-header --></article><!-- #post-## -->
+						
+<article id="post-1750" class="post-1750 download type-download status-publish format-standard hentry content-grid-download edd-download edd-download-cat-bootstrap edd-download-cat-drupal edd-download-cat-ghost edd-download-cat-html-2 edd-download-cat-joomla edd-download-cat-misc edd-download-cat-tumblr edd-download-cat-wordpress">
+	
+<div class="entry-image">
+	<div class="overlay">
+		
+		<div class="actions">
+			<a href="#buy-now-1750" class="button buy-now popup-trigger">Purchase</a>			<a href="http://dev.resourceroom.ca/downloads/20-high-res-textures/" rel="bookmark" class="button">Details</a>
+
+			<strong class="item-price"><span>Item Price: <span class="edd_price" id="edd_price_1750">&#36;9.00</span></span></strong>
+
+					</div>
+	</div>
+
+			<span class="image-placeholder"></span>
+	</div>
+
+
+<div id="buy-now-1750" class="popup">
+	<h1 class="section-title"><span>Buying Options</span></h1>
+
+		<form id="edd_purchase_1750" class="edd_download_purchase_form download-variable" method="post">
+
+			<div class="edd_price_options">
+		<ul>
+			<li id="edd_price_option_1750_20highrestextures" itemprop="offers" itemscope itemtype="http://schema.org/Offer"><label for="edd_price_option_1750_0"><input type="radio"  name="edd_options[price_id][]" id="edd_price_option_1750_0" class="edd_price_option_1750" value="0"/>&nbsp;<span class="edd_price_option_name" itemprop="description">20 High Res Textures</span><span class="edd_price_option_sep">&nbsp;&ndash;&nbsp;</span><span class="edd_price_option_price" itemprop="price">&#36;9.00</span></label></li><li id="edd_price_option_1750_20highrestexturesextrabonus" itemprop="offers" itemscope itemtype="http://schema.org/Offer"><label for="edd_price_option_1750_1"><input type="radio"  checked='checked' name="edd_options[price_id][]" id="edd_price_option_1750_1" class="edd_price_option_1750" value="1"/>&nbsp;<span class="edd_price_option_name" itemprop="description">20 High Res Textures + Extra Bonus</span><span class="edd_price_option_sep">&nbsp;&ndash;&nbsp;</span><span class="edd_price_option_price" itemprop="price">&#36;12.00</span></label></li>		</ul>
+	</div><!--end .edd_price_options-->
+
+		<div class="edd_purchase_submit_wrapper">
+			<a href="#" class="edd-add-to-cart button blue edd-submit" data-action="edd_add_to_cart" data-download-id="1750"  data-variable-price="yes" data-price-mode=single ><span class="edd-add-to-cart-label">Purchase</span> <span class="edd-loading"><i class="edd-icon-spinner edd-icon-spin"></i></span></a><input type="submit" class="edd-add-to-cart edd-no-js button blue edd-submit" name="edd_purchase_download" value="Purchase" data-action="edd_add_to_cart" data-download-id="1750"  data-variable-price="yes" data-price-mode=single /><a href="http://dev.resourceroom.ca/checkout/" class="edd_go_to_checkout button blue edd-submit" style="display:none;">Checkout</a>
+							<span class="edd-cart-ajax-alert">
+					<span class="edd-cart-added-alert" style="display: none;">
+						<i class="edd-icon-ok"></i> Added to cart					</span>
+				</span>
+															</div><!--end .edd_purchase_submit_wrapper-->
+
+		<input type="hidden" name="download_id" value="1750">
+					<input type="hidden" name="edd_action" class="edd_action_input" value="add_to_cart">
+		
+		
+	</form><!--end #edd_purchase_1750-->
+</div>
+	
+<header class="entry-header">
+	<h1 class="entry-title"><a href="http://dev.resourceroom.ca/downloads/20-high-res-textures/" rel="bookmark">20 High Res Textures</a></h1>
+
+	
+	<div class="entry-meta">
+		
+					<span class="byline"> by <span class="author vcard"><a class="url fn n" href="http://dev.resourceroom.ca/vendor/admin" title="View all Downloads by admin">admin <img alt='' src='http://1.gravatar.com/avatar/7d1929548f39f7b9e7eed092c3b34d24?s=50&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D50&amp;r=G' class='avatar avatar-50 photo' height='50' width='50' /></a></span></span>		
+			</div>
+</header><!-- .entry-header --></article><!-- #post-## -->
+						
+<article id="post-1749" class="post-1749 download type-download status-publish format-standard hentry content-grid-download edd-download edd-download-cat-bootstrap edd-download-cat-drupal edd-download-cat-ghost edd-download-cat-html-2 edd-download-cat-joomla edd-download-cat-misc edd-download-cat-tumblr edd-download-cat-wordpress">
+	
+<div class="entry-image">
+	<div class="overlay">
+		
+		<div class="actions">
+				<form id="edd_purchase_1749" class="edd_download_purchase_form" method="post">
+
+		
+		<div class="edd_purchase_submit_wrapper">
+			<a href="#" class="edd-add-to-cart button blue edd-submit" data-action="edd_add_to_cart" data-download-id="1749" data-variable-price="no" data-price-mode=single ><span class="edd-add-to-cart-label">Purchase</span> <span class="edd-loading"><i class="edd-icon-spinner edd-icon-spin"></i></span></a><input type="submit" class="edd-add-to-cart edd-no-js button blue edd-submit" name="edd_purchase_download" value="Purchase" data-action="edd_add_to_cart" data-download-id="1749" data-variable-price="no" data-price-mode=single /><a href="http://dev.resourceroom.ca/checkout/" class="edd_go_to_checkout button blue edd-submit" style="display:none;">Checkout</a>
+							<span class="edd-cart-ajax-alert">
+					<span class="edd-cart-added-alert" style="display: none;">
+						<i class="edd-icon-ok"></i> Added to cart					</span>
+				</span>
+															</div><!--end .edd_purchase_submit_wrapper-->
+
+		<input type="hidden" name="download_id" value="1749">
+					<input type="hidden" name="edd_action" class="edd_action_input" value="add_to_cart">
+		
+		
+	</form><!--end #edd_purchase_1749-->
+			<a href="http://dev.resourceroom.ca/downloads/50-royalty-free-backgrounds/" rel="bookmark" class="button">Details</a>
+
+			<strong class="item-price"><span>Item Price: <span class="edd_price" id="edd_price_1749">&#36;15.00</span></span></strong>
+
+					</div>
+	</div>
+
+			<span class="image-placeholder"></span>
+	</div>
+
+
+<div id="buy-now-1749" class="popup">
+	<h1 class="section-title"><span>Buying Options</span></h1>
+
+		<form id="edd_purchase_1749" class="edd_download_purchase_form" method="post">
+
+		
+		<div class="edd_purchase_submit_wrapper">
+			<a href="#" class="edd-add-to-cart button blue edd-submit" data-action="edd_add_to_cart" data-download-id="1749" data-variable-price="no" data-price-mode=single ><span class="edd-add-to-cart-label">&#36;15.00&nbsp;&ndash;&nbsp;Purchase</span> <span class="edd-loading"><i class="edd-icon-spinner edd-icon-spin"></i></span></a><input type="submit" class="edd-add-to-cart edd-no-js button blue edd-submit" name="edd_purchase_download" value="&#036;15.00&nbsp;&ndash;&nbsp;Purchase" data-action="edd_add_to_cart" data-download-id="1749" data-variable-price="no" data-price-mode=single /><a href="http://dev.resourceroom.ca/checkout/" class="edd_go_to_checkout button blue edd-submit" style="display:none;">Checkout</a>
+							<span class="edd-cart-ajax-alert">
+					<span class="edd-cart-added-alert" style="display: none;">
+						<i class="edd-icon-ok"></i> Added to cart					</span>
+				</span>
+															</div><!--end .edd_purchase_submit_wrapper-->
+
+		<input type="hidden" name="download_id" value="1749">
+					<input type="hidden" name="edd_action" class="edd_action_input" value="add_to_cart">
+		
+		
+	</form><!--end #edd_purchase_1749-->
+</div>
+	
+<header class="entry-header">
+	<h1 class="entry-title"><a href="http://dev.resourceroom.ca/downloads/50-royalty-free-backgrounds/" rel="bookmark">50+ Royalty Free Backgrounds</a></h1>
+
+	
+	<div class="entry-meta">
+		
+					<span class="byline"> by <span class="author vcard"><a class="url fn n" href="http://dev.resourceroom.ca/vendor/admin" title="View all Downloads by admin">admin <img alt='' src='http://1.gravatar.com/avatar/7d1929548f39f7b9e7eed092c3b34d24?s=50&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D50&amp;r=G' class='avatar avatar-50 photo' height='50' width='50' /></a></span></span>		
+			</div>
+</header><!-- .entry-header --></article><!-- #post-## -->
+						
+<article id="post-2115" class="post-2115 download type-download status-publish format-standard hentry content-grid-download edd-download edd-download-cat-video-2 edd-download-tag-test">
+	
+<div class="entry-image">
+	<div class="overlay">
+		
+		<div class="actions">
+			<a href="#buy-now-2115" class="button buy-now popup-trigger">Purchase</a>			<a href="http://dev.resourceroom.ca/downloads/in-the-city-at-night/" rel="bookmark" class="button">Details</a>
+
+			<strong class="item-price"><span>Item Price: <span class="edd_price" id="edd_price_2115">&#36;10.00</span></span></strong>
+
+					</div>
+	</div>
+
+			<span class="image-placeholder"></span>
+	</div>
+
+
+<div id="buy-now-2115" class="popup">
+	<h1 class="section-title"><span>Buying Options</span></h1>
+
+		<form id="edd_purchase_2115" class="edd_download_purchase_form download-variable" method="post">
+
+			<div class="edd_price_options">
+		<ul>
+			<li id="edd_price_option_2115_hd720pversion" itemprop="offers" itemscope itemtype="http://schema.org/Offer"><label for="edd_price_option_2115_0"><input type="radio"  name="edd_options[price_id][]" id="edd_price_option_2115_0" class="edd_price_option_2115" value="0"/>&nbsp;<span class="edd_price_option_name" itemprop="description">HD 720p Version</span><span class="edd_price_option_sep">&nbsp;&ndash;&nbsp;</span><span class="edd_price_option_price" itemprop="price">&#36;10.00</span></label></li><li id="edd_price_option_2115_hd1080pversion" itemprop="offers" itemscope itemtype="http://schema.org/Offer"><label for="edd_price_option_2115_1"><input type="radio"  checked='checked' name="edd_options[price_id][]" id="edd_price_option_2115_1" class="edd_price_option_2115" value="1"/>&nbsp;<span class="edd_price_option_name" itemprop="description">HD 1080p Version</span><span class="edd_price_option_sep">&nbsp;&ndash;&nbsp;</span><span class="edd_price_option_price" itemprop="price">&#36;20.00</span></label></li>		</ul>
+	</div><!--end .edd_price_options-->
+
+		<div class="edd_purchase_submit_wrapper">
+			<a href="#" class="edd-add-to-cart button blue edd-submit" data-action="edd_add_to_cart" data-download-id="2115"  data-variable-price="yes" data-price-mode=single ><span class="edd-add-to-cart-label">Purchase</span> <span class="edd-loading"><i class="edd-icon-spinner edd-icon-spin"></i></span></a><input type="submit" class="edd-add-to-cart edd-no-js button blue edd-submit" name="edd_purchase_download" value="Purchase" data-action="edd_add_to_cart" data-download-id="2115"  data-variable-price="yes" data-price-mode=single /><a href="http://dev.resourceroom.ca/checkout/" class="edd_go_to_checkout button blue edd-submit" style="display:none;">Checkout</a>
+							<span class="edd-cart-ajax-alert">
+					<span class="edd-cart-added-alert" style="display: none;">
+						<i class="edd-icon-ok"></i> Added to cart					</span>
+				</span>
+															</div><!--end .edd_purchase_submit_wrapper-->
+
+		<input type="hidden" name="download_id" value="2115">
+					<input type="hidden" name="edd_action" class="edd_action_input" value="add_to_cart">
+		
+		
+	</form><!--end #edd_purchase_2115-->
+</div>
+	
+<header class="entry-header">
+	<h1 class="entry-title"><a href="http://dev.resourceroom.ca/downloads/in-the-city-at-night/" rel="bookmark">In the City At Night Movie</a></h1>
+
+	
+	<div class="entry-meta">
+		
+					<span class="byline"> by <span class="author vcard"><a class="url fn n" href="http://dev.resourceroom.ca/vendor/admin" title="View all Downloads by admin">admin <img alt='' src='http://1.gravatar.com/avatar/7d1929548f39f7b9e7eed092c3b34d24?s=50&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D50&amp;r=G' class='avatar avatar-50 photo' height='50' width='50' /></a></span></span>		
+			</div>
+</header><!-- .entry-header --></article><!-- #post-## -->
+					</div>
+
+		</aside><aside id="marketify_widget_price_table-1" class="home-widget marketify_widget_price_table"><h1 class="home-widget-title"><span>Honest Pricing. No Surprises.</span></h1>
+		
+		<div class="pricing-table-widget-3 row">
+			<div id="marketify_widget_price_option-1" class="pricing-table-widget marketify_widget_price_option col-lg-4 col-md-6">		<div class="pricing-table-option" style="background-color: #515a63">
+			<div class="pricing-table-widget-description">
+				<h3>Marketplace Items</h3>
+<h2>4,000</h2>
+<ul>
+<li>Dev & Freelancer Friendly</li>
+<li>Unlimited Domain Use</li>
+<li>Free Theme Updates</li>
+<li>Support Forum Access</li>
+<li>Help Documents</li>
+<li>Installation Video</li>
+<li>Non-recurring Payment</li>
+</ul>
+			</div>
+		</div>
+		</div><div id="marketify_widget_price_option-2" class="pricing-table-widget marketify_widget_price_option col-lg-4 col-md-6">		<div class="pricing-table-option" style="background-color: #515a63">
+			<div class="pricing-table-widget-description">
+				<h3>Most Popular</h3>
+<h2><sup>$</sup>49</h2>
+<h3>60 Days Access</h3>
+<ul>
+<li>60 Days Unlimited Access</li>
+<li>Unlimited Bandwidth</li>
+<li>Unlimited Storage</li>
+<li>Unlimited Contributors</li>
+<li>Developer Platform</li>
+<li>Mobile Website</li>
+<li>Custom Domain FREE</li>
+<li>24/7 Customer Support</li>
+</ul>
+			</div>
+		</div>
+		</div><div id="marketify_widget_price_option-3" class="pricing-table-widget marketify_widget_price_option col-lg-4 col-md-6">		<div class="pricing-table-option" style="background-color: #515a63">
+			<div class="pricing-table-widget-description">
+				<h2><sup>$</sup>149</h2>
+<h3>12 Months Access</h3>
+<ul>
+<li>12 Months Unlimited Access</li>
+<li>Unlimited Domain Use</li>
+<li>Free Theme Updates</li>
+<li>Support Forum Access</li>
+<li>Help Documents</li>
+<li>Installation Video</li>
+<li>Non-recurring Payment</li>
+</ul>
+			</div>
+		</div>
+		</div>		</div>
+
+		</aside></div><aside id="marketify_widget_slider_hero-2" class="home-widget marketify_widget_slider_hero"></aside><div class="container">				</div>
+
+			</main><!-- #main -->
+		</section><!-- #primary -->
+
+	</div><!-- #content -->
+
+
+	<footer id="colophon" class="site-footer dark" role="contentinfo">
+		<div class="container">
+
+							<div class="row">
+					<aside id="meta-3" class="footer-widget widget_meta col-md-4"><h1 class="footer-widget-title">Resources &amp; Links</h1>			<ul>
+			<li><a href="http://dev.resourceroom.ca/wp-login.php?action=register">Register</a></li>			<li><a href="http://dev.resourceroom.ca/wp-login.php">Log in</a></li>
+			<li><a href="http://dev.resourceroom.ca/feed/">Entries <abbr title="Really Simple Syndication">RSS</abbr></a></li>
+			<li><a href="http://dev.resourceroom.ca/comments/feed/">Comments <abbr title="Really Simple Syndication">RSS</abbr></a></li>
+<li><a href="https://wordpress.org/" title="Powered by WordPress, state-of-the-art semantic personal publishing platform.">WordPress.org</a></li>			</ul>
+</aside>		<aside id="recent-posts-4" class="footer-widget widget_recent_entries col-md-4">		<h1 class="footer-widget-title">From The Blog</h1>		<ul>
+					<li>
+				<a href="http://dev.resourceroom.ca/2014/09/16/hello-world/">Hello world!</a>
+						</li>
+					<li>
+				<a href="http://dev.resourceroom.ca/2013/01/11/2014-predictions-for-web-design/">2014 Predictions for Web Design</a>
+						</li>
+					<li>
+				<a href="http://dev.resourceroom.ca/2013/01/10/essential-design-improvements-2014/">Essential Design Improvements 2014</a>
+						</li>
+					<li>
+				<a href="http://dev.resourceroom.ca/2013/01/09/2013-marketify-wrap-up/">2013 Marketify Wrap Up</a>
+						</li>
+					<li>
+				<a href="http://dev.resourceroom.ca/2013/01/05/working-with-remote-teams-tips/">Working With Remote Teams Tips</a>
+						</li>
+				</ul>
+		</aside><aside id="text-1" class="footer-widget widget_text col-md-4"><h1 class="footer-widget-title">About Marketify</h1>			<div class="textwidget">Marketing and selling digital goods has never been easier with Marketify — the easiest digital commerce theme available. Beautiful product grids to show off your amazing products. Designed to sell files, photos, audio, and video. Specifically crafted to be as flexible and versatile as possible.
+</div>
+		</aside>				</div>
+			
+			<div class="site-info row has-widgets">
+								<div class="col-md-4">
+					<h1 class="footer-widget-title">Connect With Us</h1>
+
+					<div class="footer-social"><a href="http://facebook.com/astoundify"><span class="screen-reader-text">Facebook</span></a>
+<a href="http://twitter.com/astoundify"><span class="screen-reader-text">Twitter</span></a>
+<a href="http://instagram.com"><span class="screen-reader-text">Instagram</span></a>
+<a href="http://vimeo.com/astoundify"><span class="screen-reader-text">Vimeo</span></a>
+<a href="https://plus.google.com/"><span class="screen-reader-text">Google+</span></a>
+<a href="http://pinterest.com"><span class="screen-reader-text">Pinterest</span></a>
+</div>				</div>
+				
+				
+								<div class="col-md-4">
+					<h1 class="footer-widget-title">Contact Us</h1>
+
+					<p>393 Bay Street, 2nd Floor<br />
+Toronto, Ontario, Canada, L9T8S2</p>
+				</div>
+				
+				
+				<div class="col-md-4">
+					<h1 class="site-title"><a href="http://dev.resourceroom.ca">
+													Resource Room											</a></h1>
+
+					&copy; 2014 Resource Room. All rights reserved.				</div>
+			</div><!-- .site-info -->
+
+		</div>
+	</footer><!-- #colophon -->
+</div><!-- #page -->
+
+	    <script type="text/javascript">
+	    jQuery(document).on("DOMNodeInserted", function(){
+	        // Lock uploads to "Uploaded to this post"
+	        jQuery('select.attachment-filters [value="uploaded"]').attr( 'selected', true ).parent().trigger('change');
+	    });
+		</script>
+		<script type='text/javascript' src='http://dev.resourceroom.ca/wp-content/themes/marketify/js/plugins.min.js?ver=20140515'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var marketifySettings = {"widgets":{"search-2":{"cb":"widget_search","settings":{"title":""}},"marketify_widget_featured_popular-1":{"cb":"marketify_widget_featured_popular","settings":{"number":8,"scroll":"","speed":"7000","timeframe":"year"}},"marketify_widget_recent_downloads-1":{"cb":"marketify_widget_recent_downloads","settings":{"title":"Recent","number":8}},"woothemes_features-1":{"cb":"widget_woothemes_features","settings":{"title":"","limit":6,"specific_id":0,"size":44,"per_row":3,"category":196,"orderby":"date","order":"ASC"}},"marketify_widget_price_table-1":{"cb":"marketify_widget_price_table","settings":{"title":"Honest Pricing. No Surprises.","nothing":""}},"woothemes_testimonials-1":{"cb":"widget_woothemes_testimonials","settings":{"title":"WHAT PEOPLE ARE SAYING","limit":4,"specific_id":0,"size":70,"category":8,"orderby":"date","order":"ASC","display_author":true,"display_avatar":true,"display_url":false,"per_row":2,"speed":5000}},"woothemes_testimonials-2":{"cb":"widget_woothemes_testimonials","settings":{"title":"COMPANIES WE\u2019VE HELPED","limit":5,"specific_id":0,"size":200,"category":197,"orderby":"date","order":"DESC","display_author":false,"display_avatar":true,"display_url":true,"speed":5000}},"marketify_widget_slider_hero-2":{"cb":"marketify_widget_slider_hero","settings":{"slider":"2217"}}}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://dev.resourceroom.ca/wp-content/themes/marketify/js/main.min.js?ver=20140515'></script>
+	<div class="modal fade" id="edd-wl-modal" tabindex="-1" role="dialog" aria-labelledby="edd-wl-modal-label" aria-hidden="true">
+	  <div class="modal-dialog">
+	    <div class="modal-content">
+	    		    </div>
+	  </div>
+	</div>
+
+	
+</body>
+</html>
+<!-- Dynamic page generated in 0.932 seconds. -->
+<!-- Cached page generated by WP-Super-Cache on 2014-10-16 19:34:35 -->
+
+<!-- super cache -->
