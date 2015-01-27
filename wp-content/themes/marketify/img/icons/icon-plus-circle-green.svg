@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="65px" height="65px" viewBox="0 0 65 65" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.0.4 (8054) - http://www.bohemiancoding.com/sketch -->
+    <title>Fill 29 + Fill 25</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="60_free_icons_by_yegor_shustov" sketch:type="MSLayerGroup" transform="translate(-592.000000, -554.000000)">
+            <g id="Fill-29-+-Fill-25" transform="translate(592.000000, 554.000000)" sketch:type="MSShapeGroup">
+                <path d="M32.489,0.15 C14.844,0.15 0.488,14.505 0.488,32.15 C0.488,49.795 14.844,64.15 32.489,64.15 C50.134,64.15 64.488,49.795 64.488,32.15 C64.488,14.505 50.134,0.15 32.489,0.15 L32.489,0.15 Z" id="Fill-29" fill="#16B940"></path>
+                <path d="M21.14,35.927 L21.14,28.372 L28.712,28.372 L28.712,20.801 L36.266,20.801 L36.266,28.372 L43.839,28.372 L43.839,35.927 L36.266,35.927 L36.266,43.499 L28.712,43.499 L28.712,35.927 L21.14,35.927 L21.14,35.927 Z" id="Fill-25" fill="#FFFFFF"></path>
+            </g>
+        </g>
+    </g>
+</svg>

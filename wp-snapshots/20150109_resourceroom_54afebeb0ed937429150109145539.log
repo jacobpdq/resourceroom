@@ -1,0 +1,85 @@
+********************************************************************************
+PACKAGE-LOG: 2015-01-09 14:55:57
+NOTICE: Do NOT post to public sites or forums 
+********************************************************************************
+VERSION:	0.5.10
+WORDPRESS:	4.1
+PHP INFO:	5.4.34 | SAPI: cgi-fcgi
+SERVER:		Apache 
+PHP TIME LIMIT: (0) no time limit imposed 
+PHP MAX MEMORY: 5000M (128M default) 
+
+********************************************************************************
+DATABASE:
+********************************************************************************
+BUILD MODE:   PHP
+MYSQLDUMP:    Is Supported
+MYSQLTIMEOUT: 5000 
+TABLES: total:14 | filtered:0 | create:14 
+FILTERED: [] 
+wp_commentmeta (6) 
+wp_comments (21) 
+wp_duplicator_packages (1) 
+wp_edd_customers (3) 
+wp_links (0) 
+wp_options (251) 
+wp_postmeta (1877) 
+wp_posts (304) 
+wp_richreviews (2) 
+wp_term_relationships (127) 
+wp_term_taxonomy (28) 
+wp_terms (28) 
+wp_usermeta (223) 
+wp_users (10) 
+SQL CREATED: 20150109_resourceroom_54afebeb0ed937429150109145539_database.sql 
+SQL FILE SIZE: 1.1MB 
+SQL RUNTIME: 0.24 sec. 
+
+******************************************************************************** 
+ARCHIVE (ZIP): 
+******************************************************************************** 
+ARCHIVE DIR:  /home4/netradia/public_html/resourceroom 
+ARCHIVE FILE: 20150109_resourceroom_54afebeb0ed937429150109145539_archive.zip 
+FILTERS: *OFF* 
+DIRS:  not set 
+EXTS:  not set 
+---------------------------------------- 
+COMPRESSING 
+SIZE:	263.88MB 
+STATS:	Dirs 1,160 | Files 6,507 | Links 0 
+SQL ADDED: 20150109_resourceroom_54afebeb0ed937429150109145539_database.sql 
+ZipArchive Object
+(
+    [status] => 0
+    [statusSys] => 0
+    [numFiles] => 7667
+    [filename] => /home4/netradia/public_html/resourceroom/wp-snapshots/tmp/20150109_resourceroom_54afebeb0ed937429150109145539_archive.zip
+    [comment] => 
+)
+ 
+COMPRESSION RESULT: '1' 
+COMPRESSED SIZE: 176.69MB 
+ARCHIVE RUNTIME: 66.57 sec. 
+
+******************************************************************************** 
+MAKE INSTALLER: 
+******************************************************************************** 
+Build Start 
+Build Finished 
+Preping for use 
+Template parsed with new data 
+Complete [/home4/netradia/public_html/resourceroom/wp-snapshots/tmp/20150109_resourceroom_54afebeb0ed937429150109145539_installer.php] 
+Added to archive 
+
+******************************************************************************** 
+INTEGRITY CHECKS: 
+******************************************************************************** 
+SQL File: 1.1MB 
+Installer File: 316.93KB 
+Archive File: 176.69MB  
+
+********************************************************************************
+RECORD ID:[1]
+TOTAL PROCESS RUNTIME: 74.95 sec.
+DONE PROCESSING => 20150109_resourceroom 2015-01-09 14:57:12
+ 
