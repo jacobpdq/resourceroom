@@ -1,0 +1,20 @@
+.uploadfield-grades {
+  .checkbox {
+    width: auto;
+    margin-right: $small;
+  }
+}
+
+.uploadfield-province select,
+.uploadfield-language select {
+  max-width: 300px;
+}
+
+.uploadfield-lessontime input,
+.uploadfield-price input {
+  max-width: 100px;
+}
+
+.uploadfield-price input {
+  padding-left: $base;
+}

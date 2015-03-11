@@ -11,8 +11,6 @@ get_header(); ?>
 		<h1 class="page-title"><?php _e( 'Oops! That page can&rsquo;t be found.', 'marketify' ); ?></h1>
 	</header><!-- .page-header -->
 
-	<?php do_action( 'marketify_entry_before' ); ?>
-
 	<div class="container">
 		<div id="content" class="site-content row">
 

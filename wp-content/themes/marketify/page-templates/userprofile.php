@@ -51,7 +51,7 @@ get_header();
 				  foreach($graearr as $result3){
 					$gradeim[] =  '<a href="'.site_url().'/search-result/?grades%5B%5D='.$result3.'">'.$result3.'</a>' ;
 				  }
-			$grade = implode($gradeim,' , ');
+			$grade = implode($gradeim,', ');
 		}
 		else
 			$grade = '';
@@ -84,8 +84,8 @@ get_header();
 		
         <div class="row">
           <div class="col-md-4 col-sm-6">
+            <div class="profile-image"><?php echo getUserimage($user_ID) ?></div>
             <div class="card-white">
-              <div class="profile-image"><?php echo getUserimage($user_ID,'241','160') ?></div>
               <div class="profile-text">
                 <div class="info-list margin-bottom">
 				
@@ -94,11 +94,11 @@ get_header();
 				<?php } else { ?>
 				
 				<?php if(!empty($city )) { ?>
-					<p class="info-list-item"><strong>Location:</strong> <?php echo $city ?> , <?php echo $provinces ?></p>
+					<p class="info-list-item"><strong>Location:</strong> <?php echo $city ?>, <?php echo $provinces ?></p>
 				<?php } ?>
 				  
 				<?php if(!empty($grade)) { ?>
-                  <p class="info-list-item"><strong>Grades: </strong><?php echo $grade ?></p>
+                  <p class="info-list-item"><strong>Grades: </strong><span class="uppercase"><?php echo $grade ?></span></p>
 				<?php } ?>
 				
 				 <?php if(!empty($teaching)) { ?>

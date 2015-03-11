@@ -1,0 +1,83 @@
+// Variables
+//------------------------------------------------------
+$alert-primary:                 $lightblue-light !default;
+$alert-success:                 $green-light !default;
+$alert-danger:                  $red-light !default;
+$alert-warning:                 $yellow-light !default;
+
+$alert-close-color:             $black !default;
+
+$alert-link-color:              $mediumgray-light !default;
+
+
+// Exports
+//------------------------------------------------------
+
+@include exports("alert") {
+
+  /**
+   * alert
+   * --------------------------------------------------
+   */
+  .alert {
+      font-size: $small;
+      padding: $small;
+    
+      & h4 {
+          margin-bottom: 10px;
+          font-weight: bold;
+      }
+
+      &-dismissable .close {
+          color: $alert-close-color;
+      }
+
+      &.alert-info {
+          color: desaturate($blue-dark, 60%);
+          background-color: lighten($blue-light, 38%);
+          border: 1px solid lighten($blue-light,30%);
+      }
+      @at-root &-warning {
+          background-color: lighten($alert-warning, 10%);
+          border: $alert-warning;
+      }
+      @at-root &-danger {
+          background-color: lighten($alert-danger, 10%);
+          border: $alert-danger;
+      }
+      @at-root &-success {
+          background-color: lighten($alert-success, 10%);
+          border: $alert-success;
+      }
+
+      @at-root & &-link {
+          cursor: pointer;
+          text-decoration: underline;
+          @include opacity($opacity: 65, $filter: true); 
+          &:hover,
+          &:focus {
+              @include opacity($opacity: 45, $filter: true);            
+          }
+      }
+
+      @at-root & .btn-link,
+      & .btn-link:hover,
+      & .btn-link:focus {
+          color: $alert-close-color;
+          @include opacity($opacity: 65, $filter: true);
+      }
+      @at-root & .btn-link:focus,
+      & .btn-link:hover {
+          text-decoration: none;
+          @include opacity($opacity: 40, $filter: true);        
+      }
+  }
+
+  .fes-success {
+      text-align: center;
+      color: desaturate($green-dark, 20%);
+      background-color: lighten($green-light, 38%);
+      border: 1px solid lighten($green-light, 30%);
+  }
+}
+

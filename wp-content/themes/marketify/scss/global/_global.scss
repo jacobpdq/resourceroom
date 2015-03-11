@@ -1,0 +1,175 @@
+// Global
+
+@include exports("global") {
+
+  html {
+    height: 100%;
+  }
+  
+  body {
+    background: $lightgray-light;
+    height: 100%;
+    font-family: $font-sans-serif;
+    color: $darkgray-dark;
+    font-size: $base;
+    @include antialiased;
+  }
+
+  a {
+    color: $link-font-color;
+    text-decoration: none;
+
+    &:hover,
+    &:focus {
+      color: $link-font-color-hover;
+    }
+    &:focus {
+      outline: none;
+    }
+  }
+  
+  p {
+    margin-bottom: $bigger;
+    &.small {margin-bottom: $small;}
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  .h1,
+  .h2,
+  .h3,
+  .h4,
+  .h5,
+  .h6
+  {
+    font-family: $font-alt;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  {
+    line-height: $heading-line-height;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  .h1,
+  .h2,
+  .h3,
+  .h4{
+    font-weight: 300;
+    color: $heading-color;
+  }
+
+  .h1,
+  .h2,
+  .h3,
+  .h4
+  {
+    display: blocK;
+    line-height: 1;
+    margin: 0;
+    color: $heading-color;
+  }
+  h1 small,
+  h2 small,
+  h3 small,
+  h4 small,
+  h5 small,
+  h6 small,
+  .h1 small,
+  .h2 small,
+  .h3 small,
+  .h4 small,
+  .h5 small,
+  .h6 small {
+    color: $heading-small-color;
+  }
+  h1,
+  h2,
+  h3 {
+    margin-bottom: $base;
+    margin-top: 0;
+  }
+  h4,
+  h5,
+  h6 {
+    margin-top: 0;
+    margin-bottom: $small;
+  }
+  h1,
+  .h1 {
+    letter-spacing: -.04em;
+    font-size: $sizeup-4;
+  }
+  h2,
+  .h2 {
+    letter-spacing: -.035em;
+    font-size: $huge;
+    margin-left: -.08em;
+  }
+  h3,
+  .h3 {
+    letter-spacing: -.035em;
+    font-size: $biggest;
+  }
+  h4,
+  .h4 {
+    font-size: $bigger;
+  }
+  h5,
+  .h5 {
+    font-weight: $bold;
+    font-size: $big;
+  }
+  h6,
+  .h6 {
+    font-size: $big;
+  }
+  blockquote {
+    border-left: 3px solid $blockquote-border-color;
+  }
+  .img-rounded {
+    @include radius($type: border-radius, $value: $image-radius);
+  }
+  .img-comment {
+    font-size: 15px;
+    line-height: 1.2;
+    font-style: italic;
+    margin: 24px 0;
+  }
+  
+  ul {
+    padding-left: 18px;
+  }
+  
+  li {
+    margin-bottom: $base/2;
+  }
+  
+  
+  /* XS ONLY */
+  @media (max-width: $screen-xs-max){
+    
+    h1, .h1 {
+      font-size: $biggest;
+    }
+    
+    h3, .h3 {
+      font-size: $bigger;
+    }
+  }
+  
+}
+
+

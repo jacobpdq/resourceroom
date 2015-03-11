@@ -14,7 +14,8 @@ function browse_resource_function()
 			min-height:310px;
 		}
 	</style>
-	<h3 style="display:block" class="text-center"> <img class="icon icon-left icon-xl" src="<?php echo $template_url ?>/img/icons/icon-browse.svg">Browse Resources:</h3>
+	<h3 class="text-center"> <img class="icon icon-left icon-xl" src="<?php echo $template_url ?>/img/icons/icon-browse.svg">Browse Resources:</h3>
+    <div class="divider"></div>
 	 <form id="" name="" action="<?php echo $site_url ?>/search-result/" method="get">
             <div class="row">
               <div class="form-group col-md-4">
@@ -165,6 +166,7 @@ function browse_resource_function()
               </div>
             </div>
           </form>
+        <p class="text-muted"> <span class="text-blue">* </span>Looking for something more specific? Try our <a href="search-page.html">Advanced Search </a>feature.</p>
 	<?php
 }
 ?>

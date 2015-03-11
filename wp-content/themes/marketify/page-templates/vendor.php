@@ -19,8 +19,6 @@ if ( ! $author ) {
 get_header(); ?>
  
 	<?php while ( have_posts() ) : the_post(); ?>
-	<?php do_action( 'marketify_entry_before' ); ?>
-
 
 
 	<main id="main" class="site-main" role="main">

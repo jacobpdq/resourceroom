@@ -21,8 +21,6 @@ get_header(); ?>
 		<h1 class="page-title"><?php the_title(); ?></h1>
 	</header><!-- .page-header -->
 
-	<?php do_action( 'marketify_entry_before' ); ?>
-
 	<div class="container">
 		<div id="content" class="site-content row">
 

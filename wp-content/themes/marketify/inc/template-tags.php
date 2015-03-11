@@ -101,23 +101,24 @@ function marketify_comment( $comment, $args, $depth ) {
 						<?php do_action( 'marketify_edd_rating', $comment ); ?>
 					<?php endif; ?>
 
-					<a href="<?php echo esc_url( get_comment_link( $comment->comment_ID ) ); ?>">
-						<time datetime="<?php comment_time( 'c' ); ?>">
+						<time datetime="<?php comment_time( 'c' ); ?>" class="comment-date">
 							<?php printf( _x( '%1$s at %2$s', '1: date, 2: time', 'marketify' ), get_comment_date(), get_comment_time() ); ?>
 						</time>
-					</a>
 
-					<?php
+				  <!---- Reply/edit links disabled 
+                    <?php
 						comment_reply_link( array_merge( $args, array(
 							'add_below' => 'div-comment',
 							'depth'     => $depth,
 							'max_depth' => $args['max_depth'],
-							'before'    => '<span class="reply-link"> &mdash; ',
+							'before'    => '<span class="reply-link"> ',
 							'after'     => '</span>',
 						) ) );
 					?>
+                    
 
-					<?php edit_comment_link( __( 'Edit', 'marketify' ), ' &mdash; <span class="edit-link">', '</span>' ); ?>
+					<?php edit_comment_link( __( 'Edit', 'marketify' ), ' <span class="edit-link">', '</span>' ); ?>
+                  ------->
 				</div><!-- .comment-metadata -->
 
 				<?php if ( '0' == $comment->comment_approved ) : ?>

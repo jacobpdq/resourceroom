@@ -8,7 +8,7 @@
  */
 ?>
 
-	
+</div> <!---- /wrap ----->
 		
 <footer id="colophon" class="fluid-container footer-bg" role="contentinfo">
 			<?php if ( is_active_sidebar( 'footer-1' ) ) : ?>
@@ -44,6 +44,5 @@
 <!-- #page -->
 
 <?php wp_footer(); ?>
-
 </body>
 </html>

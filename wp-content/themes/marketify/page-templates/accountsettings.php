@@ -6,7 +6,6 @@
  */
 
 	get_header();
-	do_action( 'marketify_entry_before' ); 
 	$site_url = site_url();
 	$error_password='';
 	$incorrect = false;
@@ -57,7 +56,8 @@
 		}
 		
 	?>
-<div class="row margin-bottom">
+      <div class="container page-content">
+        <div class="row margin-bottom">
           <div class="col-md-6 col-md-offset-3">
             <div class="card-white double-padding">
               <h3 class="text-center"><img class="icon icon-left icon-xl" src="<?php echo  get_template_directory_uri(); ?>/img/icons/icon-user.svg">Account Settings</h3>
@@ -90,6 +90,7 @@
             </div>
           </div>
         </div>
+      </div>
 	<?php 
 	}
 	else

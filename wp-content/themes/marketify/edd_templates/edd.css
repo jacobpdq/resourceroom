@@ -732,15 +732,8 @@ body #edd-wl-modal input[type="radio"]:focus {
 .edd_success,
 .edd-slg-login-error,
 .edd-wl-msg {
-	font: 700 15px/normal 'Montserrat', sans-serif;
-	text-transform: uppercase;
 	color: #ffb400;
 	padding: 10px;
-	border: 3px solid #ffb400;
-	background: transparent;
-	display: block;
-	border-radius: 0;
-	box-shadow: none;
 }
 
 .edd-wl-msgs.edd_errors {
@@ -877,7 +870,6 @@ div.fes-form fieldset.has-error .fes-label {
 
 div.fes-form fieldset {
 	padding: 0;
-	margin-bottom: 2em;
 }
 
 div.fes-form fieldset .fes-fields {
@@ -1107,13 +1099,6 @@ body.minimal .edd_form legend {
 	list-style: none;
 }
 
-.fes-form-add .fes-category-checklist label,
-.fes-form-add .fes-tag-checklist label,
-.fes-fields label {
-	font-size: 12px;
-	font-weight: 400;
-}
-
 .fes-attachment-list {
 	margin: 10px 0 0;
 }
@@ -1143,9 +1128,6 @@ div.fes-form fieldset .fes-fields #fes-insert-image-container a#fes-insert-image
 	display: table-cell;
 }
 
-.fes-page .entry-content table {
-	border-bottom: 0;
-}
 
 #fes-insert-image-container {
 	margin-bottom: 8px;
@@ -1265,16 +1247,19 @@ td.col-author {
 
 .fes-single-variation td,
 .file_upload td {
+  vertical-align: top;
 	display: table-cell;
 }
 
 .fes-url-row {
 	width: 75%;
+  padding-left: 10px !important;
+  padding-right: 10px !important;
 }
 
 .entry-content .fes-single-variation .fes-url-choose-row {
 	width: 20%;
-	padding: 0 0 0 15px;
+	padding: 0;
 	vertical-align: top;
 }
 
@@ -1292,6 +1277,7 @@ td.col-author {
 
 .fes-form .delete {
 	text-decoration: none;
+    border-radius: 50%;
 }
 
 .entry-content #fes-product-list td {

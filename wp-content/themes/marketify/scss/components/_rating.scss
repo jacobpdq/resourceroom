@@ -1,0 +1,25 @@
+.rating img {
+  height: $big;
+}
+
+.rating-sm {
+  position: relative; /*manual adjust to baseline*/
+  top: -2px; /*manual adjust to baseline*/
+  img {
+    height: $small;
+  }
+}
+
+.rating-lg img {
+  height: $bigger;
+}
+
+.rating > img + img,
+.rating-lg > img + img {
+  margin-left: 4px;
+}
+
+.rating-sm > img + img{
+  margin-left: 2px;
+}
+  

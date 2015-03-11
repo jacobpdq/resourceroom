@@ -1,0 +1,71 @@
+.dashboard-page-heading {
+  background: $darkgray-dark;
+  padding: $double-gutter 0;
+  
+  & h2{
+  color: #fff;
+  }
+  
+  & #username-link {
+    color: $mediumgray-dark;
+  }
+}
+
+.dashboard-nav {
+  background: $darkgray-light;
+  margin-bottom: $gutter;
+  text-align: center;
+  & .btn { 
+    position: relative; /*baseline alignment fix */
+    top: -2px;
+  }
+}
+
+.dashboard-nav-link {
+  color: $lightgray-light;
+  padding: $base;
+  display: inline-block;
+  
+  &.active {
+    color: #fff;
+    background: lighten($darkgray-light,4);
+  }
+  
+  &:hover {
+      color: #fff;
+    }
+}
+
+.dashboard-nav > ul{
+  list-style: none;
+  
+  & > li a, li span {
+    display: block;
+    margin-bottom: 1px;
+    padding: $smaller $base;
+    color: $darkgray-light;
+  }
+  
+  & > li.active span {
+    background: #fff;
+    border-bottom: 1px solid $lightgray-dark;
+    color: $link-font-color;
+  }
+  
+}
+
+.dashboard-snapshot-card {
+  padding: $gutter;
+  border-radius: 5px;
+  background: lighten($darkgray-dark,5);
+  text-align: center;
+  
+  & > h3{
+  color: #fff;
+  }
+  
+  & > a,
+  & > a:hover{
+    color: #fff
+  }
+}

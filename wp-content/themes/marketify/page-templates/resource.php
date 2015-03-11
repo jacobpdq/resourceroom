@@ -28,22 +28,10 @@ display:none !important;
                 </p>
               </div>
 			  <?php } ?>
+              <div class="text-center margin-bottom">
+              <small class="text-muted "><em>* - indicates a required field</em></small>
+              </div>
 	<?php echo do_shortcode('[fes_submission_form]');?>
-			<script type="text/javascript">
-			
-				jQuery(document).ready(function(){
-					jQuery('input[type="radio"]').click(function(){
-					
-					 var radioval = jQuery( "input:radio[name=price_options]:checked" ).val();
-					 //alert(radioval);
-					 if(radioval=='Paid')
-						$(".edd-price-field").show();
-						 if(radioval=='Free')
-						   $(".edd-price-field").hide();
-					}); 
-				});
-				
-			</script>
 			  </div>
 			  </div>
 			  </div>

@@ -1,0 +1,27 @@
+.homepage-browse-links {
+  font-size: $big; 
+}
+
+.homepage-card-browseby > a > img {
+  height: 200px;
+}
+ 
+
+
+.feat-authors {
+  & .divider {
+    margin: 8px 0;
+  }
+  
+  & .feat-author-pic {
+    border: 2px solid $lightgray-dark;
+    &:hover {
+      border-color: $blue-light;
+    }
+  }
+  
+  & .feat-author-name {
+    color: $blue-light;
+    margin-bottom: 0;
+  }
+}

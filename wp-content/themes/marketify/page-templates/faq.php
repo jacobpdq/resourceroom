@@ -9,15 +9,9 @@ get_header();
 $siteurl = site_url();
  ?>
 
-	<?php do_action( 'marketify_entry_before' ); ?>
-
 	<div class="container page-content">
 		<div class="card-white double-padding">
-			<div class="text-center">
-				<h3><?php the_title(); ?></h3>
-			</div>
-			<div class="divider"></div>
-		<div id="content" class="site-content row">
+		<div id="content" class="row">
 			<div id="primary" class="content-area col-sm-12">
 				<main id="main" class="site-main" role="main">
 				

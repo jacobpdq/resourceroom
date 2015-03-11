@@ -1,0 +1,12 @@
+.fes-fields {
+  .wp-editor-tools {
+    display: none;
+  } 
+}
+
+.wp-editor-container{
+  border-color: $mediumgray-light;
+  textarea.wp-editor-area {
+    @extend .form-control;
+  }
+}

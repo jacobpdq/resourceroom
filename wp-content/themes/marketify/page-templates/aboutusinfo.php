@@ -9,22 +9,15 @@ get_header();
 $siteurl = site_url();
  ?>
 
-	<?php do_action( 'marketify_entry_before' ); ?>
-
-	<div class="container page-content">
-		<div class="card-white double-padding">
-			<div class="text-center">
-				<h3><?php the_title(); ?></h3>
-			</div>
-			<div class="divider"></div>
-		<div id="content" class="site-content row">
-			<div id="primary" class="content-area col-sm-12">
-				<main id="main" class="site-main" role="main">
+	<div class="container page-content page-reference">
+      <div id="content" class="site-content row">
+        <div id="primary" class="content-area col-sm-12">
+          <main id="main" class="site-main" role="main">
 				
-				<div class="card-white double-padding">
+        <div class="card-white double-padding">
           <div style="text-align:center">
             <h1>Resource Room</h1>
-            <h3>Canadian educational resources made by teachers, for teachers.</h3>
+            <h3 class="nomargin">Canadian educational resources made by teachers, for teachers.</h3>
           </div>
           <div style="display:block !important" class="divider"></div>
           <div class="row">

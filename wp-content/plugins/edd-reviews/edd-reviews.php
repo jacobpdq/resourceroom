@@ -507,7 +507,7 @@ final class EDD_Reviews {
 				'email'            => '<p class="comment-form-email"><label for="email">' . __( 'Email', 'edd-reviews' ) . '<span class="required">*</span></label>' .
 						          	'<input id="email"  name="email" type="text" value="" size="30" aria-required="true" /></p>',
 			),
-			'label_submit'         => __( 'Submit Review', 'edd-reviews' ),
+			'label_submit'         => __( 'Submit', 'edd-reviews' ),
 			'logged_in_as'         => '',
 			'comment_field'        => '',
 			'cancel_reply_link'    => '',
@@ -518,12 +518,12 @@ final class EDD_Reviews {
 
 		$form['comment_field'] = apply_filters( 'edd_reviews_review_form_template', '
 			<p class="comment_form_review_title">
-				<label for="edd_review_title">' . __( 'Review Title', 'edd-reviews' ) . '<span class="required">*</span></label>
+				<label for="edd_review_title">' . __( 'Title:', 'edd-reviews' ) . '</label>
 				<input autocomplete="off" type="text" name="edd_review_title" id="edd_review_title" value="" size="30" aria-required="true" class="form-control" />
 			</p>
 
 			<p class="comment_form_rating" style="display:block !important">
-				<label for="edd_rating">' . __( 'Rating', 'edd-reviews' ) . '<span class="required">*</span></label>
+				<label for="edd_rating">' . __( 'Rating:', 'edd-reviews' ) . '</label>
 
 				' . apply_filters( 'edd_reviews_rating_box', '
 				<span class="edd_reviews_rating_box">
@@ -548,7 +548,7 @@ final class EDD_Reviews {
 			</p>
 
 			<p class="comment-form-comment">
-				<label for="comment">' . __( 'Review', 'edd-reviews' ) . '<span class="required">*</span></label>
+				<label for="comment">' . __( 'Review:', 'edd-reviews' ) . '</label>
 				<textarea id="comment" name="comment" cols="45" rows="8" aria-required="true" class="form-control CommentTextarea"></textarea>
 			</p>
 
