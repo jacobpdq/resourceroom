@@ -398,8 +398,8 @@ a.edd-wl-action,
 body:not(.minimal) .fes-headers span,
 body:not(.minimal) .edd_form legend {
 	background-color: #4a90e2;
-    border: 1px solid #4a90e2 !important;	
-    color: #fff !important;
+    border: 1px solid #4a90e2;	
+    color: #fff;
 	cursor: pointer;    
 	font-size: 18px;
 	font-weight: normal;
@@ -1235,7 +1235,6 @@ body:not(.minimal) .edd_form legend {
 }
 
 .site-content {
-	margin-top: 100px;
 }
 
 .post-type-archive-download .site-content,
@@ -1368,7 +1367,6 @@ body:not(.minimal) .edd_form legend {
 
 .entry-content h3 {
 	font-size: 31px;
-	margin: 1.1em 0;
 }
 
 .entry-content h4 {
@@ -1390,7 +1388,6 @@ body:not(.minimal) .edd_form legend {
 .entry-content h4:first-child,
 .entry-content h5:first-child,
 .entry-content h6:first-child {
-	margin-top: 0;
 }
 
 .entry-content blockquote {
@@ -2300,7 +2297,7 @@ object {
 }
 
 .comment-meta {
-	width: 110px;
+	width: 60px;
 	float: left;
 }
 
@@ -2310,9 +2307,6 @@ object {
 
 .comment-content {
 	line-height: 25px;
-	padding: 20px;
-	border: 1px solid #bdc3c7;
-	background: #fff;
 	position: relative;
 }
 
@@ -2321,31 +2315,7 @@ object {
 }
 
 .comment.depth-1 .comment-content {
-	margin-left: 140px;
-}
-
-.comment .comment-content:after {
-	width: 0;
-	height: 0;
-	border-top: 14px solid transparent;
-	border-bottom: 14px solid transparent;
-	border-right: 14px solid #fff;
-	content: ' ';
-	position: absolute;
-	top: 15px;
-	left: -15px;
-}
-
-.comment .comment-content:before {
-	width: 0;
-	height: 0;
-	border-top: 14px solid transparent;
-	border-bottom: 14px solid transparent;
-	border-right: 14px solid #bdc3c7;
-	content: ' ';
-	position: absolute;
-	top: 15px;
-	left: -16px;
+	margin-left: 80px;
 }
 
 .comment-list .children {
@@ -2372,15 +2342,7 @@ object {
 	display: none;
 }
 .comment-list > li{
-	padding: 15px 0 !important;
-}
-
-.comment-metadata {
-	font-size: 13px;
-	color: #82878e;
-	border-bottom: 1px solid #bdc3c7;
-	padding-bottom: 15px;
-	margin-bottom: 15px;
+	padding: 0 0 15px !important;
 }
 
 .comment-metadata .edit-link a,
@@ -2389,7 +2351,6 @@ object {
 }
 
 .comment-metadata a {
-	color: #82878e;
 	text-decoration: none;
 }
 
@@ -2399,9 +2360,6 @@ object {
 
 .comment-author .fn,
 .comment-metadata .fn {
-	font: 400 10px 'Montserrat', sans-serif;
-	text-transform: uppercase;
-	letter-spacing: 0.10em;
 	margin-top: 8px;
 	display: block;
 	text-align: center;
@@ -2426,7 +2384,6 @@ object {
 
 .comment-form input[type="text"],
 .comment-form input[type="password"] {
-	width: 50%;
 }
 
 .comment-reply-title small {
@@ -2457,12 +2414,9 @@ object {
 }
 
 .marketify-edd-rating .review-title-text {
-	font: 700 15px 'Montserrat', sans-serif;
-	text-transform: uppercase;
 }
 
 .comment_form_rating label {
-	float: none;
 }
 
 .edd_reviews_rating_box {
@@ -3624,7 +3578,6 @@ body .marketify_widget_slider_hero .soliloquy-theme-classic .soliloquy-pager {
 ----------------------------------------------- */
 .page_item  a:hover
 {
-color: #fff !important;
 	text-decoration:none !important;
 
 }
