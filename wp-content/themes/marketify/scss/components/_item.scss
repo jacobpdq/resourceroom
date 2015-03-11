@@ -1,0 +1,155 @@
+
+.item-horizontal {
+  background: #fff;
+  width: 100%;
+  border: 1px solid $lightgray-dark;
+  border-radius: 2px;
+  margin-bottom: 5px;
+  padding: $gutter;
+  
+  & .item-thumbnail{
+    border: 3px solid $lightgray-dark;
+    border-radius: 2px;
+    overflow: hidden;
+    &:hover {
+      border-color: $blue-light;
+    }
+  }
+
+  & #card-top-right {
+    text-align: right;
+    padding-top: 5px;
+  }
+  
+  & .item-price > span {
+    margin-left: $gutter;
+    display: inline-block;
+    padding: 5px $smaller;
+    line-height: 1;
+    font-size: $base;
+    font-size: $bigger;
+    background: #fff;
+    border: 1px solid $lightgray-dark;
+    position: relative;
+    top: -$bigger;
+    box-shadow: 0 0 3px rgba(0,0,0,.1);
+  }
+  
+  & .rating {
+    text-align: center;
+    display: inline-block;
+    margin-right: $smaller;
+  }
+  & .item-title {
+    display: block;
+    font-size: $bigger;
+  }
+
+  & .divider {
+    margin: $smaller 0;
+  }
+    
+  & .item-description {
+    font-size: $small;
+  }
+}
+
+.item-square {
+  border: 1px solid $lightgray-dark;
+  background: #fff;
+  margin-bottom: $gutter;
+  
+  & .item-thumbnail {
+    opacity: 1;
+    background: #fff;
+    border-radius: $global-radius $global-radius 0 0;
+    overflow: hidden;
+    transition: opacity .2s ease;
+
+  }
+
+  & .item-text {
+    background: #fff;
+    position: relative;
+    padding: $smaller $small;
+    top: 0;
+    transition: top .1s ease-out  ;
+  }
+  
+  & .item-author {
+    font-size: $small;
+  }
+  
+  & .item-price {
+    font-weight: $bold;
+    margin-right: 5px;
+  }
+  
+  & .item-price, .item-type {
+    line-height: 1;
+    font-size: $small;
+    margin-bottom: 0;
+  }
+  
+  & #card-bottom {
+    font-family: $font-alt;
+    border-top: 1px solid $lightgray-dark;
+    padding: 5px $small 8px;
+    background: #fff;
+    border-radius: 0 0 $global-radius $global-radius;
+  }
+  
+  /******* XS only *******/
+  @media (max-width: $screen-xs-max){
+    
+    & {
+      margin-bottom: $biggest;
+    }
+    
+    & .item-title {
+      font-size: $big;
+    }
+    
+    & .item-author {
+      font-size: $base;
+    }
+  
+  }
+  
+  /******* MD and up *****/
+  
+  @media (min-width: $screen-md-min){
+    &:hover {
+      & .item-text {
+        top: -5px;
+      }
+      & .item-thumbnail {
+        opacity: .8;
+      }
+    }
+  }
+  
+}
+
+.item-mini {
+  
+  & .item-title {
+    font-weight: $bold;
+  }
+  
+  & .item-author {
+    font-size: $small;
+  }
+
+  & .item-price, .item-type {
+    line-height: 1;
+    font-size: $small;
+    margin-bottom: 0;
+  }
+  
+  & .item-price {
+    font-weight: $bold;
+    margin-right: 5px;
+  }
+  
+}

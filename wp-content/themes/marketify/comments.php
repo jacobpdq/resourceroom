@@ -23,15 +23,6 @@ if ( post_password_required() )
 
 	<section class="<?php echo ! is_active_sidebar( 'sidebar-download-single-comments' ) || ! is_singular( 'download' ) ? 'col-xs-12' : 'col-sm-8 col-xs-12'; ?>">
 
-
-		<h2 class="comments-title section-title"><span>
-			<?php if ( class_exists( 'EDD_Reviews' ) && is_singular( 'download' ) ) : ?>
-				<?php $reviews = edd_reviews(); $reviews->reviews_title( $reviews->average_rating( false )); ?>
-			<?php else : ?>
-				<?php _e( 'Comments', 'marketify' ); ?>
-			<?php endif; ?>
-		</span></h2>
-
 		<?php if ( have_comments() ) : ?>
 			<ol class="comment-list">
 				<?php

@@ -1,0 +1,19 @@
+dl.info-list {
+    color: $darkgray-light;
+    margin-bottom: $base;
+    font-size: $small;
+    text-transform: uppercase;
+  
+  dd {
+    line-height: $line-height-small;
+    margin-bottom: $smaller;
+  }
+}
+
+dl.info-list-alt {
+    color: $mediumgray-dark;
+    margin-bottom: $base;
+    font-size: $small;
+    text-transform: uppercase;
+  
+}

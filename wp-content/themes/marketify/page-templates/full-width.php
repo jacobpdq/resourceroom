@@ -7,8 +7,6 @@
 
 get_header(); ?>
 
-	<?php do_action( 'marketify_entry_before' ); ?>
-
 	<div class="container page-content">
 		<div class="card-white double-padding">
 			<div class="text-center">

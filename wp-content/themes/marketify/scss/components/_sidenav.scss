@@ -1,0 +1,17 @@
+.sidenav {
+  margin-top: $biggest;
+  list-style: none;
+  padding: 0;
+  top: 0;
+  width: 260px;
+  
+  & > li > a,
+  & > li > a:hover{
+    color: $mediumgray-dark;
+  }
+  
+  & > li.header {
+    font-size: $base;
+    font-weight: $bold;
+  }
+}

@@ -1,0 +1,108 @@
+// Colors defined
+
+$white:                       #FFF !default;
+$black:                       #000 !default;
+
+$darkblue-dark:               #27576c;
+$darkblue-light:              #3BAFDA;
+
+$blue-dark:                   #3175C5  !default;
+$blue-light:                  #4A90E2  !default;
+
+$lightblue-dark:              hsl(194, 90%, 80%) !default;
+$lightblue-light:             #acecff !default;
+
+$lightgreen-dark:             #37BC9B !default;
+$lightgreen-light:            #48CFAD !default;
+
+$green-light:                 #29b473;
+$green-dark:                  #239f65;
+
+$yellow-dark:                 #F6BB42 !default;
+$yellow-light:                #FFCE54 !default;
+
+$orange-dark:                 #E9573F !default;
+$orange-light:                #FC6E51 !default;
+
+$red-dark:                    #DA4453 !default;
+$red-light:                   #ED5565 !default;
+
+$purple-dark:                 #967ADC !default;
+$purple-light:                #AC92EC !default;
+
+$pink-dark:                   #D770AD !default;
+$pink-light:                  #EC87C0 !default;
+
+$lightgray-dark:              #E6E6E4 !default;
+$lightgray-light:             #F5F5F3 !default;
+
+$mediumgray-dark:             #a2a2a1 !default;
+$mediumgray-light:            #D1D1D0 !default;
+
+$darkgray-dark:               #4A4A4A !default;
+$darkgray-light:              #6D6D6D !default;
+
+
+
+// Brand colors defined
+
+
+
+$color-primary:               $lightgreen-dark !default;
+$color-primary-light:         $lightgreen-light !default;
+
+$color-success:               $green-dark !default;
+$color-success-light:         $green-light !default;
+
+$color-danger:                $red-dark !default;
+$color-danger-light:          $red-light !default;
+
+$color-warning:               $yellow-dark !default;
+$color-warning-light:         $yellow-light !default;
+
+$color-info:                  $lightblue-dark !default;
+$color-info-light:            $lightblue-light !default;
+
+$link-font-color:             $blue-dark !default; 
+$link-font-color-hover:       $blue-light !default; 
+
+$heading-color:               $darkgray-light;
+
+$blockquote-border-color:     $mediumgray-light !default;
+
+
+
+// Sizing
+
+$base:                        15px;
+
+//major third scale - 1.25
+$big:                         20px; // base*(1.25)
+$bigger:                      25px; // base*(1.25^2)
+$biggest:                     31px; // base*(1.25^3)
+$huge:                        49px; // base*(1.25^5)
+$small:                       13px; // base/1.25 = 12.8
+$smaller:                     10px; // base/(1.25^2) = 9.6
+
+//size-up based on perfect 5th (3/2)
+$sizeup-1:                    23px; // 22.5
+$sizeup-2:                    34px; // 33.75
+$sizeup-3:                    51px; // 50.625
+$sizeup-4:                    76px; // 75.938
+$sizeup-5:                    115px; // 115.407
+
+
+//Grid
+
+$gutter: 14px;
+$half-gutter: $gutter/2;
+$double-gutter: 2*$gutter;
+
+$screen-lg-min:               1200px;
+$screen-md-min:               992px;
+
+
+
+$global-radius:               0;
+$image-radius:                4px !default;
+

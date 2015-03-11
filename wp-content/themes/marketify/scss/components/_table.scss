@@ -1,0 +1,30 @@
+.table {
+  background: #fff;
+  padding: 0 15px;
+  color: $darkgray-light;
+  
+}
+
+.table-row {
+  border-top: 1px solid $lightgray-dark;
+  padding-top: $smaller;
+  padding-bottom: $smaller;
+  &:first-child {
+    border-top: 0;
+  }
+  
+  &.table-header {
+    color: $darkgray-dark;
+    font-weight: $bold;
+  }
+  
+  &.table-header a {
+    color: $darkgray-dark;
+    
+    &:hover {
+      color: $darkgray-dark;
+    }
+  }
+  
+}
+

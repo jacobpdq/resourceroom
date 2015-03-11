@@ -1535,7 +1535,7 @@ class FES_Forms {
 			$redirect_to = get_permalink( EDD_FES()->helper->get_option( 'fes-vendor-dashboard-page', false ) );
 			if ( EDD_FES()->vendors->vendor_can_edit_product( $post_id ) ){
 				$redirect_to = add_query_arg( array(
-					'task' => 'edit-product'
+					'task' => 'products'
 				), $redirect_to );
 
 				$redirect_to = add_query_arg( array(
@@ -1544,7 +1544,7 @@ class FES_Forms {
 			}
 			else{
 				$redirect_to = add_query_arg( array(
-					'task' => 'dashboard'
+					'task' => 'products'
 				), $redirect_to );
 			}
 
@@ -2013,7 +2013,7 @@ class FES_Forms {
 
 			do_action('fes_before_fieldset_output', $form_vars, $id, $type, $form_id, $read_only, $args );
 
-			printf( '<fieldset class="fes-el %s%s">', $el_name, $class_name );
+			printf( '<fieldset class="fes-el %s%s form-group">', $el_name, $class_name );
 
 			do_action('fes_after_fieldset_output', $form_vars, $id, $type, $form_id, $read_only, $args );
 
@@ -2286,7 +2286,7 @@ class FES_Forms {
 		ob_start(); ?>
 
         <div class="fes-fields">
-            <input class="textfield<?php echo $this->required_class( $attr ); ?>" id="<?php echo $attr['name']; ?>" type="text" data-required="<?php echo $attr['required'] ?>" data-type="text"<?php $this->required_html5( $attr ); ?> name="<?php echo esc_attr( $attr['name'] ); ?>" placeholder="<?php echo esc_attr( $attr['placeholder'] ); ?>" value="<?php echo esc_attr( $value ) ?>" size="<?php echo esc_attr( $attr['size'] ) ?>" <?php echo $username ? 'disabled' : ''; ?> />
+            <input class="form-control textfield<?php echo $this->required_class( $attr ); ?>" id="<?php echo $attr['name']; ?>" type="text" data-required="<?php echo $attr['required'] ?>" data-type="text"<?php $this->required_html5( $attr ); ?> name="<?php echo esc_attr( $attr['name'] ); ?>" placeholder="<?php echo esc_attr( $attr['placeholder'] ); ?>" value="<?php echo esc_attr( $value ) ?>" size="<?php echo esc_attr( $attr['size'] ) ?>" <?php echo $username ? 'disabled' : ''; ?> />
             <?php if ( $taxonomy ) { ?>
             <script type="text/javascript">
                 jQuery(function($) {
@@ -2353,7 +2353,7 @@ class FES_Forms {
 			wp_editor( $value, $attr['name'], $options );
 		} else {
 ?>
-                <textarea class="textareafield<?php echo $this->required_class( $attr ); ?>" id="<?php echo $attr['name']; ?>" name="<?php echo $attr['name']; ?>" data-required="<?php echo $attr['required'] ?>" data-type="textarea"<?php $this->required_html5( $attr ); ?> placeholder="<?php echo esc_attr( $attr['placeholder'] ); ?>" rows="<?php echo esc_attr( $attr['rows'] ); ?>" cols="<?php echo esc_attr( $attr['cols'] ); ?>"><?php echo esc_textarea( $value ) ?></textarea>
+                <textarea class="form-control textareafield<?php echo $this->required_class( $attr ); ?>" id="<?php echo $attr['name']; ?>" name="<?php echo $attr['name']; ?>" data-required="<?php echo $attr['required'] ?>" data-type="textarea"<?php $this->required_html5( $attr ); ?> placeholder="<?php echo esc_attr( $attr['placeholder'] ); ?>" rows="<?php echo esc_attr( $attr['rows'] ); ?>" cols="<?php echo esc_attr( $attr['cols'] ); ?>"><?php echo esc_textarea( $value ) ?></textarea>
             <?php } ?>
         </div>
 
@@ -2428,23 +2428,6 @@ class FES_Forms {
 		?>
 		<div class="fes-fields">
 			<table class="<?php echo sanitize_key($attr['name']); ?>">
-				<thead>
-					<tr>
-						<?php if ( $attr[ 'single' ] !== 'yes' && (!$names_disabled || $predefined_on)  ) { ?>
-							<td class="fes-name-column"><?php _e( 'Name of Price Option', 'edd_fes' ); ?></td>
-						<?php } ?>
-						<?php if ( !$prices_disabled || $predefined_on ) { ?>
-							<td class="fes-price-column"><?php printf( __( 'Amount (%s)', 'edd_fes' ), edd_currency_filter( '' ) ); ?></td>
-						<?php } ?>
-						<?php if ( !$files_disabled ) { ?>
-							<td class="fes-file-column" colspan="2"><?php _e( 'File URL', 'edd_fes' ); ?></td>
-						<?php } ?>
-						<?php do_action("fes-add-multiple-pricing-column"); ?>
-						<?php if ( $attr[ 'single' ] === 'yes' || $predefined_on ) { ?>
-							<td class="fes-remove-column">&nbsp;</td>
-						<?php } ?>
-					</tr>
-				</thead>
 				<tbody  class="fes-variations-list-<?php echo sanitize_key($attr['name']); ?>">
 				<?php
 				foreach ( $files as $index => $file ){
@@ -2483,27 +2466,28 @@ class FES_Forms {
 						<td class="fes-price-row">
 							<?php if( $prices_disabled ) : ?>
 								<span class="fes-price-value"><?php echo esc_attr( $price ); ?></span>
-								<input type="hidden" class="fes-price-value" placeholder="<?php echo edd_currency_filter( '0.00' ); ?>" name="option[<?php echo esc_attr( $index ); ?>][price]" id="options[<?php echo esc_attr( $index ); ?>][price]" placeholder="20" value="<?php echo esc_attr( $price ); ?>" <?php echo $required; ?>/>
+								<input type="hidden" class="fes-price-value form-control" placeholder="<?php echo edd_currency_filter( '0.00' ); ?>" name="option[<?php echo esc_attr( $index ); ?>][price]" id="options[<?php echo esc_attr( $index ); ?>][price]" placeholder="20" value="<?php echo esc_attr( $price ); ?>" <?php echo $required; ?>/>
 							<?php else : ?>
-								<input type="text" class="fes-price-value" placeholder="<?php echo edd_currency_filter( '0.00' ); ?>" name="option[<?php echo esc_attr( $index ); ?>][price]" id="options[<?php echo esc_attr( $index ); ?>][price]" placeholder="20" value="<?php echo esc_attr( $price ); ?>" <?php echo $required; ?>/>
+								<span class="input-bgtext"><?php echo edd_currency_filter(); ?> </span>
+                                <input type="text" class="fes-price-value form-control" placeholder="0.00" name="option[<?php echo esc_attr( $index ); ?>][price]" id="options[<?php echo esc_attr( $index ); ?>][price]" placeholder="20" value="<?php echo esc_attr( $price ); ?>" <?php echo $required; ?>/>
 							<?php endif; ?>
 							<input type="hidden" id="fes-price-row-js" name="fes-price-row-js" value="1"/>
 						</td>
 						<?php }
 						if ( !$files_disabled ) { ?>
 						<td class="fes-url-row">
-							<input type="text" class="fes-file-value" placeholder="<?php _e( "http://", 'edd_fes' ); ?>" name="files[<?php echo esc_attr( $index ); ?>]" value="<?php echo esc_attr( $download ); ?>" <?php echo $required; ?>/>
+							<input type="text" class="fes-file-value form-control" placeholder="<?php _e( "", 'edd_fes' ); ?>" name="files[<?php echo esc_attr( $index ); ?>]" value="<?php echo esc_attr( $download ); ?>" <?php echo $required; ?>/>
 							<input type="hidden" id="fes-file-row-js" name="fes-file-row-js" value="1" />
 						</td>
 						<td class="fes-url-choose-row">
-							<a href="#" class="btn btn-sm btn-default upload_file_button" data-choose="<?php _e( 'Choose file', 'edd_fes' ); ?>" data-update="<?php _e( 'Insert file URL', 'edd_fes' ); ?>">
+							<a href="#" class="btn btn-sm btn-muted btn-block" data-choose="<?php _e( 'Choose file', 'edd_fes' ); ?>" data-update="<?php _e( 'Insert file URL', 'edd_fes' ); ?>">
 							<?php echo str_replace( ' ', '&nbsp;', __( 'Upload', 'edd_fes' ) ); ?></a>
 						</td>
 						<?php }
 						do_action("fes-add-multiple-pricing-row-value", $file); ?>
 						<?php if ( $attr[ 'single' ] !== 'yes' && !$predefined_on ) { ?>
 						<td class="fes-delete-row">
-							<a href="#" class="btn btn-sm btn-danger delete">
+							<a href="#" class="btn btn-sm btn-muted delete">
 							<?php _e( 'x', 'edd_fes' ); ?></a>
 						</td>
 						<?php } ?>
@@ -2550,19 +2534,6 @@ class FES_Forms {
 ?>
         <div class="fes-fields">
 			<table class="<?php echo sanitize_key($attr['name']); ?>">
-				<thead>
-					<tr>
-						<td class="fes-file-column" colspan="2"><?php _e( 'File URL', 'edd_fes' ); ?></td>
-						<?php if ( is_admin() ) { ?>
-						<td class="fes-download-file">
-							<?php _e( 'Download File', 'edd_fes' ); ?>
-						</td>
-						<?php } ?>
-						<?php if ( $attr[ 'single' ] !== 'yes' ) { ?>
-							<td class="fes-remove-column">&nbsp;</td>
-						<?php } ?>
-					</tr>
-				</thead>
 				<tbody class="fes-variations-list-<?php echo sanitize_key($attr['name']); ?>">
 					<input type="hidden" id="fes-upload-max-files-<?php echo sanitize_key($attr['name']); ?>" value="<?php echo $max_files; ?>" />
             <?php
@@ -2570,14 +2541,15 @@ class FES_Forms {
 				$download = wp_get_attachment_url($attach_id);
 				?>
 				<tr class="fes-single-variation">
-					<td class="fes-url-row">
-						<?php printf( '<span class="fes-file-validation" data-required="%s" data-type="file"></span>', $attr['required'] ); ?>
-						<input type="text" class="fes-file-value" placeholder="<?php _e( "http://", 'edd_fes' ); ?>" name="<?php echo $attr['name']; ?>[<?php echo esc_attr( $index ); ?>]" value="<?php echo esc_attr( $download ); ?>" />
-					</td>
-					<td class="fes-url-choose-row" width="1%">
-						<a href="#" class="btn btn-sm btn-default upload_file_button" data-choose="<?php _e( 'Choose file', 'edd_fes' ); ?>" data-update="<?php _e( 'Insert file URL', 'edd_fes' ); ?>">
+                    <td class="fes-url-choose-row" width="1%">
+						<a href="#" class="btn btn-block btn-muted upload_file_button" data-choose="<?php _e( '', 'edd_fes' ); ?>" data-update="<?php _e( 'Insert file URL', 'edd_fes' ); ?>">
 						<?php echo str_replace( ' ', '&nbsp;', __( 'Choose file', 'edd_fes' ) ); ?></a>
 					</td>
+                    <td class="fes-url-row">
+						<?php printf( '<span class="fes-file-validation" data-required="%s" data-type="file"></span>', $attr['required'] ); ?>
+						<input type="text" class="fes-file-value form-control" placeholder="<?php _e( "", 'edd_fes' ); ?>" name="<?php echo $attr['name']; ?>[<?php echo esc_attr( $index ); ?>]" value="<?php echo esc_attr( $download ); ?>" />
+					</td>
+
 					<?php if ( is_admin() ) { ?>
 					<td class="fes-download-file">
 						<?php printf( '<a href="%s">%s</a>', wp_get_attachment_url( $attach_id ), __( 'Download File', 'edd_fes' ) ); ?>
@@ -2585,7 +2557,7 @@ class FES_Forms {
 					<?php } ?>
 					<?php if ( $attr[ 'single' ] !== 'yes' ) { ?>
 					<td width="1%" class="fes-delete-row">
-						<a href="#" class="btn btn-sm btn-danger delete">
+						<a href="#" class="btn btn-muted delete">
 						<?php _e( 'x', 'edd_fes' ); ?></a>
 					</td>
 					<?php } ?>
@@ -2599,7 +2571,7 @@ class FES_Forms {
 				<tfoot>
 					<tr>
 						<th colspan="5">
-							<a href="#" class="insert-file-row" id="<?php echo sanitize_key($attr['name']); ?>"><?php _e( 'Add File', 'edd_fes' ); ?></a>
+							<a href="#" class="insert-file-row btn btn-muted" id="<?php echo sanitize_key($attr['name']); ?>"><?php _e( '+', 'edd_fes' ); ?></a>
 						</th>
 					</tr>
 				</tfoot>
@@ -2734,7 +2706,7 @@ class FES_Forms {
 
         <div class="fes-fields">
 
-            <select<?php echo $css; ?> name="<?php echo $attr['name'] ?>[]"<?php echo $multi; ?> data-required="<?php echo $attr['required'] ?>" data-type="<?php echo $data_type; ?>"<?php $this->required_html5( $attr ); ?>>
+            <select<?php echo $css; ?> class="form-control" name="<?php echo $attr['name'] ?>[]"<?php echo $multi; ?> data-required="<?php echo $attr['required'] ?>" data-type="<?php echo $data_type; ?>"<?php $this->required_html5( $attr ); ?>>
 
                 <?php if ( !empty( $attr['first'] ) ) { ?>
                     <option value=""><?php echo $attr['first']; ?></option>
@@ -2811,7 +2783,7 @@ class FES_Forms {
 		ob_start();
 ?>
 
-        <div class="fes-fields">
+        <div class="fes-fields checkbox-list-container">
             <span data-required="<?php echo $attr['required'] ?>" data-type="radio"></span>
 
             <?php
@@ -2820,10 +2792,12 @@ class FES_Forms {
 			foreach ( $attr['options'] as $option ) {
 ?>
 
-                    <label>
-                        <input type="checkbox" name="<?php echo $attr['name']; ?>[]" value="<?php echo esc_attr( $option ); ?>"<?php echo in_array( $option, $selected ) ? ' checked="checked"' : ''; ?> />
+                    <div class="checkbox">
+                      <input type="checkbox" name="<?php echo $attr['name']; ?>[]" value="<?php echo esc_attr( $option ); ?>"<?php echo in_array( $option, $selected ) ? ' checked="checked"' : ''; ?> />
+                      <label>
                         <?php echo $option; ?>
-                    </label>
+                      </label>
+                    </div>
                     <?php
 			}
 		}
@@ -3297,7 +3271,7 @@ class FES_Forms {
 					<input type="hidden" name="action" value="fes_submit_vendor_contact_form">
 					<input type="hidden" name="user_id" value="<?php echo get_current_user_id(); ?>">
 					<input type="hidden" name="vendor_id" value="<?php echo isset($args['vendor']) ? absint($args['vendor']) : '0'; ?>">
-					<input type="submit" class="edd-submit <?php echo $color; ?> <?php echo $style; ?>" name="submit" value="<?php echo __( 'Send Message', 'edd_fes' ); ?>" />
+					<input type="submit" class="edd-submit btn btn-3d btn-primary btn-lg btn-block" name="submit" value="<?php echo __( 'Send Message', 'edd_fes' ); ?>" />
 				</fieldset>
 				<?php
 			break;
@@ -3341,11 +3315,12 @@ class FES_Forms {
 						<input type="hidden" name="post_id" value="<?php echo $id; ?>">
 						<input type="hidden" name="post_author" value="<?php echo esc_attr( $cur_post->post_author ); ?>">
 						<input type="hidden" name="submission_status" value="edit">
-						<input type="submit" class="edd-submit <?php echo $color; ?> <?php echo $style; ?>" name="submit" value="<?php echo __( 'Update', 'edd_fes' ); ?>" />
+						<input type="submit" class="edd-submit btn btn-3d btn-primary btn-lg btn-block" name="submit" value="<?php echo __( 'Update', 'edd_fes' ); ?>" />
 					<?php } else { ?>
 						<input type="hidden" name="submission_status" value="new">
-						<div class="col-md-6 col-md-offset-3">
-						<input type="submit" class="edd-submit <?php echo $color; ?> <?php echo $style; ?>" name="submit" value="<?php echo __( 'Submit', 'edd_fes' ); ?>" />
+                        <div class="divider divider-xl"></div>
+                        <div class="col-md-6 col-md-offset-3">
+						<input type="submit" class="edd-submit btn btn-3d btn-primary btn-lg btn-block" name="submit" value="<?php echo __( 'Submit', 'edd_fes' ); ?>" />
 						</div>
 					<?php }
 			break;
@@ -3363,7 +3338,7 @@ class FES_Forms {
 					<?php if( is_admin() ) : ?>
 						<input type="hidden" name="is_admin" value="1">
 					<?php endif; ?>
-					<input type="submit" class="edd-submit <?php echo $color; ?> <?php echo $style; ?>" name="submit" value="<?php echo __( 'Update Profile', 'edd_fes' ); ?>" />
+					<input type="submit" class="edd-submit btn btn-3d btn-primary btn-lg btn-block" name="submit" value="<?php echo __( 'Update Profile', 'edd_fes' ); ?>" />
 				</fieldset>
 				<?php
 			break;
@@ -3376,7 +3351,7 @@ class FES_Forms {
 					<?php wp_nonce_field( 'fes-form-login' ); ?>
 					<input type="hidden" name="action" value="fes_submit_login">
 					<input type="hidden" name="form_id" value="<?php echo $form_id; ?>">
-					<input type="submit" class="edd-submit <?php echo $color; ?> <?php echo $style; ?>" name="submit" value="<?php echo __( 'Login', 'edd_fes' ); ?>" />
+					<input type="submit" class="edd-submit btn btn-3d btn-primary btn-lg btn-block" name="submit" value="<?php echo __( 'Login', 'edd_fes' ); ?>" />
 					<a href="<?php echo wp_lostpassword_url(); ?>" id="fes_lost_password_link" title="<?php _e( 'Lost Password?', 'edd_fes' ); ?>"><?php _e( 'Lost Password?', 'edd_fes' ); ?></a>
 				</fieldset>
 				<?php
@@ -3401,7 +3376,7 @@ class FES_Forms {
 				<?php if( is_admin() ) : ?>
 					<input type="hidden" name="is_admin" value="1">
 				<?php endif; ?>
-				<input type="submit" class="edd-submit <?php echo $color; ?> <?php echo $style; ?>" name="submit" value="<?php echo $wording; ?>" />
+				<input type="submit" class="edd-submit btn btn-3d btn-primary btn-lg btn-block" name="submit" value="<?php echo $wording; ?>" />
 			</fieldset>
 			<?php
 			break;
@@ -3574,7 +3549,7 @@ class FES_Forms {
             <label for="fes-<?php echo isset( $attr['name'] ) ? $attr['name'] : 'cls'; ?>"><?php echo $attr['label'] . $this->required_mark( $attr ); ?></label>
 			<br />
             <?php if ( ! empty( $attr['help'] ) ) : ?>
-		  	<span class="fes-help"><?php echo $attr['help']; ?></span>
+		  	<p class="form-field-info"><?php echo $attr['help']; ?></p>
 		  <?php endif; ?>
         </div>
 		<script>

@@ -1901,8 +1901,7 @@ th {
     vertical-align: top;
     border-top: 1px solid #ddd; }
   .table > thead > tr > th {
-    vertical-align: bottom;
-    border-bottom: 2px solid #ddd; }
+    vertical-align: bottom; }
   .table > caption + thead > tr:first-child > th, .table > caption + thead > tr:first-child > td, .table > colgroup + thead > tr:first-child > th, .table > colgroup + thead > tr:first-child > td, .table > thead:first-child > tr:first-child > th, .table > thead:first-child > tr:first-child > td {
     border-top: 0; }
   .table > tbody + tbody {
@@ -7278,7 +7277,6 @@ Custom Columns
       font-size: 13px;
       font-style: italic; }
     .comment-list .comment .comment-content {
-      clear: both;
       margin-top: 5px; }
     .comment-list .comment a.comment-report {
       color: transparent; }

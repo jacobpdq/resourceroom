@@ -1,0 +1,45 @@
+.billboard {
+  background: #fff;
+  margin-bottom: 20px;
+  padding: $sizeup-3 0 $sizeup-4;
+  border-bottom: 1px solid $lightgray-dark;
+
+  & .billboard-title {
+    font-weight: $normal;
+    margin-bottom: 0;
+  }
+  
+  & .billboard-text {
+    font-family: $font-alt;
+    font-weight: $light;
+    font-size: $biggest;
+    margin-bottom: $bigger;
+    letter-spacing: -0.04em;
+  }
+  
+  & .btn {
+    margin: 0 $half-gutter $half-gutter;
+  }
+}
+
+/****** XS ONLY ********/
+
+@media (max-width:$screen-xs-max){
+.billboard {
+  padding: $double-gutter $gutter;
+  
+  & .billboard-title {
+    margin-bottom: 10px;
+  }
+  
+  & .billboard-text {
+    font-size: $big;
+    line-height: 1.1;
+  }
+}
+}
+
+/****** SMALL AND ABOVE ******/
+@media (min-width: $screen-sm-min){
+
+}

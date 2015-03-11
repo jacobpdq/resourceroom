@@ -1,0 +1,25 @@
+.profile-text {
+  
+  & .profile-bio {
+    max-width: 500px;
+  }
+}
+
+.profile-image {
+  padding: 5px;
+  background: #fff;
+  border: 1px solid $lightgray-dark;
+  border-bottom: 0;
+  
+  & > img {
+    border-radius: 2px;
+  }
+  & > .remove-image-link {
+    padding:5px;
+    text-align: center;
+  }
+  & > .remove-image-link > a {
+    color: $darkgray-light;
+  }
+  
+}

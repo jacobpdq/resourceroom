@@ -4,14 +4,12 @@
 <div class="container page-content">
 	<div class="card-white double-padding">
 		<div class="text-center">
-			<h3>
-				<?php echo EDD_FES()->vendors->get_product_constant_name( $plural = true, $uppercase = true ) ?>
-			</h3>
+			<h3> <img src="<?php echo get_template_directory_uri(); ?>/img/icons/icon-upload.svg" class="icon icon-xl icon-left">My Resources</h3>
 		</div>
 		<div class="divider"></div>
 		<?php echo EDD_FES()->dashboard->product_list_status_bar(); ?>
 		<div class="row">
-			<table class="table fes-table table-condensed  table-striped" id="fes-product-list">
+			<table class="table fes-table table-condensed" id="fes-product-list">
 				<thead>
 					<tr>
 						<th><?php _e( 'Image', 'edd_fes' ); ?></th>

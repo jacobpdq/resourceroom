@@ -1,12 +1,12 @@
 <div class="container page-content">
 	<div class="card-white double-padding">
 		<?php global $orders; ?>
-		<div class="text-center"><h3><?php _e( 'Orders', 'edd_fes' ); ?></h3></div>
+		<div class="text-center"><h3> <img src="<?php echo get_template_directory_uri(); ?>/img/icons/icon-sales.svg" class="icon icon-xl icon-left">Sales Log</h3></div>
 
-		<table class="table fes-table table-condensed  table-striped" id="fes-order-list">
+		<table class="table fes-table table-condensed " id="fes-order-list">
 			<thead>
 				<tr>
-					<th><?php _e( 'Order', 'edd_fes' ); ?></th>
+					<th><?php _e( 'Order ID', 'edd_fes' ); ?></th>
 					<th><?php _e( 'Status', 'edd_fes' ); ?></th>
 					<th><?php _e( 'Total', 'edd_fes' ); ?></th>
 					<th><?php _e( 'Customer', 'edd_fes' ) ?></th>

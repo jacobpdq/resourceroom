@@ -1,0 +1,53 @@
+// Icons
+
+@include exports("icons") {
+  
+  .icon,
+  .icon-sm,
+  .icon-lg,
+  .icon-xl {
+    position: relative; /*alignment fix*/
+  }
+  
+  .icon {height: $big;}
+  
+  .icon-xxs {
+    height: $smaller;
+    top: -1px;
+  }
+  
+  .icon-xs {
+    height: $small;
+    top: -1px;
+  }
+  
+  .icon-sm {
+    height: $base;
+    top: -1px;
+  }
+  
+  .icon-lg {
+    height: $bigger;
+    top: -2px;
+  }
+  
+  .icon-xl {
+    height: $biggest;
+    top: -3px;
+    &.icon-left {
+      margin-right: $gutter;
+    }
+  }
+  .icon-xxl {
+    height: 43px;
+    top: -5px;
+    &.icon-left {
+      margin-right: $gutter;
+    }
+  }
+  
+  .icon-left {margin-right: $half-gutter;}
+  .icon-right {margin-left: $half-gutter;}
+
+  
+}

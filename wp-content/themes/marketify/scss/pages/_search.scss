@@ -1,0 +1,26 @@
+.advanced-search {
+  padding-top: $big;
+  
+  & input {
+    border-radius: 4px;
+    margin-bottom: $big;
+  }
+  input[type="text"]::-webkit-input-placeholder {
+   font-style: italic;
+  }
+  input[type="text"]:-moz-placeholder { /* Firefox 18- */
+   font-style: italic;
+  }
+  input[type="text"]:-moz-placeholder {  /* Firefox 19+ */
+   font-style: italic;
+  }
+  input[type="text"]:-ms-input-placeholder {  
+   font-style: italic;
+  }
+
+  #search-filters {
+    & ul {
+      list-style: none;
+    }
+  }
+}

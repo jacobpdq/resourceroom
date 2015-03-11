@@ -1,0 +1,12 @@
+.owner-link {
+  color: $darkgray-light;
+  font-size: $small;
+  padding: $smaller $small;
+  display: inline-block;
+  border: 1px dotted $lightgray-dark;
+  margin-bottom: $half-gutter; 
+  border-radius: 6px;
+  & > * {
+    margin-bottom: 0;
+  }
+}

@@ -1,6 +1,6 @@
 <?php
 /**
- * The template for displaying Archive pages.
+ * The template for displaying item pages.
  *
  * Learn more: http://codex.wordpress.org/Template_Hierarchy
  *
@@ -22,10 +22,7 @@ get_header(); ?>
 		
 	</style>
 
-	<?php 
-	do_action( 'marketify_entry_before' ); ?>
-
-	<div class="container">
+	<div class="container page-content">
 		<div id="content" class="site-content row">
 
 			<div id="primary" class="content-area col-sm-12">
@@ -50,7 +47,7 @@ get_header(); ?>
 			echo getUserimage($user,'30','30')
  			?>
 			
-			 By:<a href="<?php echo $site_url ?>/user-profile?user_id=<?php echo $user ?>"><?php echo $user_name; ?></a></div>
+			 By <a href="<?php echo $site_url ?>/user-profile?user_id=<?php echo $user ?>"><?php echo $user_name; ?></a></div>
           </div>
         </div>
 					<?php /* Start the Loop */ ?>
@@ -150,6 +147,7 @@ get_header(); ?>
                 </div>
 				
                 <div class="divider"></div>
+                <div class="text-right"><a href="#" class="showcase-report-link">Report</a></div>
 				
 				
                 <!--<div class="text-right"><a href="" class="showcase-report-link">Report</a></div>-->
@@ -256,7 +254,6 @@ get_header(); ?>
             <div class="showcase-sharing-box card-white">
               <p class="small">Share this resource:</p>
               <div class="sharing-links"><a href=""><img src="<?php echo get_template_directory_uri() ?>/img/icons/share-facebook.svg"></a><a href=""><img src="<?php echo get_template_directory_uri() ?>/img/icons/share-twitter.svg"></a><a href=""><img src="<?php echo get_template_directory_uri() ?>/img/icons/share-pinterest.svg"></a><a href=""><img src="<?php echo get_template_directory_uri() ?>/img/icons/share-linkedin.svg"></a><a href=""><img src="<?php echo get_template_directory_uri() ?>/img/icons/share-google.svg"></a><a href=""><img src="<?php echo get_template_directory_uri() ?>/img/icons/share-email.svg"></a></div>
-              <p class="page-url"><img src="<?php echo get_template_directory_uri() ?>/img/icons/icon-link-gray.svg" class="icon icon-xs icon-left"><span href="" class="small text-muted">http://resour.ce/h123jad</span></p>
             </div>
             <div class="divider"></div>
             <div class="card-white">

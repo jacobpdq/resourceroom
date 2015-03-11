@@ -1,0 +1,91 @@
+// Utilities
+
+@include exports("utilities") {
+
+  .bg-white {background: #fff;}
+  .bg-lightgray {background: $lightgray-light;}
+  .bg-mediumgray {background: $mediumgray-dark;}
+  .bg-darkgray {background: $darkgray-light;}
+  .bg-blue {background: $blue-dark;}
+  .bg-blue-light {background: $blue-light;}
+  .bg-green-light {background: $green-light;}
+  .bg-orange-light {background: $orange-light;}
+  
+  .text-green {color: $green-light;}
+  .text-blue {color: $blue-light;}
+  
+  .border-left {border-left: 1px solid $lightgray-dark}
+  .border-right {border-right: 1px solid $lightgray-dark}
+  
+  // padding
+  
+  .nopadding {padding: 0 !important;}
+  .nopadding-left {padding-left: 0 !important;}
+  .nopadding-right {padding-right: 0 !important;}
+  
+  // margins
+  
+  .margin-right {margin-right: $gutter;}
+  .margin-right-smaller {margin-right: $half-gutter;}
+  .margin-left {margin-left: $gutter;}
+  .margin-bottom {margin-bottom: $gutter !important;}
+  .margin-bottom-smaller {margin-bottom: $half-gutter !important;}
+  .margin-bottom-bigger {margin-bottom: $double-gutter !important;}
+  .margin-top-bigger {margin-top: $double-gutter !important;}
+  
+  .nomargin { margin:0 !important;}
+  .nomargin-top {margin-top:0 !important;}
+  
+  .divider {
+    border-bottom: 1px dotted $lightgray-dark;
+    content: "";
+    margin: $base 0;
+    &.divider-xl { margin: $biggest 0;}
+    &.divider-lg {margin: $bigger 0;}
+  }
+  
+  .scroll-y {
+    overflow-y: scroll;
+  }
+  
+  .text-big {
+    font-size: $big;
+  }
+  
+  a.img-circle {
+    vertical-align: bottom;
+    position: relative;
+    margin-right: $smaller;
+    overflow: hidden;
+    text-align: center;
+    border-radius: 50%;
+    display: inline-block;
+    width: 120px;
+    height: 120px;
+      
+    
+    & > img {
+      height: 100%;
+      position: absolute;
+      left: 0;
+      top: 0;
+      bottom: 0;
+      right: 0;
+      margin: auto;
+    }
+    
+    &.img-circle-small {
+      width: 40px;
+      height: 40px;
+    }
+    
+    &.img-circle-xs {
+      width: 20px;
+      height: 20px;
+    }
+  }
+  
+  .uppercase {
+    text-transform: uppercase;
+  }
+}

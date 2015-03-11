@@ -1,0 +1,12 @@
+.card-white {
+  padding: $gutter;
+  background: #fff;
+  border: 1px solid $lightgray-dark;
+  border-radius: $global-radius;
+  
+  @media (min-width: $screen-sm-min){
+    &.double-padding {
+      padding: 1.5*$gutter $double-gutter $double-gutter;
+    }
+  }
+}

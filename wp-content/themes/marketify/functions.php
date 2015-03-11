@@ -709,51 +709,6 @@ function marketify_has_header_background() {
 }
 
 /**
- * On posts and pages, add extra header information.
- *
- * @since Marketify 1.0
- *
- * @return void
- */
-function marketify_entry_page_title() {
-	if (
-		! is_singular( array( 'post', 'page' ) ) &&
-		! marketify_is_bbpress() ||
-		is_page_template( 'page-templates/shop.php' ) ||
-		is_page_template( 'page-templates/popular.php' ) ||
-		is_page_template( 'page-templates/vendor.php' ) ||
-		is_page_template( 'page-templates/wishlist.php' ) ||
-		is_post_type_archive( 'download' )
-	)
-		return;
-
-	the_post();
-?>
-	<div class="entry-page-title container">
-		<?php get_template_part( 'content', 'author' ); ?>
-
-		<h1 class="entry-title"><?php the_title(); ?></h1>
-
-		<?php
-			$time_string = '<time class="entry-date published" datetime="%1$s">%2$s</time>';
-			if ( get_the_time( 'U' ) !== get_the_modified_time( 'U' ) )
-				$time_string .= '<time class="updated" datetime="%3$s">%4$s</time>';
-
-			if ( is_singular( 'post' ) )
-				printf( $time_string,
-					esc_attr( get_the_date( 'c' ) ),
-					esc_html( get_the_date() ),
-					esc_attr( get_the_modified_date( 'c' ) ),
-					esc_html( get_the_modified_date() )
-				);
-		?>
-	</div>
-<?php
-	rewind_posts();
-}
-add_action( 'marketify_entry_before', 'marketify_entry_page_title' );
-
-/**
  * Sidebars and Widgets
  *
  * @since Marketify 1.0

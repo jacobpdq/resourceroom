@@ -21,8 +21,6 @@ get_header(); ?>
 		</h1>
 	</header><!-- .page-header -->
 
-	<?php do_action( 'marketify_entry_before' ); ?>
-
 	<div class="container">
 
 		<?php if ( ! is_paged() && ! get_query_var( 'm-orderby' ) ) : ?>

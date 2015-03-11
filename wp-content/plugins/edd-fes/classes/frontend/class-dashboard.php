@@ -173,20 +173,13 @@ class FES_Dashboard {
 		$menu_items['home'] = array(
 			"icon" => "home",
 			"task" => array( 'dashboard', '' ),
-			"name" => __( 'Dashboard', 'edd_fes' ),
+			"name" => __( 'Overview', 'edd_fes' ),
 		);
 		$menu_items['my_products'] = array(
 			"icon" => "list",
 			"task" => array( 'products' ),
-			"name" => EDD_FES()->vendors->get_product_constant_name( $plural = true, $uppercase = true ),
+			"name" => __( 'My Uploads', 'edd_fes' ),
 		);
-		if ( EDD_FES()->vendors->vendor_can_create_product() ) {
-			$menu_items['new_product'] = array(
-				"icon" => "pencil",
-				"task" => array( 'new-product' ),
-				"name" => __( 'Add', 'edd_fes' ) . ' ' . EDD_FES()->vendors->get_product_constant_name( $plural = false, $uppercase = true ),
-			);
-		}
 		if ( EDD_FES()->integrations->is_commissions_active() ) {
 			$menu_items['earnings'] = array(
 				"icon" => "earnings",
@@ -198,20 +191,9 @@ class FES_Dashboard {
 			$menu_items['orders'] = array(
 				"icon" => "gift",
 				"task" => array( 'orders' ),
-				"name" => __( 'Orders', 'edd_fes' ),
+				"name" => __( 'My Downloads', 'edd_fes' ),
 			);
 		}
-		$menu_items['profile'] = array(
-			"icon" => "user",
-			"task" => array( 'profile' ),
-			"name" => __( 'Profile', 'edd_fes' ),
-		);
-		$menu_items['logout'] = array(
-			"icon" => "off",
-			"task" => array( 'logout' ),
-			"name" => __( 'Logout', 'edd_fes' ),
-		);
-		$menu_items = apply_filters( "fes_vendor_dashboard_menu", $menu_items );
 		return $menu_items;
 	}
 
@@ -303,9 +285,9 @@ class FES_Dashboard {
 			}
 		}
 
-		$date = '<abbr title="' . $t_time . '">' . apply_filters( 'fes_product_list_time', $h_time, $post, 'date', 'all' ) . '</abbr><br />';
+		$date = '<p title="' . $t_time . '">' . apply_filters( 'fes_product_list_time', $h_time, $post, 'date', 'all' ) . '</p>';
 		if ( 'publish' == $post->post_status ) {
-			$date = $date . __( 'Published', 'edd_fes' );
+			$date = __( 'Published', 'edd_fes' ) . $date;
 		} elseif ( 'future' == $post->post_status ) {
 			$date = $date . __( 'Scheduled', 'edd_fes' );
 		} else {
@@ -313,6 +295,7 @@ class FES_Dashboard {
 		}
 		$date = apply_filters( 'fes_product_list_date', $date, $product_id );
 		return $date;
+
 	}
 
 	public function product_list_status_bar() {
@@ -500,7 +483,7 @@ class FES_Dashboard {
 
 	public function order_list_actions( $order_id ) {
 	?>
-		<a href="<?php echo add_query_arg( array( 'task' => 'edit-order', 'order_id' => $order_id ), get_permalink() ); ?>" title="<?php _e( 'View', 'edd_fes' );?>" class="btn btn-mini view-order-fes"><?php _e( 'View', 'edd_fes' );?></a>
+		<a href="<?php echo add_query_arg( array( 'task' => 'edit-order', 'order_id' => $order_id ), get_permalink() ); ?>" title="<?php _e( 'View', 'edd_fes' );?>" class="btn btn-mini btn-muted view-order-fes"><?php _e( 'View', 'edd_fes' );?></a>
 	<?php
 	}
 
@@ -530,7 +513,7 @@ class FES_Dashboard {
 	}
 
 	public function order_list_title( $product_id ) {
-		$title = __( 'Order: #' ).$product_id;
+		$title = __( '#' ).$product_id;
 		$title = apply_filters( 'fes_order_list_title', $title, $product_id );
 		return $title;
 	}

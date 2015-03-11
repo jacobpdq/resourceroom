@@ -7,8 +7,6 @@
 
 get_header(); ?>
 
-	<?php do_action( 'marketify_entry_before' ); ?>
-
 	<div class="container">
 		<div id="content" class="site-content row">
 

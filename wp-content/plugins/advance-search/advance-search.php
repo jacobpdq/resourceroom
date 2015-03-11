@@ -192,8 +192,7 @@ $result .='
                 </div>
                 <div class="form-group">
                   <label>Enduring Understanding:</label>
-                  <div class="row checkbox-list-container">
-                    <div class="checkbox-list col-md-4">
+                  <div class="checkbox-list-container">
                       <div class="checkbox">
                         <input value="Social Justice" name="enduring[]" type="checkbox">
                         <label>Social Justice</label>
@@ -202,29 +201,23 @@ $result .='
                         <input value="Diversity" name="enduring[]"  type="checkbox">
                         <label>Diversity</label>
                       </div>
-                    </div>
-                    <div class="checkbox-list col-md-4">
-                      <div class="checkbox">
-                        <input value="Indigenous Knowledge" name="enduring[]"  type="checkbox">
-                        <label>Indigenous Knowledge</label>
-                      </div>
                       <div class="checkbox">
                         <input value="Citizenship" name="enduring[]"  type="checkbox">
                         <label>Citizenship</label>
                       </div>
-                    </div>
-                    <div class="checkbox-list col-md-4">
                       <div class="checkbox">
                         <input value="Sustainability" name="enduring[]"  type="checkbox">
                         <label>Sustainability</label>
                       </div>
-                    </div>
+                      <div class="checkbox">
+                        <input value="Indigenous Knowledge" name="enduring[]"  type="checkbox">
+                        <label>Indigenous Knowledge</label>
+                      </div>
                   </div>
                 </div>
                 <div class="form-group">
                   <label>Resource Type:</label>
-                  <div class="row checkbox-list-container">
-                    <div class="col-md-3 checkbox-list">
+                  <div class="checkbox-list-container">
                       <div class="checkbox">
                         <input name="resource[]" value="Lesson Plan" type="checkbox">
                         <label>Lesson Plan</label>
@@ -245,8 +238,6 @@ $result .='
                         <input  name="resource[]" value="Games" type="checkbox">
                         <label>Games</label>
                       </div>
-                    </div>
-                    <div class="checkbox-list col-md-3">
                       <div class="checkbox">
                         <input  name="resource[]" value="Extension" type="checkbox">
                         <label>Extension </label>
@@ -260,15 +251,9 @@ $result .='
                         <label>Flashcards</label>
                       </div>
                       <div class="checkbox">
-                        <input  name="resource[]" value="Graphic Organizer" type="checkbox">
-                        <label>Graphic Organizer</label>
-                      </div>
-                      <div class="checkbox">
                         <input  name="resource[]" value="Bulletins" type="checkbox">
                         <label>Bulletins</label>
                       </div>
-                    </div>
-                    <div class="checkbox-list col-md-3">
                       <div class="checkbox">
                         <input  name="resource[]" value="Novel Study" type="checkbox">
                         <label>Novel Study</label>
@@ -289,8 +274,6 @@ $result .='
                         <input  name="resource[]"  value="Centers" type="checkbox">
                         <label>Centers</label>
                       </div>
-                    </div>
-                    <div class="checkbox-list col-md-3">
                       <div class="checkbox">
                         <input  name="resource[]"  value="Workbook" type="checkbox">
                         <label>Workbook</label>
@@ -300,17 +283,19 @@ $result .='
                         <label>Worksheet</label>
                       </div>
                       <div class="checkbox">
+                        <input  name="resource[]" value="Graphic Organizer" type="checkbox">
+                        <label>Graphic Organizer</label>
+                      </div>
+                      <div class="checkbox">
                         <input  name="resource[]"  value="Other" type="checkbox">
                         <label> Other</label>
                       </div>
-                    </div>
                   </div>
                 </div>
 				<input type="hidden" name="r" value="Filter Results">
                 <div class="form-group">
                   <label>Technology Required:</label>
-                  <div class="row checkbox-list-container">
-                    <div class="checkbox-list col-md-3">
+                  <div class="checkbox-list-container">
                       <div class="checkbox">
                         <input  name="technology[]"  value="Computer" type="checkbox">
                         <label>Computer</label>
@@ -319,8 +304,6 @@ $result .='
                         <input  name="technology[]"  value="Internet" type="checkbox">
                         <label>Internet</label>
                       </div>
-                    </div>
-                    <div class="checkbox-list col-md-3">
                       <div class="checkbox">
                         <input  name="technology[]"  value="Projector" type="checkbox">
                         <label>Digital Projector </label>
@@ -329,8 +312,6 @@ $result .='
                         <input  name="technology[]"  value="Overhead" type="checkbox">
                         <label>Overhead</label>
                       </div>
-                    </div>
-                    <div class="checkbox-list col-md-3">
                       <div class="checkbox">
                         <input name="technology[]"  value="Point" type="checkbox">
                         <label>Power Point</label>
@@ -339,8 +320,6 @@ $result .='
                         <input  name="technology[]"  value="Smart Board" type="checkbox">
                         <label>Smart Board</label>
                       </div>
-                    </div>
-                    <div class="checkbox-list col-md-3">
                       <div class="checkbox">
                         <input name="technology[]"  value="Tablets" type="checkbox">
                         <label>Tablets</label>
@@ -349,30 +328,23 @@ $result .='
                         <input name="technology[]"  value="Video/Camera" type="checkbox">
                         <label>Video/Camera</label>
                       </div>
-                    </div>
                   </div>
                 </div>
                 <div class="form-group">
                   <label>Price Range:</label>
-                  <div class="row checkbox-list-container">
-                    <div class="checkbox-list col-md-4">
+                  <div class="checkbox-list-container">
                       <div class="radio">
                         <input name="price_range" value="" type="radio"  checked>
                         <label>Any Price Range</label>
                       </div>
-                    </div>
-                    <div class="checkbox-list col-md-4">
                       <div class="radio">
                         <input name="price_range" value="Free" type="radio">
                         <label>Free Resources</label>
                       </div>
-                    </div>
-                    <div class="checkbox-list col-md-4">
                       <div class="radio">
                         <input name="price_range" value="less5" type="radio" >
-                        <label>Resources Under $5</label>
+                        <label>Under < $5</label>
                       </div>
-                    </div>
                   </div>
                 </div>
                 <div class="divider"></div>
