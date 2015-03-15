@@ -3,10 +3,10 @@
 $footer-background-color:            $darkgray-dark;
 $footer-menu-title-color:            $mediumgray-light !default;
 $footer-menu-item-color:             $mediumgray-dark !default;
-$footer-menu-item-color-hover:       $mediumgray-light !default;
+$footer-menu-item-color-hover:       $lightgray-light !default;
 $footer-logo-color:                  $white !default;
 
-$footer-height:               250px;
+$footer-height:               90px;
 
 
 // Exports
@@ -26,7 +26,6 @@ $footer-height:               250px;
     margin-bottom: -$footer-height; 
   }
 
-
   .footer {
     font-size: $small;
     padding: $sizeup-2;
@@ -34,6 +33,11 @@ $footer-height:               250px;
     background-color: $footer-background-color;
     border-top: 1px solid $lightgray-dark;
 
+    li.menu-item {
+      display: inline-block;
+      margin-right: $bigger;
+    }
+    
     & a {
       display: inline-block;
       color: $mediumgray-dark;
@@ -49,6 +53,7 @@ $footer-height:               250px;
       padding: 0 20px;
       width: 20%;
     }
+    
     @media (max-width: 768px) {
       &-logo {
         margin-bottom: 20px;
@@ -58,8 +63,9 @@ $footer-height:               250px;
         float: none;
         display: block;
         width: 100%;
-  }
+      }
     }
+    
     &-logo {
       margin-top: -5px;
       height: 32px;
@@ -101,6 +107,7 @@ $footer-height:               250px;
     &-copyright {
       color: $footer-menu-item-color;
     }
+    
   }
 
 }
