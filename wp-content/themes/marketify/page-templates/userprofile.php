@@ -208,7 +208,7 @@ get_header();
 							else
 							{
 							?>
-							<div class="item-thumbnail"><a href="<?php echo get_permalink($res->ID) ?>">Images not available</a></div>
+							<div class="item-thumbnail"><a href="<?php echo get_permalink($res->ID) ?>"><img src="<?php echo get_template_directory_uri(); ?>/img/default_file_pic.jpg"></a></div>
 							<?php
 							}
 						?>

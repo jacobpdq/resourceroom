@@ -28,9 +28,12 @@
   list-style: none;
   margin-bottom: -1px;
   
-  & .comment{
-    padding: $base;
+  & > li {
+      padding-bottom: $bigger !important;
+    }
   
+  & .comment{
+    
     & .comment-top {
       display: block;
       margin-bottom: $smaller;
@@ -39,24 +42,27 @@
     & .comment-info {
       display: inline-block;
     }
-    & .comment-author-image {
-      width: 42px;
-      height: 42px;
-      vertical-align: top;
-      border-radius: 50%;
-      overflow: hidden;
-      margin-right: $smaller;
-      display: inline-block;
+    
+    & .comment-meta {
+      width: 120px;
     }
-    & .comment-author-image img {
-        min-width: 100%;
-        min-height: 100%;
-        height: 100%;
-        width: auto;
+    
+    & .comment-content {
+      margin-left: 120px + $bigger;
+    }
+    
+    & .comment-author img {
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      border: 1px solid $lightgray-dark;
     }
     & .comment-author-name {
-      line-height: $line-height-small;
-      margin-right: $base;
+      font-style: normal;
+      font-size: $small;
+      font-weight: $bold;
+      line-height: 1;
+      
     }
 
     & .comment-date,

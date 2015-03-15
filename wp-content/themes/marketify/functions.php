@@ -177,10 +177,10 @@ function getFeatureduser()
                   <div class="divider"></div>
                   <div class="info-list margin-bottom">
 				<?php if(!empty($city)) { ?>
-                    <p class="info-list-item"><strong>Location:</strong><?php echo $city ?> , <?php echo $provinces ?></p>	
+                    <p class="info-list-item"><strong>Location: </strong><?php echo $city ?>, <?php echo $provinces ?></p>	
 				<?php } ?>
 				<?php  if(!empty($grade)) { ?>
-                    <p class="info-list-item"><strong>Grades: </strong><?php echo $grade ?></p>
+                    <p class="info-list-item"><strong>Grades: </strong><span class="uppercase"><?php echo $grade ?></span></p>
 				<?php } ?>
 				<?php  if(!empty($grade)) { ?>
                     <p class="info-list-item"><strong>Teaching Experience: </strong><?php echo $teaching ?></p>
@@ -209,7 +209,7 @@ function getUserimage($id,$height,$width)
 		return $image='<img src="'.$site_url.'/thumb.php?file=wp-content/uploads/'.$image_value[0].'&sizex='.$height.'&sizey='.$width.'">';
 	}
 	else
-		return $image='<img src="'.$site_url.'/thumb.php?file=upload/defaultuser.png&sizex='.$height.'&sizey='.$width.'">';
+		return $image='<img src="'.$site_url.'/wp-content/themes/marketify/img/default_user_pic.jpg">';
 		
 		
 		

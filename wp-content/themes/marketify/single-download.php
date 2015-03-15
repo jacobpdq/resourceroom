@@ -33,7 +33,7 @@ get_header(); ?>
           <div class="showcase-header">
             <h2 class="item-title"><?php echo get_the_title(); ?></h2>
             <div class="item-author">
-			<?php 
+            <?php 
 			global $wpdb;
 			$site_url = site_url();
 			$id=get_the_ID();
@@ -42,11 +42,11 @@ get_header(); ?>
 			$wpdb->query('update wp_posts set post_count = '.$post_count.' where ID ='.$id.''); 
 			$user=$download->post_author;
 			$users_info=get_userdata($user);
-			$user_name=$users_info->user_login;
-			//echo get_the_post_thumbnail($user_id,150);
-			echo getUserimage($user,'30','30')
- 			?>
-			
+			$user_name=$users_info->user_login; ?>
+              
+			<a href="<?php echo $site_url ?>/user-profile?user_id=<?php echo $user ?>" class="img-circle img-circle-small">
+            <?php echo getUserimage($user,'30','30') ?>
+			</a>
 			 By <a href="<?php echo $site_url ?>/user-profile?user_id=<?php echo $user ?>"><?php echo $user_name; ?></a></div>
           </div>
         </div>
@@ -154,9 +154,7 @@ get_header(); ?>
               </div>
             </div>
             <h3>Reviews:</h3>
-            <div class="comment-section ItemCommentBox">
-              <div class="comment-list">
-                <div class="comment">
+            <div id="comments" class="card-white double-padding ItemCommentBox">
 				
 				<?php
 				/* $comments = get_comments();
@@ -181,9 +179,6 @@ get_header(); ?>
                   
                 </div>
                 
-                
-              </div>
-            </div>
 			<!--<a href="" class="btn btn-block btn-muted">Load More</a>-->
           </div>
 		   <div class="col-md-5">

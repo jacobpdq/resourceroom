@@ -19,9 +19,7 @@ if ( post_password_required() )
 	return;
 ?>
 
-<div id="comments" class="comments-area row">
-
-	<section class="<?php echo ! is_active_sidebar( 'sidebar-download-single-comments' ) || ! is_singular( 'download' ) ? 'col-xs-12' : 'col-sm-8 col-xs-12'; ?>">
+	<section class="">
 
 		<?php if ( have_comments() ) : ?>
 			<ol class="comment-list">
@@ -55,4 +53,4 @@ if ( post_password_required() )
 
 	<?php get_sidebar( 'single-download-comments' ); ?>
 
-</div><!-- #comments -->
+<!-- #comments -->

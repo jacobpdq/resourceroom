@@ -82,7 +82,7 @@ function marketify_comment( $comment, $args, $depth ) {
 					<?php //if ( 0 != $args['avatar_size'] ) echo get_avatar( $comment, $args['avatar_size'] ); ?>
 					<?php echo getUserimage($user_id,'60','60') ?>
 					<?php if ( $depth == 1 ) : ?>
-						<?php printf( '<cite class="fn">%s</cite>', get_comment_author_link() ); ?>
+						<?php printf( '<cite class="fn comment-author-name">%s</cite>', get_comment_author_link() ); ?>
 
 						<?php
 							if ( get_option( 'comment_registration' ) && edd_has_user_purchased( $comment->user_id, $post->ID ) ) :
@@ -95,7 +95,7 @@ function marketify_comment( $comment, $args, $depth ) {
 
 			<div class="comment-content">
 				<div class="comment-metadata">
-					<?php printf( '<cite class="fn">%s</cite>', get_comment_author_link() ); ?>
+					<?php printf( '<cite class="fn comment-author-name">%s</cite>', get_comment_author_link() ); ?>
 
 					<?php if ( get_comment_meta( $comment->comment_ID, 'edd_rating', true ) ) : ?>
 						<?php do_action( 'marketify_edd_rating', $comment ); ?>
