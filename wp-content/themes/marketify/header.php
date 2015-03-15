@@ -38,11 +38,7 @@
           </div>
           <div class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
-              <li class="dropdown"><a href="#" data-toggle="dropdown" class="dropdown-toggle">All Pages<span class="caret"></span></a>
-                <ul role="menu" class="dropdown-menu" >
-                  <li><?php wp_nav_menu( array( 'theme_location' => 'primary', 'container_class' => 'main-menu' ) ); ?></li>
-                </ul>
-              </li>
+              <li><a href="<?php echo site_url();?>/browse" class="nav-link">Browse Resources</a></li>
 			   <li>
                 <form role="search" class="navbar-form search-bar" action="<?php echo site_url();?>/search-result">
                   <div class="input-group">
