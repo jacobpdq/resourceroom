@@ -40,11 +40,11 @@ $footer-height:               90px;
     
     & a {
       display: inline-block;
-      color: $mediumgray-dark;
+      color: $footer-menu-item-color;
     }
      
     & a:hover {
-      color: $darkgray-light;
+      color: $footer-menu-item-color-hover;
     }
     
     &-logo,
