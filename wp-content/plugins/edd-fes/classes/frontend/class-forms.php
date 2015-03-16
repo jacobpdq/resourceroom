@@ -256,15 +256,12 @@ class FES_Forms {
 
 			do_action( 'fes_registration_form_before_form', $form_id, $read_only, $args );
 			?>
-			<form class="fes-form-registration-form" action="" method="post">
+			<form class="fes-form-registration-form form-horizontal" action="" method="post">
 				<div class="fes-form">
+                    <div class="form-group text-center"><small class="text-muted"><em>* - indicates a required field</em></small></div>
 					<?php
 
 					do_action( 'fes_registration_form_above_title', $form_id, $read_only, $args );
-
-					if ( !is_admin() ){
-						echo apply_filters( 'fes_registration_form_header', '<h1 class="fes-headers" id="fes-registration-form-title" style="display:none">' . __( 'Register', 'edd_fes' ) . '</h1>' );
-					}
 
 					do_action( 'fes_registration_form_above_render_items', $form_id, $read_only, $args );
 
@@ -520,15 +517,15 @@ class FES_Forms {
 			}
 			?>
 			<div class="container page-content">
-				<div class="row">
-				<div <?php echo $style1 ?> class="col-md-8 col-md-offset-2">
-				<div <?php echo $style2 ?> class="card-white double-padding">
-				<h3 class="text-center"><img class="icon icon-xl icon-left" src="<?php echo site_url(); ?>/wp-content/themes/marketify/img/icons/icon-user.svg">Profile</h3>
-				<?php } ?>
-			 <form class="fes-profile-form" action="" method="post">
-		<?php }
-		?>
-			<div class="fes-form">
+              <div class="row">
+                <div <?php echo $style1 ?> class="col-md-8 col-md-offset-2">
+                  <div <?php echo $style2 ?> class="card-white double-padding">
+				    <h3 class="text-center"><img class="icon icon-xl icon-left" src="<?php echo site_url(); ?>/wp-content/themes/marketify/img/icons/icon-user.svg">Profile</h3>
+				    <?php } ?>
+                    <form class="fes-profile-form form-horizontal" action="" method="post">
+                    <?php }
+                    ?>
+                   <div class="fes-form">
 		<?php
 
 		do_action( 'fes_profile_form_top', $form_id, $id, $args );
@@ -1175,7 +1172,7 @@ class FES_Forms {
 			$response = array(
 				'success' => true,
 				'redirect_to' =>$site_url.'/registration-successful/',  
-				'message' => __( 'Your Application has been Approved!', 'edd_fes' ),
+				'message' => __( 'Success!', 'edd_fes' ),
 				'is_post' => true
 			);
 			do_action('fes_registration_form_frontend_vendor', $user_id, $userdata);
@@ -2782,8 +2779,9 @@ class FES_Forms {
 		}
 		ob_start();
 ?>
-
-        <div class="fes-fields checkbox-list-container">
+        
+        <div class="fes-fields">
+          <div class="checkbox-list-container">
             <span data-required="<?php echo $attr['required'] ?>" data-type="radio"></span>
 
             <?php
@@ -2812,6 +2810,7 @@ class FES_Forms {
 				}); */
 			</script>
 			<script>$("select").selecter();</script>
+          </div>
         </div>
         <?php
         return ob_get_clean();
@@ -2869,7 +2868,7 @@ class FES_Forms {
 ?>
 
         <div class="fes-fields">
-            <input id="fes-<?php echo $attr['name']; ?>" type="email" class="email" data-required="<?php echo $attr['required'] ?>" data-type="text"<?php $this->required_html5( $attr ); ?> name="<?php echo esc_attr( $attr['name'] ); ?>" placeholder="<?php echo esc_attr( $attr['placeholder'] ); ?>" value="<?php echo esc_attr( $value ) ?>" size="<?php echo esc_attr( $attr['size'] ) ?>" />
+            <input id="fes-<?php echo $attr['name']; ?>" type="email" class="email form-control" data-required="<?php echo $attr['required'] ?>" data-type="text"<?php $this->required_html5( $attr ); ?> name="<?php echo esc_attr( $attr['name'] ); ?>" placeholder="<?php echo esc_attr( $attr['placeholder'] ); ?>" value="<?php echo esc_attr( $value ) ?>" size="<?php echo esc_attr( $attr['size'] ) ?>" />
         </div>
 
         <?php
@@ -2892,16 +2891,16 @@ class FES_Forms {
 ?>
 
         <div class="fes-fields">
-            <input id="pass1" type="password" class="password" data-required="<?php echo $attr['required'] ?>" data-type="text"<?php $this->required_html5( $attr ); ?> name="pass1" placeholder="<?php echo esc_attr( $attr['placeholder'] ); ?>" value="" size="<?php echo esc_attr( $attr['size'] ) ?>" />
+            <input id="pass1" type="password" class="password form-control" data-required="<?php echo $attr['required'] ?>" data-type="text"<?php $this->required_html5( $attr ); ?> name="pass1" placeholder="<?php echo esc_attr( $attr['placeholder'] ); ?>" value="" size="<?php echo esc_attr( $attr['size'] ) ?>" />
         </div>
 
         <?php
 		if ( $attr['repeat_pass'] == 'yes' ) {
+            printf( '<div class="clearfix"></div>');
 			echo $this->label( array( 'name' => 'pass2', 'label' => $attr['re_pass_label'], 'required' => $post_id ? 'no' : 'yes' ) );
 ?>
-
             <div class="fes-fields">
-                <input id="pass2" type="password" class="password" data-required="<?php echo $attr['required'] ?>" data-type="text"<?php $this->required_html5( $attr ); ?> name="pass2" value="" size="<?php echo esc_attr( $attr['size'] ) ?>" />
+                <input id="pass2" type="password" class="form-control password" data-required="<?php echo $attr['required'] ?>" data-type="text"<?php $this->required_html5( $attr ); ?> name="pass2" value="" size="<?php echo esc_attr( $attr['size'] ) ?>" />
             </div>
 
             <?php
@@ -3326,6 +3325,7 @@ class FES_Forms {
 			break;
 		case 'profile':
 ?>
+                <div class="divider divider-xl"></div>
 				<fieldset class="fes-submit">
 					<div class="fes-label">
 						&nbsp;
@@ -3338,7 +3338,7 @@ class FES_Forms {
 					<?php if( is_admin() ) : ?>
 						<input type="hidden" name="is_admin" value="1">
 					<?php endif; ?>
-					<input type="submit" class="edd-submit btn btn-3d btn-primary btn-lg btn-block" name="submit" value="<?php echo __( 'Update Profile', 'edd_fes' ); ?>" />
+					<input type="submit" class="edd-submit btn btn-3d btn-primary btn-lg" name="submit" value="<?php echo __( 'Update Profile', 'edd_fes' ); ?>" />
 				</fieldset>
 				<?php
 			break;
@@ -3363,7 +3363,8 @@ class FES_Forms {
 			}
 
 ?>
-			<fieldset class="fes-submit RegSubmit">
+			   <div class="divider"></div>
+              <fieldset class="fes-submit RegSubmit">
 				<div class="fes-label">
 					&nbsp;
 				</div>
@@ -3376,7 +3377,7 @@ class FES_Forms {
 				<?php if( is_admin() ) : ?>
 					<input type="hidden" name="is_admin" value="1">
 				<?php endif; ?>
-				<input type="submit" class="edd-submit btn btn-3d btn-primary btn-lg btn-block" name="submit" value="<?php echo $wording; ?>" />
+				<input type="submit" class="edd-submit btn btn-3d btn-primary btn-lg" name="submit" value="<?php echo $wording; ?>" />
 			</fieldset>
 			<?php
 			break;
@@ -3546,7 +3547,7 @@ class FES_Forms {
 		ob_start();
 ?>
         <div class="fes-label">
-            <label for="fes-<?php echo isset( $attr['name'] ) ? $attr['name'] : 'cls'; ?>"><?php echo $attr['label'] . $this->required_mark( $attr ); ?></label>
+            <label class="control-label" for="fes-<?php echo isset( $attr['name'] ) ? $attr['name'] : 'cls'; ?>"><?php echo $attr['label'] . $this->required_mark( $attr ); ?></label>
 			<br />
             <?php if ( ! empty( $attr['help'] ) ) : ?>
 		  	<p class="form-field-info"><?php echo $attr['help']; ?></p>

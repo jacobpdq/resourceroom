@@ -1,0 +1,41 @@
+.page-editprofile {
+  
+  
+  .fes-label {
+    @extend .col-md-3;
+    text-align: right;
+  }
+  
+  .fes-fields {
+    @extend .col-md-6;
+  }
+  
+  td.fes-delete-row {
+    display: none;
+  }
+  
+  td.fes-url-row {
+    padding-right: 0 !important;
+  }
+  
+  table.profile_image {
+    margin-bottom: 0;
+  }
+  
+  .biographical_info {
+    .fes-fields {
+      @extend .col-md-9;
+    }
+  }
+  
+  
+  .fes-submit {
+    text-align: center;
+  }
+  
+  input.edd-submit {
+    width: 50% !important;
+  }
+}
+  
+  
