@@ -9,7 +9,6 @@
   padding: 5px;
   background: #fff;
   border: 1px solid $lightgray-dark;
-  border-bottom: 0;
   
   & > img {
     border-radius: 2px;
@@ -22,4 +21,10 @@
     color: $darkgray-light;
   }
   
+}
+
+.page-profile {
+  .profile-image {
+    border-bottom: 0;
+  }
 }

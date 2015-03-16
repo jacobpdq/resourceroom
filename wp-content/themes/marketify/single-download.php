@@ -153,7 +153,7 @@ get_header(); ?>
                 <!--<div class="text-right"><a href="" class="showcase-report-link">Report</a></div>-->
               </div>
             </div>
-            <h3>Reviews:</h3>
+            <h3><img src="<?php echo get_template_directory_uri(); ?>/img/icons/icon-comment.svg" class="icon icon-left icon-lg">Reviews:</h3>
             <div id="comments" class="card-white double-padding ItemCommentBox">
 				
 				<?php

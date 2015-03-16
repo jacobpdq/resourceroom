@@ -18,7 +18,7 @@ get_header();
 	})
 </script>
 	
-			<div class="container page-content">
+			<div class="container page-content page-profile">
         <div class="card-white double-padding margin-bottom text-center"><span class="h2 profile-username">
 		<?php  
 		$user_ID =	$_GET['user_id'];
@@ -29,7 +29,7 @@ get_header();
 		echo $meta['nickname'][0];
 		
 		if(!empty($meta['description'][0]))
-			$description = $meta['description'][0];
+			$description = $meta['biographical_info'][0];
 		else
 			$description='';
 		

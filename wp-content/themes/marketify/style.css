@@ -2662,7 +2662,7 @@ body .marketify_widget_slider_hero .soliloquy-theme-classic .soliloquy-pager {
 .site-info [class^="col-"] .site-title a {
   display: block; }
 
-.site-info .col-md-12 {
+.site-info .col-md-12, .site-info .fes-form-registration-form .fes-fields, .fes-form-registration-form .site-info .fes-fields {
   text-align: center; }
 
 /* =Modals
@@ -4502,7 +4502,7 @@ pre {
   .row:after {
     clear: both; }
 
-.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .page-editprofile .fes-label, .fes-form-registration-form .user_email .fes-label, .fes-form-registration-form .display_name .fes-label, .fes-form-registration-form .first_name .fes-label, .fes-form-registration-form .last_name .fes-label, .fes-form-registration-form .user_login .fes-label, .fes-form-registration-form .eddc_user_paypal .fes-label, .fes-form-registration-form .password .fes-label, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .page-editprofile .fes-fields, .fes-form-registration-form .user_email .fes-fields, .fes-form-registration-form .display_name .fes-fields, .fes-form-registration-form .first_name .fes-fields, .fes-form-registration-form .last_name .fes-fields, .fes-form-registration-form .user_login .fes-fields, .fes-form-registration-form .eddc_user_paypal .fes-fields, .fes-form-registration-form .password .fes-fields, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .page-editprofile .biographical_info .fes-fields, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .fes-form-registration-form .fes-fields, .col-lg-12 {
   position: relative;
   min-height: 1px;
   padding-left: 7px;
@@ -4771,31 +4771,31 @@ pre {
     margin-left: 100%; } }
 
 @media (min-width: 992px) {
-  .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+  .col-md-1, .col-md-2, .col-md-3, .page-editprofile .fes-label, .fes-form-registration-form .user_email .fes-label, .fes-form-registration-form .display_name .fes-label, .fes-form-registration-form .first_name .fes-label, .fes-form-registration-form .last_name .fes-label, .fes-form-registration-form .user_login .fes-label, .fes-form-registration-form .eddc_user_paypal .fes-label, .fes-form-registration-form .password .fes-label, .col-md-4, .col-md-5, .col-md-6, .page-editprofile .fes-fields, .fes-form-registration-form .user_email .fes-fields, .fes-form-registration-form .display_name .fes-fields, .fes-form-registration-form .first_name .fes-fields, .fes-form-registration-form .last_name .fes-fields, .fes-form-registration-form .user_login .fes-fields, .fes-form-registration-form .eddc_user_paypal .fes-fields, .fes-form-registration-form .password .fes-fields, .col-md-7, .col-md-8, .col-md-9, .page-editprofile .biographical_info .fes-fields, .col-md-10, .col-md-11, .col-md-12, .fes-form-registration-form .fes-fields {
     float: left; }
   .col-md-1 {
     width: 8.3333333333%; }
   .col-md-2 {
     width: 16.6666666667%; }
-  .col-md-3 {
+  .col-md-3, .page-editprofile .fes-label, .fes-form-registration-form .user_email .fes-label, .fes-form-registration-form .display_name .fes-label, .fes-form-registration-form .first_name .fes-label, .fes-form-registration-form .last_name .fes-label, .fes-form-registration-form .user_login .fes-label, .fes-form-registration-form .eddc_user_paypal .fes-label, .fes-form-registration-form .password .fes-label {
     width: 25%; }
   .col-md-4 {
     width: 33.3333333333%; }
   .col-md-5 {
     width: 41.6666666667%; }
-  .col-md-6 {
+  .col-md-6, .page-editprofile .fes-fields, .fes-form-registration-form .user_email .fes-fields, .fes-form-registration-form .display_name .fes-fields, .fes-form-registration-form .first_name .fes-fields, .fes-form-registration-form .last_name .fes-fields, .fes-form-registration-form .user_login .fes-fields, .fes-form-registration-form .eddc_user_paypal .fes-fields, .fes-form-registration-form .password .fes-fields {
     width: 50%; }
   .col-md-7 {
     width: 58.3333333333%; }
   .col-md-8 {
     width: 66.6666666667%; }
-  .col-md-9 {
+  .col-md-9, .page-editprofile .biographical_info .fes-fields {
     width: 75%; }
   .col-md-10 {
     width: 83.3333333333%; }
   .col-md-11 {
     width: 91.6666666667%; }
-  .col-md-12 {
+  .col-md-12, .fes-form-registration-form .fes-fields {
     width: 100%; }
   .col-md-pull-0 {
     right: auto; }
@@ -9226,6 +9226,10 @@ p.form-field-info {
     color: #7b7b7b;
     background-color: #f1f6fd;
     border: 1px solid #cee1f7; }
+  .alert.alert-red {
+    color: #DA4453;
+    border: 1px solid #ED5565;
+    background-color: #fef6f7; }
 
 .fes-success {
   text-align: center;
@@ -10070,6 +10074,12 @@ a.list-group-item {
 
 .border-right {
   border-right: 1px solid #E6E6E4; }
+
+.text-red {
+  color: #ED5565; }
+
+.text-blue {
+  color: #4A90E2; }
 
 .nopadding {
   padding: 0 !important; }
@@ -10941,6 +10951,19 @@ form.browse-form {
   .dashboard-snapshot-card > a, .dashboard-snapshot-card > a:hover {
     color: #fff; }
 
+.page-editprofile .fes-label {
+  text-align: right; }
+.page-editprofile td.fes-delete-row {
+  display: none; }
+.page-editprofile td.fes-url-row {
+  padding-right: 0 !important; }
+.page-editprofile table.profile_image {
+  margin-bottom: 0; }
+.page-editprofile .fes-submit {
+  text-align: center; }
+.page-editprofile input.edd-submit {
+  width: 50% !important; }
+
 .homepage-browse-links {
   font-size: 20px; }
 
@@ -10963,8 +10986,7 @@ form.browse-form {
 .profile-image {
   padding: 5px;
   background: #fff;
-  border: 1px solid #E6E6E4;
-  border-bottom: 0; }
+  border: 1px solid #E6E6E4; }
   .profile-image > img {
     border-radius: 2px; }
   .profile-image > .remove-image-link {
@@ -10972,6 +10994,20 @@ form.browse-form {
     text-align: center; }
   .profile-image > .remove-image-link > a {
     color: #6D6D6D; }
+
+.page-profile .profile-image {
+  border-bottom: 0; }
+
+.fes-form-registration-form .user_email .fes-label, .fes-form-registration-form .display_name .fes-label, .fes-form-registration-form .first_name .fes-label, .fes-form-registration-form .last_name .fes-label, .fes-form-registration-form .user_login .fes-label, .fes-form-registration-form .eddc_user_paypal .fes-label, .fes-form-registration-form .password .fes-label {
+  text-align: right;
+  margin-top: 5px; }
+.fes-form-registration-form .newsletter, .fes-form-registration-form .terms {
+  width: 100%;
+  margin-left: 0; }
+.fes-form-registration-form input.edd-submit {
+  width: auto !important; }
+.fes-form-registration-form .fes-submit {
+  text-align: center; }
 
 .advanced-search {
   padding-top: 20px; }

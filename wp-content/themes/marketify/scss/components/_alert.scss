@@ -45,6 +45,13 @@ $alert-link-color:              $mediumgray-light !default;
           background-color: lighten($alert-danger, 10%);
           border: $alert-danger;
       }
+    
+      &.alert-red {
+        color: $red-dark;
+        border: 1px solid $red-light;
+        background-color: lighten($red-light, 35%);
+      }
+    
       @at-root &-success {
           background-color: lighten($alert-success, 10%);
           border: $alert-success;

@@ -873,9 +873,6 @@ div.fes-form fieldset {
 }
 
 div.fes-form fieldset .fes-fields {
-	margin-top: 10px;
-	float: none;
-	width: auto;
 }
 
 div.fes-form fieldset .fes-fields textarea#post_content {
@@ -1151,7 +1148,6 @@ div.fes-form fieldset .fes-fields #fes-insert-image-container a#fes-insert-image
 }
 
 .fes-el > .fes-label:not(:first-child) {
-	margin-top: 2em;
 }
 
 /** Comments */

@@ -53,7 +53,7 @@ function moreproduct()
 				if(isset($resource_thumbnail_image_data['file'])){
 					$result .='<div class="item-thumbnail"><a href="'.get_permalink($res->ID).'">'.$img.'</a></div>';
 					}else{
-					$result .='<div class="item-thumbnail"><a href="'.get_permalink($res->ID).'">Images not available</a></div>';
+					$result .='<div class="item-thumbnail"><a href="'.get_permalink($res->ID).'">Image not available</a></div>';
 					}
 					$result .='</div>
 					<div class="col-md-8">

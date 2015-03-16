@@ -24,8 +24,8 @@ if ( is_user_logged_in() ) {
 			
 			  </h3>
               <div class="divider"></div>
-			  	<span style="color:red;"><?php if(!empty($_GET['login'])) echo 'Please input valid details and try again.' ?></span>
-			  	<span style="color:red;"><?php if($_GET['changed']=='yes') echo 'Your password has been changed successfully . Please login again.' ?></span>
+			  	<span class="text-red"><?php if(!empty($_GET['login'])) echo 'The information you entered did not match our records.' ?></span>
+			  	<span class="text-blue"><?php if($_GET['changed']=='yes') echo 'Your password has been changed successfully . Please login again.' ?></span>
              <div class="LoginForm">
 				<?php
 					  $args = array(

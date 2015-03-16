@@ -1,0 +1,42 @@
+.fes-form-registration-form {
+
+  //applies only to the bottom checkboxes
+  .fes-fields {
+    @extend .col-md-12;
+  }
+  
+  .user_email,
+  .display_name,
+  .first_name,
+  .last_name,
+  .user_login,
+  .eddc_user_paypal,
+  .password {
+    
+    .fes-label {
+      @extend .col-md-3;
+      text-align: right;
+      margin-top: 5px;
+    }
+    
+    .fes-fields {
+      @extend .col-md-6;
+    }
+  }
+  
+  .newsletter, .terms {
+    width: 100%;
+    margin-left: 0;
+  }
+  
+  input.edd-submit {
+    width: auto !important;
+  }
+  
+  .fes-submit  {
+    text-align: center;
+  }
+  
+}
+  
+  

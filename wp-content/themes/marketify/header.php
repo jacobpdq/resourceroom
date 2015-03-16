@@ -87,7 +87,7 @@
               </li>
 			  <?php } else{?>
 			  <li><a href="<?php echo site_url();?>/member-register" class="nav-link">Register</a></li>
-			  <li><a href="<?php echo site_url();?>/login" class="nav-link">login</a></li>
+			  <li><a href="<?php echo site_url();?>/login" class="nav-link">Sign In</a></li>
 			  <?php } ?>
             </ul>
           </div>
