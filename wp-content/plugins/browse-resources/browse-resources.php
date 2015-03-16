@@ -166,7 +166,7 @@ function browse_resource_function()
               </div>
             </div>
           </form>
-        <p class="text-muted"> <span class="text-blue">* </span>Looking for something more specific? Try our <a href="search-page.html">Advanced Search </a>feature.</p>
+        <p class="text-muted"> <span class="text-blue">* </span>Looking for something more specific? Try our <a href="<?php echo site_url();?>/advanced-search">Advanced Search </a>feature.</p>
 	<?php
 }
 ?>
