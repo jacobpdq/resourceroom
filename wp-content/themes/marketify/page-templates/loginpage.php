@@ -31,7 +31,7 @@ if ( is_user_logged_in() ) {
 					  $args = array(
 					'redirect' => site_url(),
 					'form_id' => 'loginform',
-					'label_username' => __( 'Username or E-mail' ),
+					'label_username' => __( 'Username or E-mail:' ),
 
 					);
 					wp_login_form( $args ); 
