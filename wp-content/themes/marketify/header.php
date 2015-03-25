@@ -82,7 +82,7 @@
                   <li class="divider"></li>
                   <li><a href="<?php echo site_url(); ?>/account-settings">Account Settings</a></li>
 				  <li class="divider"></li>
-                  <li><a href="<?php echo wp_logout_url(); ?>">Logout</a></li>
+                  <li><a href="<?php echo wp_logout_url(); ?>">Sign Out</a></li>
                 </ul>
               </li>
 			  <?php } else{?>

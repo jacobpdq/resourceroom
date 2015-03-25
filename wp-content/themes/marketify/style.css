@@ -885,12 +885,6 @@ body:not(.minimal) .edd_form fieldset > span:first-child, .entry-content .fes-he
 .single-post .entry-content, .page .entry-content, .error-404 .page-content {
   margin-top: 0; }
 
-.entry-content table, .comment-content table {
-  border-bottom: 1px solid #ededed;
-  color: #757575;
-  margin: 0 0 24px;
-  width: 100%; }
-
 .entry-content table caption, .comment-content table caption {
   margin: 24px 0; }
 
@@ -907,10 +901,6 @@ body:not(.minimal) .edd_form fieldset > span:first-child, .entry-content .fes-he
 .entry-content h1 {
   font-size: 28px;
   margin: 0.7em 0; }
-
-.entry-content h2 {
-  font-size: 24px;
-  margin: 1em 0; }
 
 .entry-content h3 {
   font-size: 31px; }
@@ -5002,13 +4992,13 @@ th {
     padding: 8px;
     line-height: 1.428571429;
     vertical-align: top;
-    border-top: 1px solid #ddd; }
+    border-top: 1px solid #E6E6E4; }
   .table > thead > tr > th {
     vertical-align: bottom; }
   .table > caption + thead > tr:first-child > th, .table > caption + thead > tr:first-child > td, .table > colgroup + thead > tr:first-child > th, .table > colgroup + thead > tr:first-child > td, .table > thead:first-child > tr:first-child > th, .table > thead:first-child > tr:first-child > td {
     border-top: 0; }
   .table > tbody + tbody {
-    border-top: 2px solid #ddd; }
+    border-top: 2px solid #E6E6E4; }
   .table .table {
     background-color: #fff; }
 
@@ -5016,9 +5006,9 @@ th {
   padding: 5px; }
 
 .table-bordered {
-  border: 1px solid #ddd; }
+  border: 1px solid #E6E6E4; }
   .table-bordered > thead > tr > th, .table-bordered > thead > tr > td, .table-bordered > tbody > tr > th, .table-bordered > tbody > tr > td, .table-bordered > tfoot > tr > th, .table-bordered > tfoot > tr > td {
-    border: 1px solid #ddd; }
+    border: 1px solid #E6E6E4; }
 
 .table-striped > tbody > tr:nth-child(odd) {
   background-color: #f9f9f9; }
@@ -5075,7 +5065,7 @@ table td[class*="col-"], table th[class*="col-"] {
       margin-bottom: 15px;
       overflow-y: hidden;
       -ms-overflow-style: -ms-autohiding-scrollbar;
-      border: 1px solid #ddd; }
+      border: 1px solid #E6E6E4; }
       .table-responsive > .table {
         margin-bottom: 0; }
         .table-responsive > .table > thead > tr > th, .table-responsive > .table > thead > tr > td, .table-responsive > .table > tbody > tr > th, .table-responsive > .table > tbody > tr > td, .table-responsive > .table > tfoot > tr > th, .table-responsive > .table > tfoot > tr > td {
@@ -7056,7 +7046,7 @@ a.list-group-item-danger {
     .panel > .table:last-child > tbody:last-child > tr:last-child td:last-child, .panel > .table:last-child > tbody:last-child > tr:last-child th:last-child, .panel > .table:last-child > tfoot:last-child > tr:last-child td:last-child, .panel > .table:last-child > tfoot:last-child > tr:last-child th:last-child, .panel > .table-responsive:last-child > .table:last-child > tbody:last-child > tr:last-child td:last-child, .panel > .table-responsive:last-child > .table:last-child > tbody:last-child > tr:last-child th:last-child, .panel > .table-responsive:last-child > .table:last-child > tfoot:last-child > tr:last-child td:last-child, .panel > .table-responsive:last-child > .table:last-child > tfoot:last-child > tr:last-child th:last-child {
       border-bottom-right-radius: 3px; }
 .panel > .panel-body + .table, .panel > .panel-body + .table-responsive, .panel > .table + .panel-body, .panel > .table-responsive + .panel-body {
-  border-top: 1px solid #ddd; }
+  border-top: 1px solid #E6E6E4; }
 .panel > .table > tbody:first-child > tr:first-child th, .panel > .table > tbody:first-child > tr:first-child td {
   border-top: 0; }
 .panel > .table-bordered, .panel > .table-responsive > .table-bordered {
@@ -8918,6 +8908,11 @@ p.form-field-info {
       max-height: 260px;
       padding: 0; }
 
+.checkbox, .radio {
+  margin-top: 0;
+  display: block;
+  margin-left: 20px; }
+
 .checkbox-list-container {
   margin-left: 0;
   margin-right: 0;
@@ -8925,16 +8920,13 @@ p.form-field-info {
   padding: 7px;
   border-radius: 4px;
   max-height: 220px; }
+  .checkbox-list-container .checkbox, .checkbox-list-container .radio {
+    margin-left: 25px;
+    width: 20%;
+    /* effectively 25% when margins factor in */ }
 
 .checkbox-list :last-child {
   margin-bottom: 2px; }
-
-.checkbox, .radio {
-  margin-top: 0;
-  margin-left: 25px;
-  display: inline-block;
-  width: 20%;
-  /* effectively 25% when margins factor in */ }
 
 .checkbox label, .radio label {
   position: relative;
@@ -10882,7 +10874,6 @@ dl.info-list-alt {
 
 .table {
   background: #fff;
-  padding: 0 15px;
   color: #6D6D6D; }
 
 .table-row {

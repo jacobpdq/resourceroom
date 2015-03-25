@@ -253,15 +253,15 @@ class FES_Dashboard {
 	public function product_list_actions( $product_id ) {
 		
 		if( 'publish' == get_post_status( $product_id ) ) : ?>
-			<a href="<?php echo esc_html( get_permalink( $product_id ) );?>" title="<?php _e( 'View', 'edd_fes' );?>" class="btn btn-mini view-product-fes"><?php _e( 'View', 'edd_fes' );?></a>
+			<a href="<?php echo esc_html( get_permalink( $product_id ) );?>" title="<?php _e( 'View', 'edd_fes' );?>" class="btn btn-mini view-product-fes btn-muted"><?php _e( 'View', 'edd_fes' );?></a>
 		<?php endif; ?>
 
 		<?php if ( EDD_FES()->helper->get_option( 'fes-allow-vendors-to-edit-products', true ) && 'future' != get_post_status( $product_id ) ) : ?>
-			<a href="<?php echo add_query_arg( array( 'task' => 'edit-product', 'post_id' => $product_id ), get_permalink() ); ?>" title="<?php _e( 'Edit', 'edd_fes' );?>" class="btn btn-mini edit-product-fes"><?php _e( 'Edit', 'edd_fes' );?></a>
+			<a href="<?php echo add_query_arg( array( 'task' => 'edit-product', 'post_id' => $product_id ), get_permalink() ); ?>" title="<?php _e( 'Edit', 'edd_fes' );?>" class="btn btn-mini edit-product-fes btn-muted"><?php _e( 'Edit', 'edd_fes' );?></a>
 		<?php endif; ?>
 
 		<?php if ( EDD_FES()->helper->get_option( 'fes-allow-vendors-to-delete-products', true ) ) : ?>
-			<a href="<?php echo add_query_arg( array( 'task' => 'delete-product', 'post_id' => $product_id ), get_permalink() );?>" title="<?php _e( 'Delete', 'edd_fes' );?>" class="btn btn-mini edit-product-fes"><?php _e( 'Delete', 'edd_fes' );?></a>
+			<a href="<?php echo add_query_arg( array( 'task' => 'delete-product', 'post_id' => $product_id ), get_permalink() );?>" title="<?php _e( 'Delete', 'edd_fes' );?>" class="btn btn-mini edit-product-fes btn-muted"><?php _e( 'Delete', 'edd_fes' );?></a>
 		<?php endif;
 	}
 
@@ -285,7 +285,7 @@ class FES_Dashboard {
 			}
 		}
 
-		$date = '<p title="' . $t_time . '">' . apply_filters( 'fes_product_list_time', $h_time, $post, 'date', 'all' ) . '</p>';
+		$date = '<p class="nomargin" title="' . $t_time . '">' . apply_filters( 'fes_product_list_time', $h_time, $post, 'date', 'all' ) . '</p>';
 		if ( 'publish' == $post->post_status ) {
 			$date = __( 'Published', 'edd_fes' ) . $date;
 		} elseif ( 'future' == $post->post_status ) {

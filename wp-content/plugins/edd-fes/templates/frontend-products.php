@@ -8,7 +8,6 @@
 		</div>
 		<div class="divider"></div>
 		<?php echo EDD_FES()->dashboard->product_list_status_bar(); ?>
-		<div class="row">
 			<table class="table fes-table table-condensed" id="fes-product-list">
 				<thead>
 					<tr>
@@ -64,7 +63,6 @@
 					?>
 				</tbody>
 			</table>
-		</div>
 		<?php EDD_FES()->dashboard->product_list_pagination(); ?>
 	</div>
 </div>
