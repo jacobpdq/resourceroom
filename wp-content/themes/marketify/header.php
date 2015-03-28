@@ -74,7 +74,7 @@
                 <ul role="menu" class="dropdown-menu">
                   <li><a href="<?php echo site_url()?>/user-profile?user_id=<?php echo get_current_user_id(); ?>">View My Profile</a></li>
                   <li><a href="<?php echo site_url()?>/edit-profile">Edit My Profile</a></li>
-                  <li><a href="<?php echo site_url()?>/my-download">My Downloads</a></li>
+                  <li><a href="<?php echo site_url()?>/purchases">Purchase History</a></li>
                   <li class="divider"></li>
                   <li><a href="<?php echo site_url()?>/my-homeroom">My Homeroom</a></li>
                   <li><a href="<?php echo site_url(); ?>/upload-resource">Upload Resource</a></li>
