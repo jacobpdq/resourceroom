@@ -191,7 +191,7 @@ class FES_Dashboard {
 			$menu_items['orders'] = array(
 				"icon" => "gift",
 				"task" => array( 'orders' ),
-				"name" => __( 'My Downloads', 'edd_fes' ),
+				"name" => __( 'Sales Log', 'edd_fes' ),
 			);
 		}
 		return $menu_items;
