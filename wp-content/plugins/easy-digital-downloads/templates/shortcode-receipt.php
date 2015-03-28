@@ -28,8 +28,8 @@ $status    = edd_get_payment_status( $payment, true );
 
 		<?php if ( $edd_receipt_args['payment_id'] ) : ?>
 		<tr>
-			<th><strong><?php _e( 'Payment', 'edd' ); ?>:</strong></th>
-			<th><?php echo edd_get_payment_number( $payment->ID ); ?></th>
+			<th><strong><?php _e( 'Purchase ID', 'edd' ); ?>:</strong></th>
+			<th>#<?php echo edd_get_payment_number( $payment->ID ); ?></th>
 		</tr>
 		<?php endif; ?>
 	</thead>
@@ -56,7 +56,7 @@ $status    = edd_get_payment_status( $payment, true );
 		<?php endif; ?>
 		<?php if ( $edd_receipt_args['date'] ) : ?>
 		<tr>
-			<td><strong><?php _e( 'Date', 'edd' ); ?>:</strong></td>
+			<td><strong><?php _e( 'Purchase Date', 'edd' ); ?>:</strong></td>
 			<td><?php echo date_i18n( get_option( 'date_format' ), strtotime( $meta['date'] ) ); ?></td>
 		</tr>
 		<?php endif; ?>
@@ -116,7 +116,8 @@ $status    = edd_get_payment_status( $payment, true );
 
 <?php if ( $edd_receipt_args[ 'products' ] ) : ?>
 
-	<h3><?php echo apply_filters( 'edd_payment_receipt_products_title', __( 'Products', 'edd' ) ); ?></h3>
+    <div class="divider"></div>
+	<h3><?php echo apply_filters( 'edd_payment_receipt_products_title', __( 'Products:', 'edd' ) ); ?></h3>
 
 	<table id="edd_purchase_receipt_products">
 		<thead>

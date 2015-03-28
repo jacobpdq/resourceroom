@@ -180,18 +180,18 @@ class FES_Dashboard {
 			"task" => array( 'products' ),
 			"name" => __( 'My Uploads', 'edd_fes' ),
 		);
-		if ( EDD_FES()->integrations->is_commissions_active() ) {
-			$menu_items['earnings'] = array(
-				"icon" => "earnings",
-				"task" => array( 'earnings' ),
-				"name" => __( 'Earnings', 'edd_fes' ),
-			);
-		}
 		if ( EDD_FES()->vendors->vendor_can_view_orders() ){
 			$menu_items['orders'] = array(
 				"icon" => "gift",
 				"task" => array( 'orders' ),
 				"name" => __( 'Sales Log', 'edd_fes' ),
+			);
+		}
+		if ( EDD_FES()->integrations->is_commissions_active() ) {
+			$menu_items['earnings'] = array(
+				"icon" => "earnings",
+				"task" => array( 'earnings' ),
+				"name" => __( 'Payroll', 'edd_fes' ),
 			);
 		}
 		return $menu_items;
