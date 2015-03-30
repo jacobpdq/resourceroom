@@ -24,7 +24,7 @@ display:none !important;
               <div class="divider"></div>
 			  <?php if(!is_user_logged_in()){ ?>
               <div class="alert alert-info">
-                <p>You haven't signed up yet! Sign up to upload free-to-download resources or <a href="<?php echo site_url(); ?>/member-register">register your PayPal acocunt </a>to set your own prices .
+                <p>You have to be signed in to upload a resource. <a href="<?php echo site_url(); ?>/login">Sign in</a>, or <a href="<?php echo site_url(); ?>/member-register">create an account</a> for free!
                 </p>
               </div>
 			  <?php } ?>

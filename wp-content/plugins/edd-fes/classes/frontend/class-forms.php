@@ -379,7 +379,7 @@ class FES_Forms {
 
 		// if they are not a vendor, admin, or in the backend
 		if ( !$is_admin && !is_admin() && !$is_vendor ) {
-			_e( 'Access Denied', 'edd_fes' );
+			_e( '', 'edd_fes' );
 			return;
 		}
 
