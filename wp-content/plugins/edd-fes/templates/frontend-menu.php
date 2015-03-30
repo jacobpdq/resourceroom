@@ -100,6 +100,6 @@ $final_rating = round($aggregate_rating);
 				<?php echo $values["name"]; ?>
 			</a>
 		<?php endforeach; ?>
-        <a href="/upload-resource" class="btn btn-green margin-left">+ Upload New Resource</a>
+        <a href="<?php echo $siteurl ?>/upload-resource" class="btn btn-green margin-left">+ Upload New Resource</a>
 	</div>
 </div>
