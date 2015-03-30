@@ -95,13 +95,18 @@
       </nav>
 	   <?php if(is_front_page()){ ?> 
 	  
-      <div class="container page-content billboard">
+      <div class="fluid-container billboard">
+        <div class="container">
           <div class="row">
             <div class="col-md-10 col-md-offset-1 text-center">
               <h1 class="billboard-title">Resource Room</h1>
-              <p class="billboard-text">Welcome to the Resource Room: A collection of educational resources made for Canadian teachers, by Canadian teachers.</p><a href="<?php echo site_url() ;?>/browse" class="btn btn-primary btn-3d btn-lg" style="color:#fff">Browse Resources</a><a href="<?php echo site_url() ;?>/upload-resource" class="btn btn-green btn-3d btn-lg hidden-xs hidden-sm" style="color:#fff">Upload A Resource</a>
+              <p class="billboard-text">Welcome to the Resource Room: A collection of educational resources made for Canadian teachers, by Canadian teachers.</p>
+              <a id="browse-resources" href="<?php echo site_url() ;?>/browse" class="billboard-link billboard-link-left">
+                <img src="<?php echo get_template_directory_uri(); ?>/img/icons/icon-browse.svg" class="icon icon-left icon-lg">Browse Resources</a>
+              <a href="<?php echo site_url() ;?>/upload-resource" class="billboard-link"> <img src="<?php echo get_template_directory_uri(); ?>/img/icons/icon-upload.svg" class="icon icon-left icon-lg">Upload A Resource</a>
             </div>
           </div>
+        </div>
       </div>
       <div class="container page-content">
         <h3>Newly Added:</h3>
