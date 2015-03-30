@@ -147,7 +147,7 @@ get_header(); ?>
                 </div>
 				
                 <div class="divider"></div>
-                <div class="text-right"><a href="#" class="showcase-report-link">Report</a></div>
+                <div class="text-right"><a href="<?php echo site_url()?>/contact-us" class="showcase-report-link">Report</a></div>
 				
 				
                 <!--<div class="text-right"><a href="" class="showcase-report-link">Report</a></div>-->
