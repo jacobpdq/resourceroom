@@ -49,9 +49,7 @@ function newlyadded()
 				 $fullname = $firstname.' '.$lastname;
 				$image = wp_get_attachment_image_src( get_post_thumbnail_id( $res->ID ), 'single-post-thumbnail' );
 				$explode = explode('/wp-content/',$image[0]);
-				$sizex = '241';
-				$sizey = '160';
-				$url = $explode[0].'/thumb.php?file=wp-content/'.$explode[1].'&sizex='.$sizex.'&sizey='.$sizey.'';
+				$url = $explode[0].'/thumb.php?file=wp-content/'.$explode[1].'';
 					$resource_edd_variable_prices_ser = $value['edd_variable_prices'][0];
 					$resource_edd_variable_prices_unser = unserialize($resource_edd_variable_prices_ser);
 					 $amount = $resource_edd_variable_prices_unser[0]['amount'];
