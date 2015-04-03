@@ -75,9 +75,7 @@ function mostPopular()
 				 $fullname = $firstname.' '.$lastname;
 				$image = wp_get_attachment_image_src( get_post_thumbnail_id( $res->ID ), 'single-post-thumbnail' );
 				$explode = explode('/wp-content/',$image[0]);
-				$sizex = '241';
-				$sizey = '160';
-				$url = $explode[0].'/thumb.php?file=wp-content/'.$explode[1].'&sizex='.$sizex.'&sizey='.$sizey.'';
+				$url = $explode[0].'/thumb.php?file=wp-content/'.$explode[1].'';
 				$resource_edd_variable_prices_ser = $value['edd_variable_prices'][0];
 					$resource_edd_variable_prices_unser = unserialize($resource_edd_variable_prices_ser);
 					 $amount = $resource_edd_variable_prices_unser[0]['amount'];
@@ -92,7 +90,7 @@ function mostPopular()
 				$rating = Rating($res->ID);
 				?>
 				<div class="col-md-1-5">
-					<div class="item-square"><div class="item-thumbnail"><a href="<?php echo get_permalink($res->ID) ?>"><img src="<?php echo $site_url ?>/thumb.php?file=wp-content/uploads/<?php echo $resource_thumbnail ?>&sizex=<?php echo $sizex ?>&sizey=<?php echo $sizey ?>"></a></div><div class="item-text"><a class="item-title" href="<?php echo get_permalink($res->ID) ?>"><?php echo $res->post_title ?></a>
+					<div class="item-square"><div class="item-thumbnail"><a href="<?php echo get_permalink($res->ID) ?>"><img src="<?php echo $site_url ?>/thumb.php?file=wp-content/uploads/<?php echo $resource_thumbnail ?>"></a></div><div class="item-text"><a class="item-title" href="<?php echo get_permalink($res->ID) ?>"><?php echo $res->post_title ?></a>
 						<div class="item-author"> <span>by </span><a href="<?php echo $site_url ?>/user-profile?user_id=<?php echo $user ?>"><?php echo $fullname ?></a></div>
 						<div class="rating-sm clearfix"><div class="StarRating <?php echo $rating ?>"></div></div>
 					  </div>
