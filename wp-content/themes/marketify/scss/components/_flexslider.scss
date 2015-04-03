@@ -142,13 +142,13 @@ html[xmlns] .slides {display: block;}
 .flex-direction-nav .flex-prev {
   opacity: 1;
   left: 10px;
-  background: url('../img/icons/arrow-left.svg') no-repeat 50%;
+  background: url('img/icons/arrow-left.svg') no-repeat 50%;
 }
 
 .flex-direction-nav .flex-next {
   opacity: 1;
   right: 10px;
-  background: url('../img/icons/arrow-right.svg') no-repeat 50%;
+  background: url('img/icons/arrow-right.svg') no-repeat 50%;
 }
 
 @media (min-width: $screen-md-min){
