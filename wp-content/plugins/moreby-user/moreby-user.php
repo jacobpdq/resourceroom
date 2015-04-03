@@ -37,11 +37,9 @@ function moreproduct()
 	if(isset( $resource_thumbnail_image_data['file']))
 	{
 		$resource_image = $resource_thumbnail_image_data['file'];
-		$img = '<img src="'.$site_url.'/thumb.php?file=wp-content/uploads/'.$resource_image .'&sizex=136&sizey=95">';
+		$img = '<img src="'.$site_url.'/thumb.php?file=wp-content/uploads/'.$resource_image .'">';
 	}
 	$rating = Rating($res->ID);
-	$sizex = '214';
-	$sizey = '144';
 	if($value['edd_price'][0]=='0.00')
 		$price = 'Free';
 	else
