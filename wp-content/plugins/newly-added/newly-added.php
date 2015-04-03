@@ -66,7 +66,7 @@ function newlyadded()
 				<div class="col-md-1-5">
 					<div class="item-square">';
 					if($url){
-					  $result .='<div class="item-thumbnail"><a href="'.get_permalink($res->ID).'"><img src="'.$site_url.'/thumb.php?file=wp-content/uploads/'.$resource_thumbnail.'&sizex='.$sizex.'&sizey='.$sizey.'"></a></div>';}
+					  $result .='<div class="item-thumbnail"><a href="'.get_permalink($res->ID).'"><img src="'.$site_url.'/thumb.php?file=wp-content/uploads/'.$resource_thumbnail.'"></a></div>';}
 					  else{
 					  $result .='<div class="item-thumbnail"><a href="'.get_permalink($res->ID).'"><img src="'.get_template_directory_uri().'/img/placeholders/bird.jpg" width="" height="" alt="" class="img-responsive"></a></div>';
 					  }
