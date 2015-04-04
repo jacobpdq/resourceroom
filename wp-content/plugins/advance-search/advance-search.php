@@ -47,18 +47,6 @@ $result .='
                     <label>Subjects:</label>
                     <div class="selecter-container">
                       <fieldset class="fes-el download_category"> 
-    <script>
-      /*  $(document).ready(function(){
-      
-        
-           $("input").iCheck({
-        checkboxClass: "icheckbox",
-        radioClass: "iradio", 
-        }); 
-          
-        
-      });  */
-    </script>
         
         <div class="fes-fields">
             <select data-required="yes" data-type="multiselect" name="subject[]" id="download_category" class="download_category" multiple="multiple" >
@@ -194,24 +182,24 @@ $result .='
                   <label>Enduring Understanding:</label>
                   <div class="checkbox-list-container">
                       <div class="checkbox">
-                        <input value="Social Justice" name="enduring[]" type="checkbox">
-                        <label>Social Justice</label>
+                        <input value="Social Justice" id="Social Justice" name="enduring[]" type="checkbox">
+                        <label for="Social Justice">Social Justice</label>
                       </div>
                       <div class="checkbox">
-                        <input value="Diversity" name="enduring[]"  type="checkbox">
-                        <label>Diversity</label>
+                        <input value="Diversity" id="Diversity"  name="enduring[]"  type="checkbox">
+                        <label for="Diversity" >Diversity</label>
                       </div>
                       <div class="checkbox">
-                        <input value="Citizenship" name="enduring[]"  type="checkbox">
-                        <label>Citizenship</label>
+                        <input value="Citizenship" id="Citizenship" name="enduring[]"  type="checkbox">
+                        <label for="Citizenship" >Citizenship</label>
                       </div>
                       <div class="checkbox">
-                        <input value="Sustainability" name="enduring[]"  type="checkbox">
-                        <label>Sustainability</label>
+                        <input value="Sustainability" id="Sustainability" name="enduring[]"  type="checkbox">
+                        <label for="Sustainability" >Sustainability</label>
                       </div>
                       <div class="checkbox">
-                        <input value="Indigenous Knowledge" name="enduring[]"  type="checkbox">
-                        <label>Indigenous Knowledge</label>
+                        <input value="Indigenous Knowledge" id="Indigenous Knowledge" name="enduring[]"  type="checkbox">
+                        <label for="Indigenous Knowledge">Indigenous Knowledge</label>
                       </div>
                   </div>
                 </div>
@@ -219,76 +207,76 @@ $result .='
                   <label>Resource Type:</label>
                   <div class="checkbox-list-container">
                       <div class="checkbox">
-                        <input name="resource[]" value="Lesson Plan" type="checkbox">
-                        <label>Lesson Plan</label>
+                        <input name="resource[]" value="Lesson Plan" id="Lesson Plan" type="checkbox">
+                        <label for="Lesson Plan">Lesson Plan</label>
                       </div>
                       <div class="checkbox">
-                        <input  name="resource[]" value="Unit Plan" type="checkbox">
-                        <label>Unit Plan</label>
+                        <input  name="resource[]" value="Unit Plan" id="Unit Plan" type="checkbox">
+                        <label for="Unit Plan">Unit Plan</label>
                       </div>
                       <div class="checkbox">
-                        <input  name="resource[]" value="Activity" type="checkbox">
-                        <label>Activity </label>
+                        <input  name="resource[]" value="Activity" id="Activity" type="checkbox">
+                        <label for="Activity">Activity </label>
                       </div>
                       <div class="checkbox">
-                        <input  name="resource[]" value="Assessment" type="checkbox">
-                        <label>Assessment</label>
+                        <input  name="resource[]" value="Assessment" id="Assessment" type="checkbox">
+                        <label for="Assessment">Assessment</label>
                       </div>
                       <div class="checkbox">
-                        <input  name="resource[]" value="Games" type="checkbox">
-                        <label>Games</label>
+                        <input  name="resource[]" value="Games" id="Games" type="checkbox">
+                        <label for="Games">Games</label>
                       </div>
                       <div class="checkbox">
-                        <input  name="resource[]" value="Extension" type="checkbox">
-                        <label>Extension </label>
+                        <input  name="resource[]" value="Extension" id="Extension" type="checkbox">
+                        <label for="Extension">Extension </label>
                       </div>
                       <div class="checkbox">
-                        <input  name="resource[]" value="Field Trip" type="checkbox">
-                        <label>Field Trip</label>
+                        <input  name="resource[]" value="Field Trip" id="Field Trip" type="checkbox">
+                        <label for="Field Trip">Field Trip</label>
                       </div>
                       <div class="checkbox">
-                        <input  name="resource[]" value="Flashcards" type="checkbox">
-                        <label>Flashcards</label>
+                        <input  name="resource[]" value="Flashcards" id="Flashcards" type="checkbox">
+                        <label for="Flashcards">Flashcards</label>
                       </div>
                       <div class="checkbox">
-                        <input  name="resource[]" value="Bulletins" type="checkbox">
-                        <label>Bulletins</label>
+                        <input  name="resource[]" value="Bulletins" id="Bulletins" type="checkbox">
+                        <label for="Bulletins">Bulletins</label>
                       </div>
                       <div class="checkbox">
-                        <input  name="resource[]" value="Novel Study" type="checkbox">
-                        <label>Novel Study</label>
+                        <input  name="resource[]" value="Novel Study" id="Novel Study" type="checkbox">
+                        <label for="Novel Study">Novel Study</label>
                       </div>
                       <div class="checkbox">
-                        <input  name="resource[]" value="Poster" type="checkbox">
-                        <label>Poster</label>
+                        <input  name="resource[]" value="Poster" id="Poster" type="checkbox">
+                        <label for="Poster">Poster</label>
                       </div>
                       <div class="checkbox">
-                        <input  name="resource[]"  value="Printable"  type="checkbox">
-                        <label>Printable</label>
+                        <input  name="resource[]"  value="Printable" id="Printable"  type="checkbox">
+                        <label for="Printable">Printable</label>
                       </div>
                       <div class="checkbox">
-                        <input  name="resource[]" value="Reading" type="checkbox">
-                        <label>Reading</label>
+                        <input  name="resource[]" value="Reading" id="Reading" type="checkbox">
+                        <label for="Reading">Reading</label>
                       </div>
                       <div class="checkbox">
-                        <input  name="resource[]"  value="Centers" type="checkbox">
-                        <label>Centers</label>
+                        <input  name="resource[]"  value="Centers" id="Centers" type="checkbox">
+                        <label for="Centers">Centers</label>
                       </div>
                       <div class="checkbox">
-                        <input  name="resource[]"  value="Workbook" type="checkbox">
-                        <label>Workbook</label>
+                        <input  name="resource[]"  value="Workbook" id="Workbook" type="checkbox">
+                        <label for="Workbook">Workbook</label>
                       </div>
                       <div class="checkbox">
-                        <input  name="resource[]" value="Worksheet" type="checkbox">
-                        <label>Worksheet</label>
+                        <input  name="resource[]" value="Worksheet" id="Worksheet" type="checkbox">
+                        <label for="Worksheet">Worksheet</label>
                       </div>
                       <div class="checkbox">
-                        <input  name="resource[]" value="Graphic Organizer" type="checkbox">
-                        <label>Graphic Organizer</label>
+                        <input  name="resource[]" value="Graphic Organizer" id="Graphic Organizer" type="checkbox">
+                        <label for="Graphic Organizer">Graphic Organizer</label>
                       </div>
                       <div class="checkbox">
-                        <input  name="resource[]"  value="Other" type="checkbox">
-                        <label> Other</label>
+                        <input  name="resource[]"  value="Other" id="Other" type="checkbox">
+                        <label for="Other"> Other</label>
                       </div>
                   </div>
                 </div>
@@ -297,36 +285,36 @@ $result .='
                   <label>Technology Required:</label>
                   <div class="checkbox-list-container">
                       <div class="checkbox">
-                        <input  name="technology[]"  value="Computer" type="checkbox">
-                        <label>Computer</label>
+                        <input  name="technology[]"  value="Computer" id="Computer" type="checkbox">
+                        <label for="Computer">Computer</label>
                       </div>
                       <div class="checkbox">
-                        <input  name="technology[]"  value="Internet" type="checkbox">
-                        <label>Internet</label>
+                        <input  name="technology[]"  value="Internet" id="Internet" type="checkbox">
+                        <label for="Internet">Internet</label>
                       </div>
                       <div class="checkbox">
-                        <input  name="technology[]"  value="Projector" type="checkbox">
-                        <label>Digital Projector </label>
+                        <input  name="technology[]"  value="Projector" id="Projector" type="checkbox">
+                        <label for="Projector">Digital Projector </label>
                       </div>
                       <div class="checkbox">
-                        <input  name="technology[]"  value="Overhead" type="checkbox">
-                        <label>Overhead</label>
+                        <input  name="technology[]"  value="Overhead" id="Overhead" type="checkbox">
+                        <label for="Overhead">Overhead</label>
                       </div>
                       <div class="checkbox">
-                        <input name="technology[]"  value="Point" type="checkbox">
-                        <label>Power Point</label>
+                        <input name="technology[]"  value="Point" id="Point" type="checkbox">
+                        <label for="Point">Power Point</label>
                       </div>
                       <div class="checkbox">
-                        <input  name="technology[]"  value="Smart Board" type="checkbox">
-                        <label>Smart Board</label>
+                        <input  name="technology[]"  value="Smart Board" id="Smart Board" type="checkbox">
+                        <label for="Smart Board">Smart Board</label>
                       </div>
                       <div class="checkbox">
-                        <input name="technology[]"  value="Tablets" type="checkbox">
-                        <label>Tablets</label>
+                        <input name="technology[]"  value="Tablets" id="Tablets" type="checkbox">
+                        <label for="Tablets">Tablets</label>
                       </div>
                       <div class="checkbox">
-                        <input name="technology[]"  value="Video/Camera" type="checkbox">
-                        <label>Video/Camera</label>
+                        <input name="technology[]"  value="Video/Camera" id="Video/Camera" type="checkbox">
+                        <label for="Video/Camera">Video/Camera</label>
                       </div>
                   </div>
                 </div>
@@ -334,16 +322,16 @@ $result .='
                   <label>Price Range:</label>
                   <div class="checkbox-list-container">
                       <div class="radio">
-                        <input name="price_range" value="" type="radio"  checked>
-                        <label>Any Price Range</label>
+                        <input name="price_range" value="" id="anyprice" type="radio"  checked>
+                        <label for="anyprice">Any Price Range</label>
                       </div>
                       <div class="radio">
-                        <input name="price_range" value="Free" type="radio">
-                        <label>Free Resources</label>
+                        <input name="price_range" value="Free" id="Free" type="radio">
+                        <label for="Free">Free Resources</label>
                       </div>
                       <div class="radio">
-                        <input name="price_range" value="less5" type="radio" >
-                        <label>Under < $5</label>
+                        <input name="price_range" value="less5" id="less5" type="radio" >
+                        <label for="less5">Under < $5</label>
                       </div>
                   </div>
                 </div>
