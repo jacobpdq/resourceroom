@@ -10,7 +10,6 @@ $img-src:                "../bootflat/img/check_flat/default.png" !default;
   .checkbox, .radio {
     margin-top: 0;
     display: block;
-    margin-left: $big;
   }
   
   .checkbox-list-container {
@@ -23,8 +22,7 @@ $img-src:                "../bootflat/img/check_flat/default.png" !default;
     
     .checkbox, .radio {
       display: inline-block;
-      margin-left: $bigger;
-      width: 20% /* effectively 25% when margins factor in */
+      width: 24% /* effectively 25% when margins factor in */
     }
   }
   
@@ -38,6 +36,7 @@ $img-src:                "../bootflat/img/check_flat/default.png" !default;
 
   .checkbox label, .radio label {
     position: relative;
+    margin-left: 4px ; /* icheck styling */
     top: 1px;
     padding-left: 0;
     max-width: 84%; /* in case line-break is needed*/

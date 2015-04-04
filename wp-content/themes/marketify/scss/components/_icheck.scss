@@ -9,13 +9,21 @@
     padding: 0;
     width: 18px;
     height: 18px;
-    background: url(../img/icheck/icheck-bg.png) no-repeat;
+    background: url(img/icheck/icheck-bg.png) no-repeat;
     border: none;
     cursor: pointer;
+    
+    input{
+      position: absolute;
+      right: 0;
+    }
+  
 }
 
 .icheckbox {
     background-position: 0 0;
+  
+  
 }
     .icheckbox.hover {
         background-position: -24px 0;

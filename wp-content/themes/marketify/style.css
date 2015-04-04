@@ -8912,8 +8912,7 @@ p.form-field-info {
 
 .checkbox, .radio {
   margin-top: 0;
-  display: block;
-  margin-left: 20px; }
+  display: block; }
 
 .checkbox-list-container {
   margin-left: 0;
@@ -8924,8 +8923,7 @@ p.form-field-info {
   max-height: 220px; }
   .checkbox-list-container .checkbox, .checkbox-list-container .radio {
     display: inline-block;
-    margin-left: 25px;
-    width: 20%;
+    width: 24%;
     /* effectively 25% when margins factor in */ }
 
 .checkbox-list :last-child {
@@ -8933,6 +8931,8 @@ p.form-field-info {
 
 .checkbox label, .radio label {
   position: relative;
+  margin-left: 4px;
+  /* icheck styling */
   top: 1px;
   padding-left: 0;
   max-width: 84%;
@@ -10658,9 +10658,12 @@ html[xmlns] .slides {
   padding: 0;
   width: 18px;
   height: 18px;
-  background: url(../img/icheck/icheck-bg.png) no-repeat;
+  background: url(img/icheck/icheck-bg.png) no-repeat;
   border: none;
   cursor: pointer; }
+  .icheckbox input, .iradio input {
+    position: absolute;
+    right: 0; }
 
 .icheckbox {
   background-position: 0 0; }
