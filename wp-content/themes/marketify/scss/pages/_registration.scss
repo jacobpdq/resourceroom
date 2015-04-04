@@ -14,13 +14,13 @@
   .password {
     
     .fes-label {
-      @extend .col-md-3;
+      @extend .col-md-4;
       text-align: right;
       margin-top: 5px;
     }
     
     .fes-fields {
-      @extend .col-md-6;
+      @extend .col-md-4;
     }
   }
   
