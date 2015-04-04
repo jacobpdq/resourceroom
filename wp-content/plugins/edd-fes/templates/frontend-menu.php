@@ -1,4 +1,5 @@
 <?php
+$siteurl = site_url();
 $task       = ! empty( $_GET['task'] ) ? $_GET['task'] : '';
 $icon_css   = apply_filters( "fes_vendor_dashboard_menu_icon_css", "icon-white" ); //else icon-black/dark
 $menu_items = EDD_FES()->dashboard->get_vendor_dashboard_menu();
