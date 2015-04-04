@@ -11028,6 +11028,32 @@ form.browse-form {
     font-style: italic; }
   .advanced-search #search-filters ul {
     list-style: none; }
+  .advanced-search .selecter-item[data-value|="73"] {
+    font-weight: 600; }
+  .advanced-search .selecter-item[data-value|="104"] {
+    font-weight: 600; }
+  .advanced-search .selecter-item[data-value|="40"] {
+    font-weight: 600; }
+  .advanced-search .selecter-item[data-value|="139"] {
+    font-weight: 600; }
+  .advanced-search .selecter-item[data-value|="97"] {
+    font-weight: 600; }
+  .advanced-search .selecter-item[data-value|="67"] {
+    font-weight: 600; }
+  .advanced-search .selecter-item[data-value|="141"] {
+    font-weight: 600; }
+  .advanced-search .selecter-item[data-value|="79"] {
+    font-weight: 600; }
+  .advanced-search .selecter-item[data-value|="45"] {
+    font-weight: 600; }
+  .advanced-search .selecter-item[data-value|="140"] {
+    font-weight: 600; }
+  .advanced-search .selecter-item[data-value|="49"] {
+    font-weight: 600; }
+  .advanced-search .selecter-item[data-value|="58"] {
+    font-weight: 600; }
+  .advanced-search .selecter-item[data-value|="138"] {
+    font-weight: 600; }
 
 .showcase-header {
   font-family: 'Proxima Nova', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
