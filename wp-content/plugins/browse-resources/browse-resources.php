@@ -19,7 +19,6 @@ function browse_resource_function()
 	 <form id="" name="" action="<?php echo $site_url ?>/search-result/" method="get">
             <div class="row">
               <div class="form-group col-md-4">
-                <div class="browse-cat-img"></div>
                 <label class="sr-only">Provinces:</label>
                 <select name="province[]" class="form-control input-lg">
                   <option value="">All Provinces</option>
@@ -80,6 +79,10 @@ function browse_resource_function()
             </div>
           </form>
         <p class="text-muted"> <span class="text-blue">* </span>Looking for something more specific? Try our <a href="<?php echo site_url();?>/advanced-search">Advanced Search </a>feature.</p>
+
+    </script>
+      <script>$("select").selecter({customClass:"selecter-lg"});</script>
+    </div>
 	<?php
 }
 ?>
