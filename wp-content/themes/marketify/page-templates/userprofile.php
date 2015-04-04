@@ -178,7 +178,7 @@ get_header();
 						if(isset( $resource_thumbnail_image_data['file']))
 						{
 							$resource_image = $resource_thumbnail_image_data['file'];
-							$img = '<img src="'.$site_url.'/thumb.php?file=wp-content/uploads/'.$resource_image .'&sizex=500&sizey=350">';
+							$img = '<img src="'.$site_url.'/thumb.php?file=wp-content/uploads/'.$resource_image .'">';
 						}
 					$resource_edd_variable_prices_ser = $value['edd_variable_prices'][0];
 					$resource_edd_variable_prices_unser = unserialize($resource_edd_variable_prices_ser);
