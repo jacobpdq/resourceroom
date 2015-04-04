@@ -2752,8 +2752,8 @@ class FES_Forms {
 			}
 ?>
 
-                    <label>
-                        <input name="<?php echo $attr['name']; ?>" type="radio" value="<?php echo esc_attr( $option ); ?>"<?php checked( $selected, $option ); ?> />
+                    <label for="<?php echo esc_attr( $option ); ?>">
+                        <input name="<?php echo $attr['name']; ?>" type="radio" value="<?php echo esc_attr( $option ); ?>" id="<?php echo esc_attr( $option ); ?>" <?php checked( $selected, $option ); ?> />
                         <?php echo $option; ?>
                     </label>
                     <?php
@@ -2791,8 +2791,8 @@ class FES_Forms {
 ?>
 
                     <div class="checkbox">
-                      <input type="checkbox" name="<?php echo $attr['name']; ?>[]" value="<?php echo esc_attr( $option ); ?>"<?php echo in_array( $option, $selected ) ? ' checked="checked"' : ''; ?> />
-                      <label>
+                      <input type="checkbox" name="<?php echo $attr['name']; ?>[]" value="<?php echo esc_attr( $option ); ?>" id="<?php echo esc_attr( $option ); ?>" <?php echo in_array( $option, $selected ) ? ' checked="checked"' : ''; ?> />
+                      <label for="<?php echo esc_attr( $option ); ?>">
                         <?php echo $option; ?>
                       </label>
                     </div>
@@ -2801,13 +2801,13 @@ class FES_Forms {
 		}
 ?>
 				<script>
-				/* $(document).ready(function(){
+                $(document).ready(function(){
 
 				  $("input").iCheck({
 					checkboxClass: "icheckbox",
 					radioClass: "iradio",
 				  });
-				}); */
+				}); 
 			</script>
 			<script>$("select").selecter();</script>
           </div>
