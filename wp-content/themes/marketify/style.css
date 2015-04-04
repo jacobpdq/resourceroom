@@ -10953,6 +10953,9 @@ form.browse-form {
   .dashboard-snapshot-card > a, .dashboard-snapshot-card > a:hover {
     color: #fff; }
 
+.fes-product-list-td img {
+  max-width: 100px; }
+
 .page-editprofile .fes-label {
   text-align: right; }
 .page-editprofile td.fes-delete-row {

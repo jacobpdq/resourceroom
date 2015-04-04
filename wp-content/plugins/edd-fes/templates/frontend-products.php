@@ -40,7 +40,7 @@
 					if(isset( $resource_thumbnail_image_data['file']))
 					{
 						$resource_image = $resource_thumbnail_image_data['file'];
-						$img = '<img src="'.$site_url.'/thumb.php?file=wp-content/uploads/'.$resource_image .'&sizex=100&sizey=100">';
+						$img = '<img src="'.$site_url.'/thumb.php?file=wp-content/uploads/'.$resource_image .'">';
 					}
 
 					?>
