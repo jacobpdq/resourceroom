@@ -91,7 +91,7 @@ function mostPopular()
 				?>
 				<div class="col-md-1-5">
 					<div class="item-square"><div class="item-thumbnail"><a href="<?php echo get_permalink($res->ID) ?>"><img src="<?php echo $site_url ?>/thumb.php?file=wp-content/uploads/<?php echo $resource_thumbnail ?>"></a></div><div class="item-text"><a class="item-title" href="<?php echo get_permalink($res->ID) ?>"><?php echo $res->post_title ?></a>
-						<div class="item-author"> <span>by </span><a href="<?php echo $site_url ?>/user-profile?user_id=<?php echo $user ?>"><?php echo $fullname ?></a></div>
+						<div class="item-author"> <span>by </span><a href="<?php echo $site_url ?>/user-profile?user_id=<?php echo $user ?>"><?php echo $display_name ?></a></div>
 						<div class="rating-sm clearfix"><div class="StarRating <?php echo $rating ?>"></div></div>
 					  </div>
 					  <div id="card-bottom"><span class="item-price"><?php echo $price ?></span><span class="item-type">Digital Download</span></div>
