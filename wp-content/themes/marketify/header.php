@@ -64,13 +64,10 @@
 			 <?php echo getUserimage($user_ID,'30','30')?>
                 </span>
                 <span class="user-dropdown-username">
-
 			  <?php
 				$dat=get_userdata( $user_ID );
 				echo $dat->user_login;
-			?>
-                     
-                 <span class="caret"></span></span></a>
+			?><span class="caret"></span></span></a>
                 <ul role="menu" class="dropdown-menu">
                   <li><a href="<?php echo site_url()?>/user-profile?user_id=<?php echo get_current_user_id(); ?>">View My Profile</a></li>
                   <li><a href="<?php echo site_url()?>/edit-profile">Edit My Profile</a></li>
