@@ -22,6 +22,8 @@ $user      = edd_get_payment_meta_user_info( $payment->ID );
 $email     = edd_get_payment_user_email( $payment->ID );
 $status    = edd_get_payment_status( $payment, true );
 ?>
+<div class="row">
+<div class="col-md-6">
 <table id="edd_purchase_receipt">
 	<thead>
 		<?php do_action( 'edd_payment_receipt_before', $payment, $edd_receipt_args ); ?>
@@ -111,14 +113,14 @@ $status    = edd_get_payment_status( $payment, true );
 		<?php do_action( 'edd_payment_receipt_after', $payment, $edd_receipt_args ); ?>
 	</tbody>
 </table>
+</div>
+</div>
 
 <?php do_action( 'edd_payment_receipt_after_table', $payment, $edd_receipt_args ); ?>
 
 <?php if ( $edd_receipt_args[ 'products' ] ) : ?>
 
-    <div class="divider"></div>
 	<h3><?php echo apply_filters( 'edd_payment_receipt_products_title', __( 'Products:', 'edd' ) ); ?></h3>
-
 	<table id="edd_purchase_receipt_products">
 		<thead>
 			<th><?php _e( 'Name', 'edd' ); ?></th>
@@ -244,4 +246,5 @@ $status    = edd_get_payment_status( $payment, true );
 		</tbody>
 
 	</table>
+
 <?php endif; ?>
