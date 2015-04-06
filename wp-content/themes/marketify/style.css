@@ -9356,6 +9356,11 @@ p.form-field-info {
   height: 66px; }
   .navbar .navbar-nav ul.dropdown-menu ul.menu {
     padding: 0; }
+  .navbar .text-beta {
+    padding-left: 4px;
+    font-size: 13px;
+    font-weight: 400;
+    font-style: italic; }
 
 .navbar-default {
   background-color: #29b473;

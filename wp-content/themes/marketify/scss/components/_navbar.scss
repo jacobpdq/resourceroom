@@ -27,6 +27,13 @@ $navbar-height:                              66px;
     .navbar-nav ul.dropdown-menu ul.menu {
       padding: 0;
     }
+	
+	.text-beta {
+		padding-left: 4px;
+		font-size: $small;
+		font-weight: $normal;
+		font-style: italic;
+	}
   }
   
   .navbar-default {
