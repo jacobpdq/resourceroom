@@ -10261,6 +10261,8 @@ Custom Columns
     letter-spacing: -0.04em; }
   .billboard .billboard-link {
     font-size: 25px; }
+  .billboard .billboard-link:hover {
+    text-decoration: none; }
   .billboard #browse-resources {
     margin-right: 31px; }
 
