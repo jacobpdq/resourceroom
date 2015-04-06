@@ -61,12 +61,25 @@
   
   & .item-thumbnail {
     opacity: 1;
+	height: 135px;
     background: #fff;
     border-radius: $global-radius $global-radius 0 0;
     overflow: hidden;
     transition: opacity .2s ease;
-
   }
+	
+	& .item-thumbnail > a {
+		text-align: center;
+		display: inline-block;
+		height: 100%;
+		width: 100%;
+		background-size: cover;
+		background-position: 0;
+	}
+	
+	& .item-thumbnail > a > img {
+		height: 100%;
+	}
 
   & .item-text {
     background: #fff;

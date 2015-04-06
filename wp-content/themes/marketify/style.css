@@ -10756,11 +10756,21 @@ html[xmlns] .slides {
   /******* MD and up *****/ }
   .item-square .item-thumbnail {
     opacity: 1;
+    height: 135px;
     background: #fff;
     border-radius: 0 0 0 0;
     overflow: hidden;
     -webkit-transition: opacity .2s ease;
             transition: opacity .2s ease; }
+  .item-square .item-thumbnail > a {
+    text-align: center;
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: 0; }
+  .item-square .item-thumbnail > a > img {
+    height: 100%; }
   .item-square .item-text {
     background: #fff;
     border-top: 1px solid #E6E6E4;
