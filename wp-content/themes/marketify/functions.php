@@ -204,7 +204,7 @@ function getUserimage($id,$height,$width)
 	$image_value = get_post_meta( $image_id,'_wp_attached_file' ); 
 	if(!empty($image_value[0]))
 	{
-		return $image='<img src="'.$site_url.'/thumb.php?file=wp-content/uploads/'.$image_value[0].'&sizex='.$height.'&sizey='.$width.'">';
+		return $image='<img src="'.$site_url.'/thumb.php?file=wp-content/uploads/'.$image_value[0].'">';
 	}
 	else
 		return $image='<img src="'.$site_url.'/wp-content/themes/marketify/img/default_user_pic.jpg">';
