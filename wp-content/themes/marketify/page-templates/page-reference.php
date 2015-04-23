@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: Copyright Info Page
+ * Template Name: Reference Page
  *
  * @package Marketify
  */
@@ -10,7 +10,7 @@ get_header(); ?>
 	<div class="container page-content page-reference">
 		<div class="card-white double-padding">
 			<div id="content" class="site-content row">
-				<div id="primary" class="content-area col-md-<?php echo is_active_sidebar( 'sidebar-1' ) ? '8' : '12'; ?> col-xs-12">
+				<div id="primary" class="content-area col-md-7 col-md-offset-2">
 					<main id="main" class="site-main" role="main">
 
 					<?php if ( have_posts() ) : ?>
