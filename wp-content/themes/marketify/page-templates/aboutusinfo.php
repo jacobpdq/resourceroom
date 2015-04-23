@@ -22,7 +22,7 @@ $siteurl = site_url();
           <div style="display:block !important" class="divider"></div>
           <div class="row">
             <div class="col-md-3">
-              <ul class="sidenav affix-top" data-offset-top="255" data-spy="affix">
+              <ul class="sidenav affix-top" data-offset-top="275" data-spy="affix">
                 <li><a href="#about-us">About Us</a></li>
                 <li><a href="#mission">Mission</a></li>
                 <li><a href="#vision">Vision</a></li>
