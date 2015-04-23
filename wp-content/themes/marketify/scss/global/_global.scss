@@ -149,8 +149,12 @@
     margin: 24px 0;
   }
   
-  ul {
+  ul, ol {
     padding-left: 18px;
+    
+    & + p {
+      margin-top: $bigger;
+    }
   }
   
   li {

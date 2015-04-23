@@ -8177,8 +8177,10 @@ blockquote {
   font-style: italic;
   margin: 24px 0; }
 
-ul {
+ul, ol {
   padding-left: 18px; }
+  ul + p, ol + p {
+    margin-top: 25px; }
 
 li {
   margin-bottom: 7.5px; }
@@ -8734,6 +8736,45 @@ p.form-field-info {
   background-color: #9ee4fa;
   opacity: 0.45;
   filter: alpha(opacity=45); }
+
+.selecter-item[data-value|="73"] {
+  font-weight: 600; }
+
+.selecter-item[data-value|="104"] {
+  font-weight: 600; }
+
+.selecter-item[data-value|="40"] {
+  font-weight: 600; }
+
+.selecter-item[data-value|="139"] {
+  font-weight: 600; }
+
+.selecter-item[data-value|="97"] {
+  font-weight: 600; }
+
+.selecter-item[data-value|="67"] {
+  font-weight: 600; }
+
+.selecter-item[data-value|="141"] {
+  font-weight: 600; }
+
+.selecter-item[data-value|="79"] {
+  font-weight: 600; }
+
+.selecter-item[data-value|="45"] {
+  font-weight: 600; }
+
+.selecter-item[data-value|="140"] {
+  font-weight: 600; }
+
+.selecter-item[data-value|="49"] {
+  font-weight: 600; }
+
+.selecter-item[data-value|="58"] {
+  font-weight: 600; }
+
+.selecter-item[data-value|="138"] {
+  font-weight: 600; }
 
 .selecter-container {
   padding: 5px;
@@ -11051,32 +11092,6 @@ form.browse-form {
     font-style: italic; }
   .advanced-search #search-filters ul {
     list-style: none; }
-  .advanced-search .selecter-item[data-value|="73"] {
-    font-weight: 600; }
-  .advanced-search .selecter-item[data-value|="104"] {
-    font-weight: 600; }
-  .advanced-search .selecter-item[data-value|="40"] {
-    font-weight: 600; }
-  .advanced-search .selecter-item[data-value|="139"] {
-    font-weight: 600; }
-  .advanced-search .selecter-item[data-value|="97"] {
-    font-weight: 600; }
-  .advanced-search .selecter-item[data-value|="67"] {
-    font-weight: 600; }
-  .advanced-search .selecter-item[data-value|="141"] {
-    font-weight: 600; }
-  .advanced-search .selecter-item[data-value|="79"] {
-    font-weight: 600; }
-  .advanced-search .selecter-item[data-value|="45"] {
-    font-weight: 600; }
-  .advanced-search .selecter-item[data-value|="140"] {
-    font-weight: 600; }
-  .advanced-search .selecter-item[data-value|="49"] {
-    font-weight: 600; }
-  .advanced-search .selecter-item[data-value|="58"] {
-    font-weight: 600; }
-  .advanced-search .selecter-item[data-value|="138"] {
-    font-weight: 600; }
 
 .showcase-header {
   font-family: 'Proxima Nova', 'Helvetica Neue', Helvetica, Arial, sans-serif; }

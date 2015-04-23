@@ -24,10 +24,4 @@
     }
   }
   
-  @each $data-value in 73, 104, 40, 139, 97, 67, 141, 79, 45, 140, 49, 58, 138 {
-    .selecter-item[data-value|="#{$data-value}"]{
-      font-weight: $bold;
-    }
-  }
-  
 }
