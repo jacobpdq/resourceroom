@@ -119,21 +119,32 @@ get_header(); ?>
 				  echo $techim = implode($tech,' , ');
 				  ?>
 				  </p>
-                  <!--<p class="info-list-item"><strong>Number of Pages: </strong>5</p>-->
+                  <p class="info-list-item"><strong>Total Lesson Time: </strong>
+				  <?php 
+				  $lessontime =$value['lesson_time'][0];
+				  echo $lessontime;
+				  ?>
+				  </p>
                   <p class="info-list-item"><strong>Enduring Understanding:</strong>
 				  <?php $endunderval =$value['enduring_understanding:'];
 				  $endunderarr =explode('| ',$endunderval[0]);
 				  foreach($endunderarr as $result5){
 					$endu[] = '<a href="'.site_url().'/search-result/?enduring%5B%5D='.$result5.'">'.$result5.'</a> ';
 					}
-					  echo $enduim = implode($endu,' , ');
+					  echo $enduim = implode($endu,', ');
 					?></p>
+                  <p class="info-list-item"><strong>Language: </strong>
+				  <?php 
+				  $language =$value['language:'][0];
+				  echo $language;
+				  ?>
+				 </p>
                   <p class="info-list-item"><strong>Cirriculum Expectations: </strong>
 				  <?php 
 				  $cexpectation =$value['curriculum_expectations:'][0];
 				  echo $cexpectation;
-				  ?></p>
-                  <!--<p class="info-list-item"><strong>File Format: </strong>.pdf</p>-->
+				  ?>
+                  </p>
                   <p class="info-list-item"><strong>User Rating: </strong>
 				  	<div class="rating-sm clearfix"><div class="StarRating <?php echo Rating($id) ?>"></div><div style="float:left">based on <?php echo NoReviews($id) ?></div></div>
 				  <em></em></p>
