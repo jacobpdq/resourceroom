@@ -14,6 +14,8 @@ dl.info-list-alt {
     color: $mediumgray-dark;
     margin-bottom: $base;
     font-size: $small;
-    text-transform: uppercase;
-  
+	
+	& dd {
+		margin-bottom: 5px;
+	}
 }
