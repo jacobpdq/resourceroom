@@ -8178,9 +8178,16 @@ blockquote {
   margin: 24px 0; }
 
 ul, ol {
+  margin-bottom: 25px; }
+
+ul {
   padding-left: 18px; }
-  ul + p, ol + p {
-    margin-top: 25px; }
+
+ol {
+  padding-left: 30px; }
+  ol ol {
+    margin-top: 7.5px;
+    list-style: lower-alpha; }
 
 li {
   margin-bottom: 7.5px; }
@@ -11029,6 +11036,11 @@ form.browse-form {
   text-align: center; }
 .page-editprofile input.edd-submit {
   width: 50% !important; }
+
+.faq-question {
+  font-weight: 600;
+  margin-top: 25px;
+  margin-bottom: 10px; }
 
 .homepage-browse-links {
   font-size: 20px; }

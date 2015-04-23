@@ -150,10 +150,19 @@
   }
   
   ul, ol {
+    margin-bottom: $bigger;
+  }
+
+  ul {
     padding-left: 18px;
+  }
+  
+  ol {
+    padding-left: 30px;
     
-    & + p {
-      margin-top: $bigger;
+    & ol {
+      margin-top: $base/2;
+      list-style: lower-alpha;
     }
   }
   
