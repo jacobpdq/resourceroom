@@ -766,7 +766,7 @@ if(isset($_GET['q'][0]))
 	if(isset( $resource_thumbnail_image_data['file']))
 	{
 		$resource_image = $resource_thumbnail_image_data['file'];
-		$img = '<img src="'.$site_url.'/thumb.php?file=wp-content/uploads/'.$resource_image .'&sizex=241&sizey=160">';
+		$img = '<img src="'.$site_url.'/thumb.php?file=wp-content/uploads/'.$resource_image .'">';
 	}
 			$resource_edd_variable_prices_ser = $value['edd_variable_prices'][0];
 					$resource_edd_variable_prices_unser = unserialize($resource_edd_variable_prices_ser);
@@ -795,7 +795,7 @@ if(isset($_GET['q'][0]))
 					$result .='</div>
 					
 					
-					<div class="col-md-9">
+					<div class="col-md-9 card-text">
 					  <div id="card-top" class="row">
 						<div class="col-md-9"><a href="'.get_permalink($val->ID).'" class="item-title">'.$val->post_title.'</a>';
 						
