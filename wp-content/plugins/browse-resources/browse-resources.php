@@ -38,6 +38,7 @@ function browse_resource_function()
               <div class="form-group col-md-4">
                 <label class="sr-only">Subjects:</label>
                      <select data-required="yes" data-type="multiselect" name="subject[]" id="download_category" class="download_category input-lg form-control"  >
+  <option class="level-0" value="">All Subjects</option>
   <option class="level-0" value="73">Art</option>
   <option class="level-0" value="104">Electives</option>
   <option class="level-0" value="40">English Language Arts</option>
@@ -56,7 +57,7 @@ function browse_resource_function()
               <div class="form-group col-md-2">
                 <label class="sr-only">Grade(s)</label>
                 <select name="grades[]" class="form-control input-lg">
-                  <option selected>All Grades</option>
+                  <option value="" selected>All Grades</option>
                   <option>ECE</option>
                   <option>K</option>
                   <option>1</option>
