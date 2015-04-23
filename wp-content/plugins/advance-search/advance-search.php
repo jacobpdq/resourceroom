@@ -271,6 +271,10 @@ $result .='
                         <label for="Worksheet">Worksheet</label>
                       </div>
                       <div class="checkbox">
+                        <input  name="resource[]" value="Report Card" id="Report Card" type="checkbox">
+                        <label for="Report Card">Report Card</label>
+                      </div>
+                      <div class="checkbox">
                         <input  name="resource[]" value="Graphic Organizer" id="Graphic Organizer" type="checkbox">
                         <label for="Graphic Organizer">Graphic Organizer</label>
                       </div>
@@ -315,6 +319,35 @@ $result .='
                       <div class="checkbox">
                         <input name="technology[]"  value="Video/Camera" id="Video/Camera" type="checkbox">
                         <label for="Video/Camera">Video/Camera</label>
+                      </div>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label>Language:</label>
+                  <div class="checkbox-list-container">
+                      <div class="radio">
+                        <input name="language" value="" id="anylang" type="radio"  checked>
+                        <label for="anylang">Any Language</label>
+                      </div>
+                      <div class="radio">
+                        <input name="language" value="English" id="english" type="radio" >
+                        <label for="english">English</label>
+                      </div>
+                      <div class="radio">
+                        <input name="language" value="French" id="french" type="radio">
+                        <label for="french">French</label>
+                      </div>
+                      <div class="radio">
+                        <input name="language" value="Cree" id="cree" type="radio" >
+                        <label for="cree">Cree</label>
+                      </div>
+                      <div class="radio">
+                        <input name="language" value="Inuktituk" id="inuktituk" type="radio" >
+                        <label for="inuktituk">Inuktituk</label>
+                      </div>
+                      <div class="radio">
+                        <input name="language" value="Ojibway" id="ojibway" type="radio" >
+                        <label for="ojibway">Ojibway</label>
                       </div>
                   </div>
                 </div>
