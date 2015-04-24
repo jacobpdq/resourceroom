@@ -29,7 +29,7 @@ function allitems()
 	//Getting thumbnail image
 	$sizex = '214';
 	$sizey = '144';
-	$resource_thumbnail_image_ser = $value['resource_thumbnail_image:'][0];
+	$resource_thumbnail_image_ser = $value['thumbnail_image'][0];
 	$resource_thumbnail_image_unser = unserialize($resource_thumbnail_image_ser);
 	$resource_thumbnail_image_data = get_post_meta( $resource_thumbnail_image_unser[0],'_wp_attachment_metadata', true );
 	$resource_thumbnail = $resource_thumbnail_image_data['file'];

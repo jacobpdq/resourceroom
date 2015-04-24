@@ -760,7 +760,7 @@ if(isset($_GET['q'][0]))
 				$userdata =  get_userdata(  $val->post_author ); 
 				$name = $userdata->data->user_login;
 				$site_url = site_url();
-				$resource_thumbnail_image_ser = $value['resource_thumbnail_image:'][0];
+				$resource_thumbnail_image_ser = $value['thumbnail_image'][0];
 				$resource_thumbnail_image_unser = unserialize($resource_thumbnail_image_ser);
 				$resource_thumbnail_image_data = get_post_meta( $resource_thumbnail_image_unser[0],'_wp_attachment_metadata', true );
 	if(isset( $resource_thumbnail_image_data['file']))

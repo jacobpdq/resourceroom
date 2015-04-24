@@ -28,25 +28,25 @@ get_header();
 	
 		echo $meta['nickname'][0];
 		
-		if(!empty($meta['description'][0]))
-			$description = $meta['biographical_info'][0];
+		if(!empty($meta['bio'][0]))
+			$description = $meta['bio'][0];
 		else
 			$description='';
 		
-		if(!empty($meta['city/town:'][0]))
-			$city = $meta['city/town:'][0];
+		if(!empty($meta['city'][0]))
+			$city = $meta['city'][0];
 		else
 			$city = '';
 			
-		if(!empty($meta['provinces:'][0]))
-			$provinces = $meta['provinces:'][0];
+		if(!empty($meta['province'][0]))
+			$provinces = $meta['province'][0];
 		else
-			$provinces = '';	
+			$provinces = '';
 			
 			
-		if(!empty($meta['levels_i_teach:'][0]))
+		if(!empty($meta['levels_i_teach'][0]))
 		{
-			$gradeindex = $meta['levels_i_teach:'][0];
+			$gradeindex = $meta['levels_i_teach'][0];
 			$graearr =explode('| ',$gradeindex);
 				  foreach($graearr as $result3){
 					$gradeim[] =  '<a href="'.site_url().'/search-result/?grades%5B%5D='.$result3.'">'.$result3.'</a>' ;
@@ -56,9 +56,9 @@ get_header();
 		else
 			$grade = '';
 			
-		if(!empty($meta['years_teaching:'][0]))
+		if(!empty($meta['years_teaching'][0]))
 		{
-			$teaching_count = $meta['years_teaching:'][0];
+			$teaching_count = $meta['years_teaching'][0];
 			if($teaching_count>1)
 				$teaching = $teaching_count.' Years';
 			else
@@ -67,13 +67,13 @@ get_header();
 		else
 			$teaching = '';
 			
-		if(!empty($meta['website:'][0]))
-			$website = $meta['website:'][0];
+		if(!empty($meta['website'][0]))
+			$website = $meta['website'][0];
 		else
 			$website = '';
 			
-		if(!empty($meta['specialties:'][0]))
-			$specialties = $meta['specialties:'][0];
+		if(!empty($meta['specialties'][0]))
+			$specialties = $meta['specialties'][0];
 		else
 			$specialties = '';
 			
@@ -172,7 +172,7 @@ get_header();
 						$name = $userdata->data->user_login;
 						$value = get_post_meta( $res->ID, $fields[ 'name' ], true );
 						$site_url = site_url();
-						$resource_thumbnail_image_ser = $value['resource_thumbnail_image:'][0];
+						$resource_thumbnail_image_ser = $value['thumbnail_image'][0];
 						$resource_thumbnail_image_unser = unserialize($resource_thumbnail_image_ser);
 						$resource_thumbnail_image_data = get_post_meta( $resource_thumbnail_image_unser[0],'_wp_attachment_metadata', true );
 						if(isset( $resource_thumbnail_image_data['file']))

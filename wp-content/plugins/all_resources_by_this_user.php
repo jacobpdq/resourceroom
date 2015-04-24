@@ -26,17 +26,15 @@ function all_resources_by_this_user()
 	$name = $userdata->data->user_login;
 	$value = get_post_meta( $res->ID, $fields[ 'name' ], true );
 	$site_url = site_url();
-	$resource_thumbnail_image_ser = $value['resource_thumbnail_image:'][0];
+	$resource_thumbnail_image_ser = $value['thumbnail_image'][0];
 	$resource_thumbnail_image_unser = unserialize($resource_thumbnail_image_ser);
 	$resource_thumbnail_image_data = get_post_meta( $resource_thumbnail_image_unser[0],'_wp_attachment_metadata', true );
 	if(isset( $resource_thumbnail_image_data['file']))
 	{
 		$resource_image = $resource_thumbnail_image_data['file'];
-		$img = '<img src="'.$site_url.'/thumb.php?file=wp-content/uploads/'.$resource_image .'&sizex=100&sizey=80">';
+		$img = '<img src="'.$site_url.'/thumb.php?file=wp-content/uploads/'.$resource_image .'">';
 	}
 	$rating = Rating($res->ID);
-	$sizex = '214';
-	$sizey = '144';
 $resource_edd_variable_prices_ser = $value['edd_variable_prices'][0];
 					$resource_edd_variable_prices_unser = unserialize($resource_edd_variable_prices_ser);
 					 $amount = $resource_edd_variable_prices_unser[0]['amount'];

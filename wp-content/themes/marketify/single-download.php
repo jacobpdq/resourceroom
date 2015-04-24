@@ -78,7 +78,7 @@ get_header(); ?>
 					</p>
 				 
                   <p class="info-list-item"><strong>Topics/Strands: </strong>
-				  <?php $topval =$value['topic(s)/strand(s):'];
+				  <?php $topval =$value['topics'];
 				   $toparr =explode('| ',$topval[0]);
 				  foreach($toparr as $result1){
 					$top[] ='<a href="'.site_url().'/search-result/?q='.$result1.'">'.$result1.'</a>';
@@ -88,7 +88,7 @@ get_header(); ?>
 				  </p>
                   <p class="info-list-item"><strong>Resource Type: </strong>
 				  <?php
-				  $resval =$value['resource_type:'];
+				  $resval =$value['resource_type'];
 				  $resarr =explode('| ',$resval[0]);
 				  foreach($resarr as $result2){
 				  $restype[] = ' <a href="'.site_url().'/search-result/?resource%5D%5B='.$result2.'">'.$result2.'</a>';
@@ -97,7 +97,7 @@ get_header(); ?>
 				  ?>
 				 </p>
                   <p class="info-list-item"><strong>Province: </strong>
-				  <?php $res =$value['province:'];
+				  <?php $res =$value['province'];
 				
 				  ?>
 				  <a href="<?php echo site_url(); ?>/search-result/?province%5B%5D=<?php echo $res[0]; ?>"><?php echo $res[0]; ?></a> </p>
@@ -111,7 +111,7 @@ get_header(); ?>
 				  echo $gradeim = implode($grade,' , ');
 				  ?></p>
                   <p class="info-list-item"><strong>Technology Required: </strong>
-				  <?php $techval =$value['technology_required:'];
+				  <?php $techval =$value['technology'];
 				 $techarr =explode('| ',$techval[0]);
 				  foreach($techarr as $result4){
 					$tech[] =  '<a href="'.site_url().'/search-result/?technology%5B%5D='.$result4.'">'.$result4.'</a>' ;
@@ -126,7 +126,7 @@ get_header(); ?>
 				  ?>
 				  </p>
                   <p class="info-list-item"><strong>Enduring Understanding:</strong>
-				  <?php $endunderval =$value['enduring_understanding:'];
+				  <?php $endunderval =$value['understanding'];
 				  $endunderarr =explode('| ',$endunderval[0]);
 				  foreach($endunderarr as $result5){
 					$endu[] = '<a href="'.site_url().'/search-result/?enduring%5B%5D='.$result5.'">'.$result5.'</a> ';
@@ -135,7 +135,7 @@ get_header(); ?>
 					?></p>
                   <p class="info-list-item"><strong>Language: </strong>
 				  <?php 
-				  $language =$value['language:'][0];
+				  $language =$value['language'][0];
 				  echo $language;
 				  ?>
 				 </p>
@@ -144,19 +144,19 @@ get_header(); ?>
                   </p>
                   <div class="collapse info-list-item padding-left" id="expectationscollapse">
                     <?php 
-                    $cexpectation =$value['curriculum_expectations'][0];
+                    $cexpectation =$value['expectations'][0];
                     echo $cexpectation;
                     ?>
                   </div>
                   <p class="info-list-item"><strong>User Rating: </strong>
-				  	<div class="rating-sm clearfix"><div class="StarRating <?php echo Rating($id) ?>"></div><div style="float:left">based on <?php echo NoReviews($id) ?></div></div>
-				  <em></em></p>
+                  <div class="rating-sm clearfix"><div class="StarRating <?php echo Rating($id) ?>"></div><div style="float:left"><em></em>based on <?php echo NoReviews($id) ?></em></div></div>
+				  </p>
                 </div>
 				
                 <div class="divider divider-lg"></div>
                 <div class="showcase-item-full-description">
                  <p><?php  //get_template_part( 'content', 'page' ); 
-				 echo $value['full_description'][0];
+				 echo $value['description'][0];
 				 ?></p>
                 </div>
 				
@@ -202,7 +202,7 @@ get_header(); ?>
 					$sizey = '260';
 					$site_url = site_url();
 					$value = get_post_meta( $post->ID, $fields[ 'name' ], true );
-					$resource_preview_images_ser = $value['resource_preview_images:'][0];
+					$resource_preview_images_ser = $value['preview_images'][0];
 					$resource_edd_variable_prices_ser = $value['edd_variable_prices'][0];
 					$resource_edd_variable_prices_unser = unserialize($resource_edd_variable_prices_ser);
 					$resource_preview_images_unser = unserialize($resource_preview_images_ser);

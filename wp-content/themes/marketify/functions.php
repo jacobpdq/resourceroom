@@ -54,7 +54,7 @@ function mostPopular()
 			foreach($sql as $res)
 			{
 				$value = get_post_meta( $res->ID, $fields[ 'name' ], true );
-				$resource_thumbnail_image_ser = $value['resource_thumbnail_image:'][0];
+				$resource_thumbnail_image_ser = $value['thumbnail_image'][0];
 				
 				$resource_thumbnail_image_unser = unserialize($resource_thumbnail_image_ser);
 				
