@@ -140,11 +140,14 @@ get_header(); ?>
 				  ?>
 				 </p>
                   <p class="info-list-item"><strong>Cirriculum Expectations: </strong>
-				  <?php 
-				  $cexpectation =$value['curriculum_expectations:'][0];
-				  echo $cexpectation;
-				  ?>
+                  <a data-toggle="collapse" href="#expectationscollapse" aria-expanded="false" aria-controls="expectationscollapse">Show/Hide</a>
                   </p>
+                  <div class="collapse info-list-item padding-left" id="expectationscollapse">
+                    <?php 
+                    $cexpectation =$value['curriculum_expectations'][0];
+                    echo $cexpectation;
+                    ?>
+                  </div>
                   <p class="info-list-item"><strong>User Rating: </strong>
 				  	<div class="rating-sm clearfix"><div class="StarRating <?php echo Rating($id) ?>"></div><div style="float:left">based on <?php echo NoReviews($id) ?></div></div>
 				  <em></em></p>

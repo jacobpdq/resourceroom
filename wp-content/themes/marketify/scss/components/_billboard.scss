@@ -1,9 +1,17 @@
 .billboard {
 	background: #fff;
 	margin-bottom: 20px;
-	padding: $sizeup-3 0 $sizeup-4;
+	padding: $sizeup-3 0;
 	border-bottom: 1px solid $lightgray-dark;
 
+    a {
+      color: $blue-light !important;
+      &:hover,
+      &:focus{
+        color: lighten($blue-light, 10%) !important;
+      }
+    }
+  
 	& .billboard-title {
 	font-weight: $normal;
 	margin-bottom: 0;
@@ -28,6 +36,10 @@
 	& #browse-resources {
 	margin-right: $biggest;
 	}
+  
+    & .billboard-profits {
+      color: $mediumgray-dark;
+    }
 }
 
 /****** XS ONLY ********/

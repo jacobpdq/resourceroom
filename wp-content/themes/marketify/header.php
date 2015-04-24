@@ -98,9 +98,14 @@
             <div class="col-md-10 col-md-offset-1 text-center">
               <h1 class="billboard-title">Resource Room</h1>
               <p class="billboard-text">Welcome to the Resource Room: A collection of educational resources made for Canadian teachers, by Canadian teachers.</p>
+              <p class="billboard-links">
               <a id="browse-resources" href="<?php echo site_url() ;?>/browse" class="billboard-link billboard-link-left">
                 <img src="<?php echo get_template_directory_uri(); ?>/img/icons/icon-browse.svg" class="icon icon-left icon-lg">Browse Resources</a>
               <a href="<?php echo site_url() ;?>/upload-resource" class="billboard-link"> <img src="<?php echo get_template_directory_uri(); ?>/img/icons/icon-upload.svg" class="icon icon-left icon-lg">Upload A Resource</a>
+              </p>
+              <p class="billboard-profits">
+                *10% of our profits are donated to projects that benefit Canadian education – <a href="<?php echo $siteurl ?>/faq/#profits">submit a project</a>
+              </p>
             </div>
           </div>
         </div>

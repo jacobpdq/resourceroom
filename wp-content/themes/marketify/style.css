@@ -9075,7 +9075,7 @@ p.form-field-info {
   padding: 20px;
   border-radius: 4px;
   color: #FFF;
-  background-color: #fd9883;
+  background-color: #ffb98d;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2); }
   .calendar .unit {
     float: left;
@@ -9112,11 +9112,11 @@ p.form-field-info {
     left: 13px;
     border-color: transparent transparent transparent #FFF; }
   .calendar .years .prev em:hover, .calendar .years .next em:hover, .calendar .years .prev em:active, .calendar .years .next em:active {
-    border-color: #E9573F; }
+    border-color: #FF8941; }
   .calendar .years .prev em:hover:before, .calendar .years .prev em:active:before {
-    border-color: transparent #E9573F transparent transparent; }
+    border-color: transparent #FF8941 transparent transparent; }
   .calendar .years .next em:hover:before, .calendar .years .next em:active:before {
-    border-color: transparent transparent transparent #E9573F; }
+    border-color: transparent transparent transparent #FF8941; }
   .calendar .years .monyear {
     float: left;
     width: 71.42%;
@@ -9126,7 +9126,7 @@ p.form-field-info {
   .calendar .days {
     margin-top: 15px;
     padding-top: 15px;
-    border-top: 1px solid #ee7f6d; }
+    border-top: 1px solid #ffa974; }
     .calendar .days .unit {
       margin-bottom: 3px;
       text-align: center;
@@ -9140,12 +9140,12 @@ p.form-field-info {
       .calendar .days .unit:hover b, .calendar .days .unit:active b, .calendar .days .unit.active b {
         display: inline-block;
         background-color: #FFF;
-        color: #E9573F;
+        color: #FF8941;
         cursor: pointer;
         -webkit-transition: all 0.2s ease-in-out;
         transition: all 0.2s ease-in-out; }
       .calendar .days .unit.older b {
-        color: #E9573F;
+        color: #FF8941;
         background-color: transparent;
         cursor: default;
         width: auto;
@@ -10109,7 +10109,7 @@ a.list-group-item {
   background: #29b473; }
 
 .bg-orange-light {
-  background: #FC6E51; }
+  background: #ff995a; }
 
 .text-green {
   color: #29b473; }
@@ -10296,8 +10296,12 @@ Custom Columns
 .billboard {
   background: #fff;
   margin-bottom: 20px;
-  padding: 51px 0 76px;
+  padding: 51px 0;
   border-bottom: 1px solid #E6E6E4; }
+  .billboard a {
+    color: #4A90E2 !important; }
+    .billboard a:hover, .billboard a:focus {
+      color: #76abe9 !important; }
   .billboard .billboard-title {
     font-weight: 400;
     margin-bottom: 0; }
@@ -10313,6 +10317,8 @@ Custom Columns
     text-decoration: none; }
   .billboard #browse-resources {
     margin-right: 31px; }
+  .billboard .billboard-profits {
+    color: #a2a2a1; }
 
 /****** XS ONLY ********/
 @media (max-width: 767px) {
@@ -10886,6 +10892,12 @@ dl.info-list-alt {
   font-size: 13px; }
   dl.info-list-alt dd {
     margin-bottom: 5px; }
+
+div.info-list-item.collapse, div.info-list-item.collapsing {
+  padding-left: 20px; }
+  div.info-list-item.collapse p, div.info-list-item.collapsing p {
+    margin-bottom: 10px;
+    line-height: 1.2; }
 
 .owner-link {
   color: #6D6D6D;

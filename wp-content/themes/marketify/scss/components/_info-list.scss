@@ -19,3 +19,15 @@ dl.info-list-alt {
 		margin-bottom: 5px;
 	}
 }
+
+// for the collapsible curriculum expectations
+
+div.info-list-item.collapse,
+div.info-list-item.collapsing {
+  padding-left: $big;
+  
+  & p {
+    margin-bottom: $smaller;
+    line-height: 1.2;
+  }
+}
