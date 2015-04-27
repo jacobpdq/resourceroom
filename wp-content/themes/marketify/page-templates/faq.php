@@ -60,16 +60,15 @@ $siteurl = site_url();
 
 				<div id="profits">
 					<p class="faq-question">What’s this about 10% of profits supporting Canadian education?</p>
-					<p>Each quarter, Resource Room will donate 10% of net profits to a project that benefits Canadian Education. If you would like to submit a project (for your school, class, or an independent initiative), Send an e-mail to <a href="mailto:info@resourceroom.ca">info@resourceroom.ca</a> providing details about your project including: Overall summary of project, a description of who will benefit from the project, project budget, additional resources required, and 2 character references.</p>
+					<p>Each quarter, Resource Room will donate 10% of net profits to a project that benefits Canadian Education. If you would like to submit a project (for your school, class, or an independent initiative), send an e-mail to <a href="mailto:info@resourceroom.ca">info@resourceroom.ca</a> providing details about your project including: Overall summary of project, a description of who will benefit from the project, project budget, additional resources required, and 2 character references.</p>
                   <p>We will fund as many projects as possible per quarter and will leave it up to a community vote if there are too many submissions.</p>
 				</div>
               
 				<div id="submitproject">
 					<p class="faq-question">How can I submit a project proposal to receive funding from Resource Room?</p>
-					<p>If you would like to submit a project (for your school, class, or an independent initiative), Send an e-mail to <a href="mailto:info@resourceroom.ca">info@resourceroom.ca</a> providing details about your project including: Overall summary of project, a description of who will benefit from the project, project budget, additional resources required.</p>
-                    <p>You do not have to be a registered charity or non-profit but your proposal must obviously provide benefits for Canadian Education. We will fund as many projects as possible per quarter and will leave it up to a community vote if there are too many submissions. 
-</p>
-                    <p>Submission deadlines are as follows: January 15, April 15, June 15, and September 15. Submissions to not carry over to the next quarter, but you are welcome to submit a new proposal each quarter. 
+					<p>If you would like to submit a project (for your school, class, or an independent initiative), send an e-mail to <a href="mailto:info@resourceroom.ca">info@resourceroom.ca</a> providing details about your project including: Overall summary of project, a description of who will benefit from the project, project budget, additional resources required, and 2 character references.</p>
+                    <p>You do not have to be a registered charity or non-profit, but your proposal must obviously provide benefits for Canadian Education. We will fund as many projects as possible per quarter and will leave it up to a community vote if there are too many submissions.</p>
+                    <p>Submission deadlines are as follows: January 15, April 15, June 15, and September 15. Submissions do not carry over to the next quarter, but you are welcome to submit a new proposal each quarter. 
 </p>
 				</div>
               
@@ -91,7 +90,7 @@ $siteurl = site_url();
 			 
 				<div id="howarepriced"> 
 					<p class="faq-question">How are resources priced?</p>
-					<p>Resources on the Resource Room are not our property. They remain the intellectual property of the original author. The author decides how much to charge for their resource. Feel free to let them know if you think they are charging too much by leaving a user review. </p>
+					<p>Resources on the Resource Room are not our property. They remain the intellectual property of the original author. The author decides how much to charge for their resource. Feel free to let them know if you think they are charging too much by leaving a user review. All listed prices are in CAD.</p>
 				</div>
 				
 				<div id="doyoufree">
@@ -165,32 +164,56 @@ $siteurl = site_url();
 				<p class="faq-question">What file types can I upload to Resource Room?</p>
 				<p>The following file types are supported on Resource Room: </p>
 				<p>.avi, .bmp, .bnk, .doc, .docx, .dot, .exe, .epub, .flp, .flv, .flipchart, .gif, .htm, .html, .ink, .jpeg, .jpg, .key, .knt, .mov, .mp3, .mpeg, .mpg, .mp4, .m4a, .m4v, .notebook, .ods, .pdf, .png, .pps, .ppt, .pptx, .pub, .ram, .rm, .rtf, .swf, .tif, .tiff, .txt, .wav, .wpd, .wmv, .xls, .xlsx, .xlt, .xltx, .zip</p>
+                <p>Please ZIP all of your files!</p>
+                <p><strong>How to create a ZIP file:</strong></p>
+                <p>Mac Users:</p>
+                <p>
+                  <ol>
+                    <li>Put all of your resource's files into a single folder.</li>
+                    <li>Name the folder.</li>
+                    <li>Highlight the folder. Select "File" in your menu bar, and then select "Compress."</li>
+                    <li>This will create a zipped version of your folder. Upload that ZIP file to your Upload form.</li>
+                  </ol>
+                </p>
+                <p>PC Users:</p>
+                <p>
+                  <ol>
+                    <li>Put all of your resource's files into a single folder.</li>
+                    <li>Name the folder.</li>
+                    <li>Right-click the folder.</li>
+                    <li>Choose "Send to" and then "Compressed (zipped) folder."</li>
+                    <li>This will create a zipped version of your folder. Upload that ZIP file to your Upload form.</li>
+                  </ol>
+                </p>
 			</div>
 				
 			<div id="whatifresourcemore">
 				<p class="faq-question">What if my resource contains more than one file?</p>
-				<p>If you want to include more than one file in your resource, you must ZIP your file. To do this, put all files into one folder and then compress the folder into a ZIP file. The ZIP file will be uploaded as your resource. </p>
+				<p>If you want to include more than one file in your resource, you must ZIP your file. To do this, put all files into one folder and then compress the folder into a ZIP file. The ZIP file will be uploaded as your resource.</p>
+                <p><strong>How to create a ZIP file:</strong></p>
+                <p>Mac Users:</p>
+                <p>
+                  <ol>
+                    <li>Put all of your resource's files into a single folder.</li>
+                    <li>Name the folder.</li>
+                    <li>Highlight the folder. Select "File" in your menu bar, and then select "Compress."</li>
+                    <li>This will create a zipped version of your folder. Upload that ZIP file to your Upload form.</li>
+                  </ol>
+                </p>
+                <p>PC Users:</p>
+                <p>
+                  <ol>
+                    <li>Put all of your resource's files into a single folder.</li>
+                    <li>Name the folder.</li>
+                    <li>Right-click the folder.</li>
+                    <li>Choose "Send to" and then "Compressed (zipped) folder."</li>
+                    <li>This will create a zipped version of your folder. Upload that ZIP file to your Upload form.</li>
+                  </ol>
+                </p>
 			</div>
 			
 			
-              <p class="faq-question">How to create a ZIP file:</p>
-              <p>Mac Users:</p>
-              <p>
-                </p><ol>
-                  <li>Put all of your resource's files into a single folder.</li>
-                  <li>Name the folder.</li>
-                  <li>Highlight the folder. Select "File" in your menu bar, and then select "Compress."</li>
-                  <li>This will create a zipped version of your folder. Upload that ZIP file to your Upload form.</li>
-                </ol>
-              <p></p>
-              <p>PC Users:
-                </p><ol>
-                  <li>Put all of your resource's files into a single folder.</li>
-                  <li>Name the folder.</li>
-                  <li>Right-click the folder.</li>
-                  <li>Choose "Send to" and then "Compressed (zipped) folder."</li>
-                  <li>This will create a zipped version of your folder. Upload that ZIP file to your Upload form.</li>
-                </ol>
+
               <p></p>
 			 <div id="resourcetoobig">
 				<p class="faq-question">Help, my resource is too big! What do I do?</p>
