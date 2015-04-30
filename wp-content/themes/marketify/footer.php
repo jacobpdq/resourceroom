@@ -14,7 +14,7 @@
 		<div class="footer">
         <div class="container">
 					<div class="site-info row">
-						<div class="footer-logo col-md-3">
+						<div class="footer-logo footer-col col-md-3">
 							<span>
 								<a href="<?php echo home_url(); ?>">
 									<?php if ( marketify_theme_mod( 'footer', 'footer-logo' ) ) : ?>
@@ -25,10 +25,10 @@
 								</a>
 							</span>
 						</div>
-                        <div class="col-md-6">
+                        <div class="col-md-6 footer-col">
 						<?php wp_nav_menu( array('menu' => 'Footer Menu' )); ?>
                         </div>
-                        <div class="col-md-3 footer-copyright text-right"> 
+                        <div class="col-md-3 footer-copyright text-right footer-col"> 
                           <small>
 					       <?php printf( __( '&copy; %d %s. All rights reserved.', 'marketify' ), date( 'Y' ), get_bloginfo( 'name' ) ); ?>
                           </small>

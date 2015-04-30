@@ -33,6 +33,10 @@ $footer-height:               90px;
     background-color: $footer-background-color;
     border-top: 1px solid $lightgray-dark;
 
+    .footer-col {
+      height:auto !important;
+    }
+    
     li.menu-item {
       display: inline-block;
       margin-right: $bigger;
