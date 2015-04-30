@@ -194,18 +194,6 @@ function custom_taxonomies_terms_links($id){
 <label>Subjects:</label>
                     <div class="selecter-container">
                       <fieldset class="fes-el download_category"> 
-    <script>
-      /*  $(document).ready(function(){
-      
-        
-           $("input").iCheck({
-        checkboxClass: "icheckbox",
-        radioClass: "iradio", 
-        }); 
-          
-        
-      });  */
-    </script>
         
         <div class="fes-fields">
             <select data-required="yes" data-type="multiselect" name="subject[]" id="download_category" class="download_category" multiple="multiple" >
@@ -351,9 +339,8 @@ function custom_taxonomies_terms_links($id){
                   <div class="divider"></div>
                   <div class="form-group">
                     <label>Grades:</label>
-                    <div class="row">
-                      <div class="col-xs-4">
-                        <div class="checkbox-list">';
+
+                        <div id="search-checklist-grades" class="checkbox-list-container">';
 
 						foreach($fields[2]['options'] as $key =>$value)
 						{
@@ -379,8 +366,7 @@ function custom_taxonomies_terms_links($id){
 						 }
                           
                         $result .='</div></div>
-                      </div>
-                     </div>
+
                   <div class="divider"></div>
                   <div class="form-group">
                     <label>Province:</label>
@@ -400,7 +386,7 @@ function custom_taxonomies_terms_links($id){
 							else
 								$selected_province = '';
 						 }
-                      $result .='<option '.$qsel.' '.$selected_province.' value="'.$value.'" name="province:">'.$value.'</option>';
+                      $result .='<option '.$qsel.' '.$selected_province.' value="'.$value.'" name="province">'.$value.'</option>';
 					  }
 
                     $result .='</select>
@@ -409,7 +395,7 @@ function custom_taxonomies_terms_links($id){
                   <div class="form-group">
                     <label>Enduring Understanding:</label>
                     <div class="checkbox-list">';
-					foreach($fields[8]['options'] as $key =>$value)
+					foreach($fields[7]['options'] as $key =>$value)
 				     {
 					 if($_GET['q']==$value)
 								$qsel = 'checked="checked"';
@@ -432,48 +418,65 @@ function custom_taxonomies_terms_links($id){
                       
                     $result .='</div>
                   </div>
-                  <div style="display:none" class="divider"></div>
-                  <div style="display: none" class="form-group">
+                  <div class="divider"></div>
+                  <div class="form-group">
                     <label>Language:</label>
-                    <select class="form-control" name="language[]">
-					<option value="">Select Language</option>';
-						foreach($fields[8]['options'] as $key =>$value)
-						{
-						if($_GET['q']==$value)
-								$qsel = 'selected="selected"';
-							else
-								$qsel='';
-						 if(isset($_GET['language']))
-						 {
-														
-							if(in_array($value,$_GET['language']))
-								$selected_language = 'selected="selected"';
-							else
-								$selected_language= '';
-						 }
-							
-							$result .='<option '.$qsel.' value="'.$value.'" '.$selected_language.'>'.$value.'</option>';
-                      
-						}
-                     
+                    <select class="form-control" name="price_range">
+					<option value="">Any Language</option>';
+
+					if($_GET['language'] == 'English') {
+						$result .= "<option value='English' selected='selected'>English</option>";
+					} else {
+						$result .= "<option value='language'>English</option>";
+					}
+   
+					if($_GET['language'] == 'French') {
+						$result .= "<option value='French' selected='selected'>French</option>";
+					} else {
+						$result .= "<option value='language'>French</option>";
+					}
+
+   					if($_GET['language'] == 'French') {
+						$result .= "<option value='French' selected='selected'>French</option>";
+					} else {
+						$result .= "<option value='language'>French</option>";
+					}
+   
+   					if($_GET['language'] == 'Cree') {
+						$result .= "<option value='Cree' selected='selected'>Cree</option>";
+					} else {
+						$result .= "<option value='language'>Cree</option>";
+					}
+   
+                    if($_GET['language'] == 'Inuktituk') {
+						$result .= "<option value='Inuktituk' selected='selected'>Inuktituk</option>";
+					} else {
+						$result .= "<option value='language'>Inuktituk</option>";
+					}
+   
+   					if($_GET['language'] == 'Ojibway') {
+						$result .= "<option value='Ojibway' selected='selected'>Ojibway</option>";
+					} else {
+						$result .= "<option value='language'>Ojibway</option>";
+					}
                    $result .='</select>
                   </div>
                   <div class="divider"></div>
                   <div class="form-group">
                     <label>Price Range:</label>
                     <select class="form-control" name="price_range">
-					<option value="">Any</option>';
+					<option value="">Any Price</option>';
 
-					if($_GET['price_range'] == 'Paid') {
-						$result .= "<option value='Paid' selected='selected'>Paid</option>";
+					if($_GET['price_range'] == 'Free') {
+						$result .= "<option value='Free' selected='selected'>Free Resources</option>";
 					} else {
-						$result .= "<option value='Paid'>Paid</option>";
+						$result .= "<option value='Free'>Free Resources</option>";
 					}
 
 					if($_GET['price_range'] == 'less5') {
 						$result .= "<option value='less5' selected='selected'>Paid</option>";
 					} else {
-						$result .= "<option value='less5'>less5</option>";
+						$result .= "<option value='less5'>Under $5</option>";
 					}
 					
 

@@ -364,7 +364,7 @@ $result .='
                       </div>
                       <div class="radio">
                         <input name="price_range" value="less5" id="less5" type="radio" >
-                        <label for="less5">Under < $5</label>
+                        <label for="less5">Under $5</label>
                       </div>
                   </div>
                 </div>
