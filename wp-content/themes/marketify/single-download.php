@@ -78,12 +78,8 @@ get_header(); ?>
 					</p>
 				 
                   <p class="info-list-item"><strong>Topics/Strands: </strong>
-				  <?php $topval =$value['topics'];
-				   $toparr =explode('| ',$topval[0]);
-				  foreach($toparr as $result1){
-					$top[] ='<a href="'.site_url().'/search-result/?q='.$result1.'">'.$result1.'</a>';
-					}
-					echo $topim = implode($top,' , ');
+				  <?php $topics =$value['topics'][0];
+					echo $topics;
 					?> 
 				  </p>
                   <p class="info-list-item"><strong>Resource Type: </strong>
@@ -93,7 +89,7 @@ get_header(); ?>
 				  foreach($resarr as $result2){
 				  $restype[] = ' <a href="'.site_url().'/search-result/?resource%5D%5B='.$result2.'">'.$result2.'</a>';
 				  }
-				  echo $restypeim = implode($restype,' , ');
+				  echo $restypeim = implode($restype,', ');
 				  ?>
 				 </p>
                   <p class="info-list-item"><strong>Province: </strong>
@@ -108,7 +104,7 @@ get_header(); ?>
 				  foreach($graearr as $result3){
 					$grade[] =  '<a href="'.site_url().'/search-result/?grades%5B%5D='.$result3.'">'.$result3.'</a>' ;
 				  }
-				  echo $gradeim = implode($grade,' , ');
+				  echo $gradeim = implode($grade,', ');
 				  ?></p>
                   <p class="info-list-item"><strong>Technology Required: </strong>
 				  <?php $techval =$value['technology'];
@@ -116,7 +112,7 @@ get_header(); ?>
 				  foreach($techarr as $result4){
 					$tech[] =  '<a href="'.site_url().'/search-result/?technology%5B%5D='.$result4.'">'.$result4.'</a>' ;
 				  }
-				  echo $techim = implode($tech,' , ');
+				  echo $techim = implode($tech,', ');
 				  ?>
 				  </p>
                   <p class="info-list-item"><strong>Total Lesson Time: </strong>
