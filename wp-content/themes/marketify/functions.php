@@ -194,7 +194,7 @@ function getFeatureduser()
 	}
 	
 }
-function getUserimage($id,$height,$width)
+function getUserimage($id)
 {
 	global $wpdb;
 	$site_url = site_url();
