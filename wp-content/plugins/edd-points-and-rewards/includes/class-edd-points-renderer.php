@@ -259,10 +259,10 @@ class EDD_Points_Renderer {
 			
 			?> 
 			<fieldset class="edd-points-redeem-points-wrap">
+                <div class="edd-points-redeem-message"><?php echo $message;?></div><!--.edd-points-checkout-message-->
 				<form method="POST" action="" >
-					<input type="submit" id="edd_points_apply_discount" name="edd_points_apply_discount" class="button edd-submit <?php _e( $button_color ); ?> edd-points-apply-discount-button" value="<?php _e( 'Apply Discount', 'eddpoints' );?>" />
+					<input type="submit" id="edd_points_apply_discount" name="edd_points_apply_discount" class="btn btn-sm btn-muted" value="<?php _e( 'Apply Discount', 'eddpoints' );?>" />
 				</form>
-				<div class="edd-points-redeem-message"><?php echo $message;?></div><!--.edd-points-checkout-message-->
 			</fieldset><!--.edd-points-redeem-points-wrap-->
 			<?php
 			
@@ -274,8 +274,9 @@ class EDD_Points_Renderer {
 			$removfeesurl = add_query_arg( array( 'edd_points_remove_discount' => 'remove' ), edd_get_current_page_url() );
 			?>
 				<fieldset class="edd-points-checkout-message">
-					<a href="<?php echo $removfeesurl;?>" class="button edd-point-remove-discount-link edd-points-float-right"><?php _e( 'Remove', 'eddpoints' );?></a>
-					<div class="edd-points-remove-disocunt-message"><?php printf( __( 'Remove %s Discount', 'eddpoints' ), $plurallabel );?></div><!--.edd-points-checkout-message-->
+					<div class="edd-points-remove-disocunt-message"><?php printf( __( 'Remove %s Discount', 'eddpoints' ), $plurallabel );?></div>
+					<a href="<?php echo $removfeesurl;?>" class="button btn btn-sm btn-muted  edd-point-remove-discount-link"><?php _e( 'Remove', 'eddpoints' );?></a>
+<!--.edd-points-checkout-message-->
 				</fieldset><!--.edd-points-redeem-points-wrap-->
 			<?php
 		}

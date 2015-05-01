@@ -1,0 +1,28 @@
+// Shopping Cart CSS 
+
+#edd_checkout_cart {
+  
+  .edd_cart_header_row,
+  .edd_cart_item {
+    border-bottom: 1px solid $lightgray-dark;
+  }
+  
+  th, td {
+    padding: 8px;
+  }
+  
+}
+
+.edd-points-redeem-points-wrap form,
+.edd-points-redeem-points-wrap form input {
+  float: none;
+}
+
+#edd_checkout_user_info {
+  margin-top: $sizeup-2;
+}
+
+.edd-points-redeem-message {
+  padding: 0;
+  margin-bottom: 5px;
+}

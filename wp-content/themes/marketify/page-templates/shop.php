@@ -14,7 +14,7 @@ get_header(); ?>
 <div class="container page-content">
 	<div class="card-white double-padding">
 		<div class="text-center">
-            <h3><?php the_title(); ?></h3>
+            <h3><img src="<?php echo get_template_directory_uri(); ?>/img/icons/icon-cart.svg" class="icon icon-xl icon-left">Shopping Cart</h3>
         </div>
 		<div class="divider"></div>
 
@@ -24,7 +24,7 @@ get_header(); ?>
 
 		<div id="content" class="site-content row" style="min-height:150px">
 
-			<section id="primary" class="content-area col-md-<?php echo is_active_sidebar( 'sidebar-download' ) ? '9' : '12'; ?> col-sm-7 col-xs-12">
+			<section id="primary" class="content-area col-md-6 col-md-offset-3">
 				<main id="main" class="site-main" role="main">
 
 				<?php while ( have_posts() ) : the_post(); ?>

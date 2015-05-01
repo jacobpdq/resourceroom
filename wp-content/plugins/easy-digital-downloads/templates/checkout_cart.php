@@ -10,7 +10,7 @@ global $post; ?>
 			<?php do_action( 'edd_checkout_table_header_first' ); ?>
 			<th class="edd_cart_item_name"><?php _e( 'Item Name', 'edd' ); ?></th>
 			<th class="edd_cart_item_price"><?php _e( 'Item Price', 'edd' ); ?></th>
-			<th class="edd_cart_actions"><?php _e( 'Actions', 'edd' ); ?></th>
+			<th class="edd_cart_actions"><?php _e( '', 'edd' ); ?></th>
 			<?php do_action( 'edd_checkout_table_header_last' ); ?>
 		</tr>
 	</thead>

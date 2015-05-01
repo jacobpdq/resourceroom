@@ -520,7 +520,7 @@ class FES_Forms {
               <div class="row">
                 <div <?php echo $style1 ?> class="col-md-8 col-md-offset-2">
                   <div <?php echo $style2 ?> class="card-white double-padding">
-				    <h3 class="text-center"><img class="icon icon-xl icon-left" src="<?php echo site_url(); ?>/wp-content/themes/marketify/img/icons/icon-user.svg">Profile</h3>
+				    <h3 class="text-center"><img class="icon icon-xl icon-left" src="<?php echo get_template_directory_uri(); ?>/img/icons/icon-user.svg">Profile</h3>
 				    <?php } ?>
                     <form class="fes-profile-form form-horizontal" action="" method="post">
                     <?php }
