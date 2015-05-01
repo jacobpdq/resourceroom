@@ -21,7 +21,8 @@ $alert-link-color:              $mediumgray-light !default;
    */
   .alert {
       font-size: $small;
-      padding: $small;
+      padding: $smaller $small;
+      display:block;
     
       & h4 {
           margin-bottom: 10px;
@@ -48,8 +49,9 @@ $alert-link-color:              $mediumgray-light !default;
     
       &.alert-red {
         color: $red-dark;
-        border: 1px solid $red-light;
+        border: 1px solid lighten($red-light, 25%);
         background-color: lighten($red-light, 35%);
+        display: block;
       }
     
       @at-root &-success {
