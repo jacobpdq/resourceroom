@@ -197,6 +197,7 @@ function edd_user_info_fields() {
 		</p>
 		<?php do_action( 'edd_purchase_form_user_info' ); ?>
 	</fieldset>
+    <div class="divider"></div>
 	<?php
 }
 add_action( 'edd_purchase_form_after_user_info', 'edd_user_info_fields' );
@@ -805,7 +806,7 @@ function edd_checkout_button_purchase() {
 
 	ob_start();
 ?>
-	<input type="submit" class="edd-submit <?php echo $color; ?> <?php echo $style; ?>" id="edd-purchase-button" name="edd-purchase" value="<?php echo $complete_purchase; ?>"/>
+	<input type="submit" class="btn btn-blue btn-lg btn-3d btn-block" id="edd-purchase-button" name="edd-purchase" value="<?php echo $complete_purchase; ?>"/>
 <?php
 	return apply_filters( 'edd_checkout_button_purchase', ob_get_clean() );
 }

@@ -8,7 +8,7 @@
   }
   
   th, td {
-    padding: 8px;
+    padding: 8px 0;
   }
   
 }
@@ -26,3 +26,15 @@
   padding: 0;
   margin-bottom: 5px;
 }
+
+#edd_purchase_submit {
+  padding: $sizeup-2;
+  text-align: center;
+  border: 1px solid $lightgray-dark;
+  background: $lightgray-light;
+}
+
+#edd_final_total_wrap {
+  font-size: $bigger;
+}
+
