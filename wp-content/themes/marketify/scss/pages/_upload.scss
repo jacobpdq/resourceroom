@@ -18,3 +18,11 @@
 .uploadfield-price input {
   padding-left: $base;
 }
+
+input #lesson_time,
+table.multiple,
+table.preview_images,
+table.thumbnail_image,
+table.files{
+  margin-bottom: 0;
+}
