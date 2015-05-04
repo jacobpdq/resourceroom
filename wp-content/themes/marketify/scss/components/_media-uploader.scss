@@ -1,0 +1,64 @@
+// Media Uploader CSS
+
+.media-modal  {
+  top: 200px !important;
+  left: 200px !important;
+  right: 200px !important;
+  bottom: 200px !important;
+}
+
+.media-frame-router,
+.media-frame-title,
+.media-toolbar-secondary,
+#media-search-input {
+  display: none;
+}
+
+.image-details h3, .media-sidebar h3 {
+  text-transform: none !important;
+  font-size: $base !important;
+  font-weight: $normal !important;
+  letter-spacing: 0;
+}
+
+.media-frame-content {
+  top: 50px !important;
+}
+
+.media-toolbar-primary {
+  float: none !important;
+  margin: auto;
+}
+
+.uploader-inline-content {
+  top: 15% !important;
+}
+
+.attachment-info {
+  .details {
+    .uploaded, a.edit-attachment {
+      display: none !important;
+    }
+  }
+}
+
+.attachment-details {
+  position: relative;
+  margin: 0 auto;
+  max-width: 400px !important;
+  
+  label.setting {
+    display: none;
+  }
+}
+
+.media-sidebar {
+  position: relative !important;
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.media-toolbar-primary .button {
+  margin-left: 0 !important;
+  width: 100% !important
+}

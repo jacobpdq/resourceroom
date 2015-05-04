@@ -16,6 +16,13 @@ display:none !important;
 }
 
 </style>
+
+<script type="text/javascript"> // default to Upload Media tab
+jQuery(document).ready(function($){
+wp.media.controller.Library.prototype.defaults.contentUserSetting=false;
+});
+</script>
+
 <div class="container page-content">
         <div class="row">
           <div class="col-md-8 col-md-offset-2">

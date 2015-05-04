@@ -46,14 +46,17 @@ $search-icon-line-height:          30px !default;
   
 
 // EDD and FES fixes
-.fes-url-choose-row,
-.fes-delete-row {
-  vertical-align: top;
-}
+  .fes-url-choose-row,
+  .fes-delete-row {
+    vertical-align: top;
+  }
 
-.fes-url-row {
-  padding: 0 $gutter/2;
-}
+  .fes-file-value {
+    font-size: 12px;
+  }
+  .fes-url-row {
+    padding: 0 $gutter/2;
+  }
 // end of that  
   
   
