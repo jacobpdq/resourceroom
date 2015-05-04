@@ -237,7 +237,7 @@ $siteurl = site_url();
 				<p>To share your resource for free, please leave a 0 in the price field.</p>
 			</div>
 			 <div id="thumbnailimage">
-				<p class="faq-question">What Is my resource’s “Thumbnail Image”?</p>
+				<p class="faq-question">What is my resource’s “Thumbnail Image”?</p>
 				<p>The thumbnail image is the image that will represent your resource throughout the site, and will show up in search results, on your public Room page, and elsewhere. We recommend a JPEG image  840px wide and 525px tall, or larger, and a width-to-height ratio of 1.6:1. You should choose or create an image that communicates the focus and style of your resource, and encourages other users to check it out!
                </p>
 			</div>
