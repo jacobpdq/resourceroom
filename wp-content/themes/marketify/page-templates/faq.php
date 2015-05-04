@@ -46,8 +46,10 @@ $siteurl = site_url();
                 <li><a href="<?php echo $siteurl ?>/faq/#whatrefundpolicy">What is your refund policy?</a></li>
                 <li class="header"><a href="">Seller</a></li>
                 <li><a href="<?php echo $siteurl ?>/faq/#howuploadproduct">How do I upload a product?</a></li>
-                <li><a href="<?php echo $siteurl ?>/faq/#whatfiletypes">What file types can I upload to Resource Room?</a></li>
-                <li><a href="<?php echo $siteurl ?>/faq/#whatifresourcemore">What if my resource contains more than one file?</a></li>
+                <li><a href="<?php echo $siteurl ?>/faq/#filetypes">What file types can I upload to Resource Room?</a></li>
+                <li><a href="<?php echo $siteurl ?>/faq/#multiplefiles">What if my resource contains more than one file?</a></li>
+                                <li><a href="<?php echo $siteurl ?>/faq/#thumbnailimage">What if my resource contains more than one file?</a></li>
+                <li><a href="<?php echo $siteurl ?>/faq/#previewimages">What if my resource contains more than one file?</a></li>
                 <li><a href="<?php echo $siteurl ?>/faq/#resourcetoobig">Help, my resource is too big! What do I do?</a></li>
                 <li><a href="<?php echo $siteurl ?>/faq/#howmanageresource">How to I manage my resources?</a></li>
                 <li><a href="<?php echo $siteurl ?>/faq/#howgetpaid">How do I get paid?</a></li>
@@ -56,7 +58,7 @@ $siteurl = site_url();
               </ul>
             </div>
             <div class="col-md-7">
-				<h3>General</h3>
+				<h3 class="faq-heading">General</h3>
 
 				<div id="profits">
 					<p class="faq-question">What’s this about 10% of profits supporting Canadian education?</p>
@@ -115,10 +117,10 @@ $siteurl = site_url();
 				
 				<div id="howcancel">
 					<p class="faq-question">How do I cancel my account?</p>
-					<p>Contact us at admin@resourceroom.ca and we will assist you! </p>
+					<p>Contact us at <a href="mailto:admin@resourceroom.ca">admin@resourceroom.ca</a> and we will assist you! </p>
 				</div>
                 <div class="divider"></div>
-				<h3>Buyer</h3>
+				<h3 class="faq-heading">Buyer</h3>
 			  
 				<div id="howbuyresource">
 					<p class="faq-question">How do I buy a resource?</p>
@@ -140,7 +142,7 @@ $siteurl = site_url();
 					<p>If a resource description is misleading or incorrect, you may file a complaint and receive a resource refund. On the rare occasion, our contributors may mistakenly upload the wrong file. If this occurs, please file a complaint and we will have the proper resource uploaded as soon as possible. You can keep the mistaken upload as a gift from Resource Room.   </p>
 				</div>
             <div class="divider"></div>
-            <h3>Seller</h3>
+            <h3 class="faq-heading">Seller</h3>
 			<div id="howuploadproduct">
 				<p class="faq-question">How do I upload a product?</p>
 				<ol>
@@ -160,23 +162,20 @@ $siteurl = site_url();
                 </ol>
 			</div>
 			  
-			<div id="whatfiletypes">
+			<div id="filetypes">
 				<p class="faq-question">What file types can I upload to Resource Room?</p>
 				<p>The following file types are supported on Resource Room: </p>
 				<p>.avi, .bmp, .bnk, .doc, .docx, .dot, .exe, .epub, .flp, .flv, .flipchart, .gif, .htm, .html, .ink, .jpeg, .jpg, .key, .knt, .mov, .mp3, .mpeg, .mpg, .mp4, .m4a, .m4v, .notebook, .ods, .pdf, .png, .pps, .ppt, .pptx, .pub, .ram, .rm, .rtf, .swf, .tif, .tiff, .txt, .wav, .wpd, .wmv, .xls, .xlsx, .xlt, .xltx, .zip</p>
                 <p>Please ZIP all of your files!</p>
                 <p><strong>How to create a ZIP file:</strong></p>
                 <p>Mac Users:</p>
-                <p>
                   <ol>
                     <li>Put all of your resource's files into a single folder.</li>
                     <li>Name the folder.</li>
                     <li>Highlight the folder. Select "File" in your menu bar, and then select "Compress."</li>
                     <li>This will create a zipped version of your folder. Upload that ZIP file to your Upload form.</li>
                   </ol>
-                </p>
                 <p>PC Users:</p>
-                <p>
                   <ol>
                     <li>Put all of your resource's files into a single folder.</li>
                     <li>Name the folder.</li>
@@ -184,10 +183,9 @@ $siteurl = site_url();
                     <li>Choose "Send to" and then "Compressed (zipped) folder."</li>
                     <li>This will create a zipped version of your folder. Upload that ZIP file to your Upload form.</li>
                   </ol>
-                </p>
 			</div>
 				
-			<div id="whatifresourcemore">
+			<div id="multiplefiles">
 				<p class="faq-question">What if my resource contains more than one file?</p>
 				<p>If you want to include more than one file in your resource, you must ZIP your file. To do this, put all files into one folder and then compress the folder into a ZIP file. The ZIP file will be uploaded as your resource.</p>
                 <p><strong>How to create a ZIP file:</strong></p>
@@ -211,11 +209,18 @@ $siteurl = site_url();
                   </ol>
                 </p>
 			</div>
-			
-			
 
-              <p></p>
-			 <div id="resourcetoobig">
+			 <div id="thumbnailimage">
+				<p class="faq-question">What Is my resource’s “Thumbnail Image”?</p>
+				<p>The thumbnail image is the image that will represent your resource throughout the site, and will show up in search results, on your public Room page, and elsewhere. We recommend a JPEG image  840px wide and 525px tall, or larger, and a width-to-height ratio of 1.6:1. You should choose or create an image that communicates the focus and style of your resource, and encourages other users to check it out!
+               </p>
+			</div>
+           <div id="previewimages">
+				<p class="faq-question">What are my resource’s “Preview Images”?</p>
+				<p>You need to provide 1 to 5 images that show off your resource. These images appear on the resource’s page, and will help sell your resource when users click through to view it. You may wish to include the Thumbnail Image for your resource, but you don’t have to! We recommend JPEG images  840px wide and 525px tall, or larger, and a width-to-height ratio of 1.6:1.
+               </p>
+			</div>
+          <div id="resourcetoobig">
 				<p class="faq-question">Help, my resource is too big! What do I do?</p>
 				<p>Our website can't accept products that are bigger than 200 mb in size. We hope this is not too limiting. Here are some strategies to help minimize the size of your file:</p>
 				<ul>
