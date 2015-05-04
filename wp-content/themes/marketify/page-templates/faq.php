@@ -48,7 +48,9 @@ $siteurl = site_url();
                 <li><a href="<?php echo $siteurl ?>/faq/#howuploadproduct">How do I upload a product?</a></li>
                 <li><a href="<?php echo $siteurl ?>/faq/#filetypes">What file types can I upload to Resource Room?</a></li>
                 <li><a href="<?php echo $siteurl ?>/faq/#multiplefiles">What if my resource contains more than one file?</a></li>
-                                <li><a href="<?php echo $siteurl ?>/faq/#thumbnailimage">What Is my resource’s “Thumbnail Image”?</a></li>
+                <li><a href="<?php echo $siteurl ?>/faq/#curriculumexpectations">Where can I find my province's curriculum expectations?</a></li>
+                <li><a href="<?php echo $siteurl ?>/faq/#howmuchcharge">How much should I charge for my Resource?</a></li>
+                <li><a href="<?php echo $siteurl ?>/faq/#thumbnailimage">What Is my resource’s “Thumbnail Image”?</a></li>
                 <li><a href="<?php echo $siteurl ?>/faq/#previewimages">What are my resource’s “Preview Images”?</a></li>
                 <li><a href="<?php echo $siteurl ?>/faq/#resourcetoobig">Help, my resource is too big! What do I do?</a></li>
                 <li><a href="<?php echo $siteurl ?>/faq/#howmanageresource">How to I manage my resources?</a></li>
@@ -209,7 +211,31 @@ $siteurl = site_url();
                   </ol>
                 </p>
 			</div>
+			 <div id="curriculumexpectations">
+				<p class="faq-question">Where can I find my province's curriculum expectations?</p>
+				<p>Follow these links to find the curriculum expectations for your province:</p>
+                <ul>
+                  <li><a href="http://education.alberta.ca/teachers/program.aspx" target="_blank">Alberta</a></li>
+                  <li><a href="http://www.bced.gov.bc.ca/irp/welcome.php" target="_blank">British Columbia</a></li>
+                  <li><a href="http://www.edu.gov.mb.ca/k12/cur/index.html" target="_blank">Manitoba</a></li>
+                  <li><a href="http://www.gnb.ca/0000/anglophone-e.asp#cd" target="_blank">New Brunswick</a></li>
+                  <li><a href="http://www.ed.gov.nl.ca/edu/k12/curriculum/guides/index.html" target="_blank">Newfoundland &amp; Labrador</a></li>
+                  <li><a href="http://www.ece.gov.nt.ca/early-childhood-and-school-services/school-services/curriculum-k-12" target="_blank">Northwest Territories</a></li>
+                  <li><a href="https://sapps.ednet.ns.ca/Cart/index.php?UID=2013012117544267.193.75.86" target="_blank">Nova Scotia</a></li>
+                  <li><a href="http://www.gov.nu.ca/education/information/curriculum-learning-resources-0" target="_blank">Nunavut</a></li>
+                  <li><a href="http://www.edu.gov.on.ca/eng/teachers/curriculum.html" target="_blank">Ontario</a></li>
+                  <li><a href="http://www.edu.pe.ca/curriculum/default.asp" target="_blank">Prince Edward Island</a></li>
+                  <li><a href="http://www.mels.gouv.qc.ca/en/teachers/programs-of-study/" target="_blank">Quebec</a></li>
+                  <li><a href="http://www.curriculum.gov.sk.ca/" target="_blank">Saskatchewan</a></li>
+                  <li><a href="http://www.education.gov.yk.ca/kto12/curriculum.html" target="_blank">Yukon</a></li>
+              </ul>
 
+			</div>
+            <div id="howmuchcharge">
+				<p class="faq-question">How much should I charge for my resource?</p>
+				<p>The price of your resource is up to you, but we recommend keeping it under $20.00, and encourage making it less than $5.00 – or sharing it for free!</p>
+				<p>To share your resource for free, please leave a 0 in the price field.</p>
+			</div>
 			 <div id="thumbnailimage">
 				<p class="faq-question">What Is my resource’s “Thumbnail Image”?</p>
 				<p>The thumbnail image is the image that will represent your resource throughout the site, and will show up in search results, on your public Room page, and elsewhere. We recommend a JPEG image  840px wide and 525px tall, or larger, and a width-to-height ratio of 1.6:1. You should choose or create an image that communicates the focus and style of your resource, and encourages other users to check it out!
