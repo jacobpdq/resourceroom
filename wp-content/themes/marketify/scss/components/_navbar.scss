@@ -30,6 +30,10 @@ $navbar-height:                              66px;
 	
   }
   
+  .navbar-logo {
+    height: $navbar-height/3;
+  }
+  
   .navbar-default {
     & {
       background-color: $navbar-background-color;

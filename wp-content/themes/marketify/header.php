@@ -34,7 +34,7 @@
       <nav role="navigation" class="navbar navbar-default">
         <div class="container-fluid">
           <div class="navbar-header">
-            <button type="button" data-toggle="collapse" data-target=".navbar-collapse" class="navbar-toggle"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button><a href="<?php echo site_url(); ?>" class="navbar-brand">Resource Room</a>
+            <button type="button" data-toggle="collapse" data-target=".navbar-collapse" class="navbar-toggle"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button><a href="<?php echo site_url(); ?>" class="navbar-brand"><img class="navbar-logo" src="<?php echo get_template_directory_uri(); ?>/img/resource-room-logo-white.svg" alt="Resource Room"></a>
           </div>
           <div class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
@@ -96,7 +96,7 @@
         <div class="container">
           <div class="row">
             <div class="col-md-10 col-md-offset-1 text-center">
-              <h1 class="billboard-title">Resource Room</h1>
+              <img class="billboard-logo" src="<?php echo get_template_directory_uri(); ?>/img/resource-room-logo-gray.svg" alt="Resource Room">
               <p class="billboard-text">Welcome to the Resource Room: A collection of educational resources made for Canadian teachers, by Canadian teachers.</p>
               <p class="billboard-links">
               <a id="browse-resources" href="<?php echo site_url() ;?>/browse" class="billboard-link billboard-link-left">
