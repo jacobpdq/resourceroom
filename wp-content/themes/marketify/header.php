@@ -96,7 +96,7 @@
         <div class="container">
           <div class="row">
             <div class="col-md-10 col-md-offset-1 text-center">
-              <img class="billboard-logo" src="<?php echo get_template_directory_uri(); ?>/img/resource-room-logo-gray.svg" alt="Resource Room">
+              <img class="billboard-logo" src="<?php echo get_template_directory_uri(); ?>/img/resource-room-logo-blue.svg" alt="Resource Room">
               <p class="billboard-text">Welcome to the Resource Room: A collection of educational resources made for Canadian teachers, by Canadian teachers.</p>
               <p class="billboard-links">
               <a id="browse-resources" href="<?php echo site_url() ;?>/browse" class="billboard-link billboard-link-left">

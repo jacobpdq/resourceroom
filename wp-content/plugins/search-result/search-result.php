@@ -435,12 +435,6 @@ function custom_taxonomies_terms_links($id){
 					} else {
 						$result .= "<option value='language'>French</option>";
 					}
-
-   					if($_GET['language'] == 'French') {
-						$result .= "<option value='French' selected='selected'>French</option>";
-					} else {
-						$result .= "<option value='language'>French</option>";
-					}
    
    					if($_GET['language'] == 'Cree') {
 						$result .= "<option value='Cree' selected='selected'>Cree</option>";

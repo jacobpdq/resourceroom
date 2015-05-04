@@ -71,7 +71,7 @@ $siteurl = site_url();
               
               <h3 id="why-sell">Why Sell?</h3>
               <p>Simple – hard work should pay off! You put a lot of time and energy into creating unique and engaging units and lessons for your students. Your hard work shouldn’t reside on a shelf or a flash drive, it should be shared among teachers for a far reaching benefit. Did we mention that it can also benefit your bank account? </p>
-              <p><em>ew Teachers and Students Teachers:</em> You are the new energy in our field. You have been educated with the most up-to-date research on best practices, planning strategies, and educational technologies. Your contributions will keep teachers current and cutting-edge. You play an important role in our community and we look forward to seeing your contributions. Plus, it doesn’t hurt to bring in some extra money while you work your way into the field!</p>
+              <p><em>New Teachers and Students Teachers:</em> You are the new energy in our field. You have been educated with the most up-to-date research on best practices, planning strategies, and educational technologies. Your contributions will keep teachers current and cutting-edge. You play an important role in our community and we look forward to seeing your contributions. Plus, it doesn’t hurt to bring in some extra money while you work your way into the field!</p>
             </div>
           </div>
 		  
