@@ -413,8 +413,7 @@ class FES_Forms {
 				<div class="row">
 				<div class="col-md-8 col-md-offset-2">
 				<div class="card-white double-padding">		
-				<h3 style="display:block" class="text-center"><img class="icon icon-xl icon-left" src="<?php echo site_url(); ?>/wp-content/themes/marketify/img/icons/icon-upload.svg"> 
-				Add a resource</h3>
+				<h3 style="display:block" class="text-center"><img class="icon icon-xl icon-left" src="<?php echo site_url(); ?>/wp-content/themes/marketify/img/icons/icon-upload.svg">Edit resource</h3>
 			<?php } ?>
 			 <form class="fes-submission-form" action="" method="post">
 		<?php }
