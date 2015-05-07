@@ -81,9 +81,12 @@ function eddc_user_commissions( ) {
 			<div id="edd_user_commissions">
 
 				<!-- unpaid -->
-				<div id="edd_user_commissions_unpaid">
-					<h3 class="edd_user_commissions_header"><?php _e('Unpaid Commissions', 'eddc'); ?></h3>
-					<table id="edd_user_unpaid_commissions_table" class="edd_user_commissions">
+				<div id="edd_user_commissions_unpaid" class="row margin-bottom-bigger">
+					<div class="col-sm-4">
+                      <h3 class="edd_user_commissions_header"><?php _e('Unpaid Commissions', 'eddc'); ?></h3>
+                    </div>
+                    <div class="col-sm-8">
+					<table id="edd_user_unpaid_commissions_table" class="nomargin edd_user_commissions">
 						<thead>
 							<tr class="edd_user_commission_row">
 								<?php do_action( 'eddc_user_commissions_unpaid_head_row_begin' ); ?>
@@ -118,9 +121,14 @@ function eddc_user_commissions( ) {
 								<td colspan="4"><?php _e('No unpaid commissions', 'eddc'); ?></td>
 							</tr>
 						<?php endif; ?>
+                          <tr class="edd_user_commission_row">
+                            <td colspan="4">
+                              <div id="edd_user_commissions_unpaid_total"><strong><?php _e('Total unpaid:', 'eddc');?>&nbsp;<?php echo edd_currency_filter( edd_format_amount( eddc_get_unpaid_totals( $user_ID ) ) ); ?></strong></div>
+
+                            </td>
+                          </tr>
 						</tbody>
 					</table>
-					<div id="edd_user_commissions_unpaid_total"><?php _e('Total unpaid:', 'eddc');?>&nbsp;<?php echo edd_currency_filter( edd_format_amount( eddc_get_unpaid_totals( $user_ID ) ) ); ?></div>
 
 					<div id="edd_commissions_unpaid_pagination" class="navigation">
 					<?php
@@ -133,13 +141,15 @@ function eddc_user_commissions( ) {
 						) );
 					?>
 					</div>
-
+                  </div>
 				</div><!--end #edd_user_commissions_unpaid-->
-
 				<!-- paid -->
-				<div id="edd_user_commissions_paid">
+				<div id="edd_user_commissions_paid" class="row margin-bottom margin-bottom-bigger">
+                  <div class="col-sm-4">
 					<h3 class="edd_user_commissions_header"><?php _e('Paid Commissions', 'eddc'); ?></h3>
-					<table id="edd_user_paid_commissions_table" class="edd_user_commissions">
+                  </div>
+                  <div class="col-sm-8">
+					<table id="edd_user_paid_commissions_table" class="nomargin edd_user_commissions">
 						<thead>
 							<tr class="edd_user_commission_row">
 								<?php do_action( 'eddc_user_commissions_paid_head_row_begin' ); ?>
@@ -173,9 +183,13 @@ function eddc_user_commissions( ) {
 								<td colspan="4"><?php _e('No paid commissions', 'eddc'); ?></td>
 							</tr>
 						<?php endif; ?>
+                            <tr class="edd_user_commission_row">
+                              <td colspan="4">
+                                <div id="edd_user_commissions_paid_total"><strong><?php _e('Total paid:', 'eddc');?>&nbsp;<?php echo edd_currency_filter( edd_format_amount( eddc_get_paid_totals( $user_ID ) ) ); ?></strong></div>
+                              </td>
+                            </tr>
 						</tbody>
 					</table>
-					<div id="edd_user_commissions_paid_total"><?php _e('Total paid:', 'eddc');?>&nbsp;<?php echo edd_currency_filter( edd_format_amount( eddc_get_paid_totals( $user_ID ) ) ); ?></div>
 
 					<div id="edd_commissions_paid_pagination" class="navigation">
 					<?php
@@ -188,12 +202,15 @@ function eddc_user_commissions( ) {
 						) );
 					?>
 					</div>
-
+                  </div>
 				</div><!--end #edd_user_commissions_paid-->
 
 				<!-- revoked -->
-				<div id="edd_user_commissions_revoked">
+				<div id="edd_user_commissions_revoked" class="row margin-bottom-bigger">
+                  <div class="col-sm-4">
 					<h3 class="edd_user_commissions_header"><?php _e('Revoked Commissions', 'eddc'); ?></h3>
+                  </div>
+                  <div class="col-sm-8">
 					<table id="edd_user_revoked_commissions_table" class="edd_user_commissions">
 						<thead>
 							<tr class="edd_user_commission_row">
@@ -242,7 +259,7 @@ function eddc_user_commissions( ) {
 						) );
 					?>
 					</div>
-				
+				  </div>
 				</div><!--end #edd_user_commissions_revoked-->
 
 				<div id="edd_commissions_export">
@@ -251,8 +268,8 @@ function eddc_user_commissions( ) {
 						<?php echo EDD()->html->month_dropdown(); ?>
 						<?php echo EDD()->html->year_dropdown(); ?>
 						<input type="hidden" name="edd_action" value="generate_commission_export"/>
-						<input type="submit" class="edd-submit button" value="<?php _e( 'Download CSV', 'eddc' ); ?>"/>
-					</form><br/>
+						<input type="submit" class="edd-submit btn btn-sm btn-muted" value="<?php _e( 'Download CSV', 'eddc' ); ?>"/>
+					</form>
 				</div>
 
 
