@@ -7,53 +7,24 @@
 
 get_header(); ?>
 
-	<header class="page-header">
-		<h1 class="page-title"><?php _e( 'Oops! That page can&rsquo;t be found.', 'marketify' ); ?></h1>
-	</header><!-- .page-header -->
-
-	<div class="container">
-		<div id="content" class="site-content row">
-
-			<div id="primary" class="content-area col-sm-<?php echo is_active_sidebar( 'sidebar-1' ) ? '8' : '12'; ?>">
-				<main id="main" class="site-main" role="main">
+	<div class="container page-content">
+		<div class="card-white double-padding">
+			<div id="content" class="site-content row">
+				<div id="primary" class="content-area col-md-<?php echo is_active_sidebar( 'sidebar-1' ) ? '8' : '12'; ?> col-xs-12">
+					<main id="main" class="site-main" role="main">
 
 				<section class="error-404 not-found">
 					<div class="page-content">
-						<p><?php _e( 'It looks like nothing was found at this location. Maybe try one of the links below or a search?', 'marketify' ); ?></p>
-
-						<?php get_search_form(); ?>
-
-						<br /><br />
-
-						<div class="row">
-							<div class="col-md-6">
-								<?php the_widget( 'WP_Widget_Recent_Posts' ); ?>
-							</div>
-
-							<div class="col-md-6">
-								<div class="widget widget_categories">
-									<h2 class="widgettitle"><?php _e( 'Most Used Categories', 'marketify' ); ?></h2>
-									<ul>
-									<?php
-										wp_list_categories( array(
-											'orderby'    => 'count',
-											'order'      => 'DESC',
-											'show_count' => 1,
-											'title_li'   => '',
-											'number'     => 10,
-										) );
-									?>
-									</ul>
-								</div><!-- .widget -->
-							</div>
-						</div>
+                      <h3>Page not found!</h3>
+                      <div class="divider"></div>
+                      <p>Sorry, we can't find the page you're looking for! If you've stumbled across a broken link, <a href="<?php echo $siteurl ?>/contact-us">let us know</a>!</p>
 
 					</div><!-- .page-content -->
 				</section><!-- .error-404 -->
 
 				</main><!-- #main -->
 			</div><!-- #primary -->
-
+          </div>
 			<?php get_sidebar(); ?>
 		</div>
 	</div>
