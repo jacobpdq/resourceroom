@@ -29,10 +29,14 @@ $footer-height:               90px;
   .footer {
     font-size: $small;
     padding: $sizeup-2;
-    height: $footer-height;
+    min-height: $footer-height;
     background-color: $footer-background-color;
     border-top: 1px solid $lightgray-dark;
 
+    #menu-footer-menu {
+      margin-bottom: 0;
+    }
+    
     .footer-col {
       height:auto !important;
     }
