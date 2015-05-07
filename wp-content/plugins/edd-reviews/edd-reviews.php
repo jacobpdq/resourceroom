@@ -502,10 +502,10 @@ final class EDD_Reviews {
 			'comment_notes_before' => $this->maybe_show_review_breakdown( $post->ID ),
 			'comment_notes_after'  => '',
 			'fields' => array(
-				'author'           => '<p class="comment-form-author">' . '<label for="author">' . __( 'Name', 'edd-reviews' ) . '<span class="required">*</span></label>' .
-						          	'<input id="author" name="author" type="text" value="" size="30" aria-required="true" /></p>',
-				'email'            => '<p class="comment-form-email"><label for="email">' . __( 'Email', 'edd-reviews' ) . '<span class="required">*</span></label>' .
-						          	'<input id="email"  name="email" type="text" value="" size="30" aria-required="true" /></p>',
+				'author'           => '<p class="comment-form-author">' . '<label for="author">' . __( 'Name:', 'edd-reviews' ) . '<span class="required">*</span></label>' .
+						          	'<input class="form-control" id="author" name="author" type="text" value="" size="30" aria-required="true" /></p>',
+				'email'            => '<p class="comment-form-email"><label for="email">' . __( 'Email:', 'edd-reviews' ) . '<span class="required">*</span></label>' .
+						          	'<input  class="form-control" id="email"  name="email" type="text" value="" size="30" aria-required="true" /></p>',
 			),
 			'label_submit'         => __( 'Submit', 'edd-reviews' ),
 			'logged_in_as'         => '',
