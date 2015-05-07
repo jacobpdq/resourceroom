@@ -261,7 +261,7 @@ function eddc_user_commissions( ) {
 					</div>
 				  </div>
 				</div><!--end #edd_user_commissions_revoked-->
-
+                <div class="divider"></div>
 				<div id="edd_commissions_export">
 					<p><strong><?php _e( 'Export Paid Commissions', 'eddc' ); ?></strong></p>
 					<form method="post" action="<?php echo home_url(); ?>">
