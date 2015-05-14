@@ -14,21 +14,10 @@
 		<div class="footer">
         <div class="container">
 					<div class="site-info row">
-						<div class="footer-logo footer-col col-md-3">
-							<span>
-								<a href="<?php echo home_url(); ?>">
-									<?php if ( marketify_theme_mod( 'footer', 'footer-logo' ) ) : ?>
-										<img src="<?php echo marketify_theme_mod( 'footer', 'footer-logo' ); ?>" />
-									<?php else : ?>
-										<?php bloginfo( 'name' ); ?>
-									<?php endif; ?>
-								</a>
-							</span>
-						</div>
-                        <div class="col-md-6 footer-col">
+                        <div class="col-md-9 footer-col">
 						<?php wp_nav_menu( array('menu' => 'Footer Menu' )); ?>
                         </div>
-                        <div class="col-md-3 footer-copyright text-right footer-col"> 
+                        <div class="col-md-3 footer-copyright footer-col"> 
                           <small>
 					       <?php printf( __( '&copy; %d %s. All rights reserved.', 'marketify' ), date( 'Y' ), get_bloginfo( 'name' ) ); ?>
                           </small>

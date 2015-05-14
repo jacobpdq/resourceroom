@@ -3,21 +3,9 @@
 }
 
 .comment-card-left {
-  position: relative;
-  min-height: 1px;
-  padding-left: 7px;
-  padding-right: 7px;
-  float: left;
-  width: 250px;
 }
 
 .comment-card-right{
-  float: left;
-  position: relative;
-  min-height: 1px;
-  padding-left: 7px;
-  padding-right: 7px;
-  max-width: 500px;
 }
   
 .comment+.comment {
@@ -48,7 +36,11 @@
     }
     
     & .comment-content {
-      margin-left: 120px + $bigger;
+    }
+    
+    & .comment-author-avatar {
+      width: 40px;
+      height: 40px;
     }
     
     & .comment-author img {

@@ -44,7 +44,7 @@ get_header(); ?>
 			$users_info=get_userdata($user);
 			$user_name=$users_info->user_login; ?>
               
-			<a href="<?php echo $site_url ?>/user-profile?user_id=<?php echo $user ?>" class="img-circle img-circle-small">
+			<a href="<?php echo $site_url ?>/user-profile?user_id=<?php echo $user ?>" class="img-circle item-author-avatar">
             <?php echo getUserimage($user,'30','30') ?>
 			</a>
 			 By <a href="<?php echo $site_url ?>/user-profile?user_id=<?php echo $user ?>"><?php echo $user_name; ?></a></div>
@@ -158,9 +158,6 @@ get_header(); ?>
 				
                 <div class="divider"></div>
                 <div class="text-right"><a href="<?php echo site_url()?>/contact-us" class="showcase-report-link">Report</a></div>
-				
-				
-                <!--<div class="text-right"><a href="" class="showcase-report-link">Report</a></div>-->
               </div>
             </div>
             <h3><img src="<?php echo get_template_directory_uri(); ?>/img/icons/icon-comment.svg" class="icon icon-left icon-lg">Reviews:</h3>
@@ -189,7 +186,6 @@ get_header(); ?>
                   
                 </div>
                 
-			<!--<a href="" class="btn btn-block btn-muted">Load More</a>-->
           </div>
 		   <div class="col-md-5">
 				
@@ -211,7 +207,7 @@ get_header(); ?>
 					
 					?>
 					
-					<div class="card-white">
+            <div class="card-white">
               <div class="flexslider">
                 <ul class="slides">
 				<?php
@@ -238,7 +234,7 @@ get_header(); ?>
 				$price = do_shortcode('[edd_price]');
 			}
 			?>
-<div class="showcase-action-box">
+            <div class="showcase-action-box">
               <div class="row">
                 <div class="col-md-4 col-md-offset-4 text-center">
                   <div class="item-price">
@@ -268,7 +264,7 @@ get_header(); ?>
 				<?php echo do_shortcode('[MOREPRODUCT]');?>
 				
 				<div class="divider"></div>
-				<div class="text-center"><a href="<?php echo $site_url ?>/resource-by-user?userid=<?php echo $user ?>">See All Resources by <?php echo $user_name  ?></a></div> 
+				<div class="text-center"><a href="<?php echo $site_url ?>/user-profile/?user_id=<?php echo $user ?>">See All Resources by <?php echo $user_name  ?></a></div> 
              </div>
             </div>
           </div>

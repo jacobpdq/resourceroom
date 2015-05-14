@@ -25,7 +25,7 @@ $result .='
                 </div>
                 <div class="divider divider-xl"></div>
                 <div class="row">
-                  <div class="form-group col-md-4">
+                  <div class="form-group col-sm-4">
                     <label>Provinces:</label>
                     <div class="selecter-container">
                       <select name="province[]" multiple class="selecter_multiple">
@@ -43,7 +43,7 @@ $result .='
                       </select>
                     </div>
                   </div>
-                  <div class="form-group col-md-6">
+                  <div class="form-group col-sm-6">
                     <label>Subjects:</label>
                     <div class="selecter-container">
                       <fieldset class="fes-el download_category"> 
@@ -156,8 +156,8 @@ $result .='
         </fieldset>
                     </div>
                   </div>
-                  <div class="form-group col-md-2">
-                    <label>Grade(s)</label>
+                  <div class="form-group col-sm-2">
+                    <label>Grade(s):</label>
                     <div class="selecter-container">
                       <select name="grades[]" multiple class="selecter_multiple">
                         <option value="ECE">ECE</option>

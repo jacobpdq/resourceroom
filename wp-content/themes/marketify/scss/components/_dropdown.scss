@@ -8,11 +8,14 @@
    * --------------------------------------------------
    */
   
-  .dropdown:hover .dropdown-menu {
-    display: block;
-  }
-  .user-dropdown {
-    min-width: 200px;
+  
+  @media (min-width: $screen-md-min){
+    .dropdown:hover .dropdown-menu {
+      display: block;
+    }
+    .user-dropdown {
+      min-width: 200px;
+    }
   }
   
   .dropdown-menu {

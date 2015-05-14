@@ -169,8 +169,8 @@ function getFeatureduser()
 				$specialties = '';
 			?>
 			<div class="row">
-		            <div class="col-xs-3"><a class="img-circle feat-author-pic" href="<?php echo $site_url ?>/user-profile?userid=<?php echo $usersql->ID ?>"><?php echo $image ?></a></div>
-                <div class="col-xs-9"><a href="<?php echo $site_url ?>/user-profile?user_id=<?php echo $usersql->ID ?>">
+		            <div class="col-sm-3 text-center"><a class="img-circle feat-author-pic" href="<?php echo $site_url ?>/user-profile?userid=<?php echo $usersql->ID ?>"><?php echo $image ?></a></div>
+                <div class="col-sm-9"><a href="<?php echo $site_url ?>/user-profile?user_id=<?php echo $usersql->ID ?>">
                     <h3 class="feat-author-name"><?php echo $username ?></h3></a>
                   <div class="divider"></div>
                   <div class="info-list margin-bottom">
@@ -243,11 +243,9 @@ function getUserAllReviews($id)
 					?>
 					<div class="card-white comment">
 				<div class="row">
-				  <div class="comment-card-left">
+				  <div class="comment-card-left col-sm-4">
 					<div class="margin-bottom">
-						<a class="img-circle img-circle-small" href="user-page.html">
-							<?php echo getUserimage($val->user_id,'100','100') ?>
-						</a>
+                        <div class="img-circle comment-author-avatar margin-right"><?php echo getUserimage($val->user_id,'100','100') ?></div>
 						<div class="comment-info"><?php echo $val->comment_author ?>
 						<div class="comment-date"><?php echo $newDate ?></div>
 						</div>
@@ -258,7 +256,7 @@ function getUserAllReviews($id)
 						</div>
 					</p>
 				  </div>
-				  <div class="comment-card-right">
+				  <div class="comment-card-right col-sm-8">
 					<p class="comment-content"><?php echo $val->comment_content ?></p>
 				  </div>
 				</div>

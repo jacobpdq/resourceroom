@@ -43,17 +43,17 @@ $final_rating = round($aggregate_rating);
 	<div class="container">
 	  <div class="row">
 		<div class="col-md-6">
-		  <h2 class="nomargin"><?php echo $username ?>'s Homeroom</h2>
+		  <h2 id="dashboard-title"><?php echo $username ?>'s Homeroom</h2>
 		</div>
 		<div class="col-md-6">
 		  <div class="row">
-			<div class="col-md-4">
+			<div class="col-xs-4">
 			  <div class="dashboard-snapshot-card">
 				<h3 class="nomargin"><?php echo $total_sales_count ?></h3><a href="">Total Sales</a>
 			  </div>
 			</div>
-			<div class="col-md-4">
-			  <div style="color:#fff" class="dashboard-snapshot-card">
+			<div class="col-xs-4">
+			  <div class="dashboard-snapshot-card">
 			<?php 
 			if(!empty($count_products)) 
 			{ 
@@ -84,9 +84,9 @@ $final_rating = round($aggregate_rating);
 			?>
 			  </div>
 			</div>
-			<div class="col-md-4">
-			  <div class="dashboard-snapshot-card" style="padding:23px 14px 24px;">
-				<div class="StarRating StarRating<?php echo $final_rating ?>" style="display:inline-block"></div><br /><a href="">Average Item Rating</a>
+			<div class="col-xs-4">
+			  <div class="dashboard-snapshot-card">
+				<div class="StarRating StarRating<?php echo $final_rating ?>" style="display:inline-block"></div><br />Average Rating
 			  </div>
 			</div>
 		  </div>
@@ -101,6 +101,6 @@ $final_rating = round($aggregate_rating);
 				<?php echo $values["name"]; ?>
 			</a>
 		<?php endforeach; ?>
-        <a href="<?php echo $siteurl ?>/upload-resource" class="btn btn-green margin-left">+ Upload New Resource</a>
+        <a href="<?php echo $siteurl ?>/upload-resource" class="btn btn-green margin-left hidden-xs hidden-sm">+ Upload New Resource</a>
 	</div>
 </div>

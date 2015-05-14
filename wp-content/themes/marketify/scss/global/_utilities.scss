@@ -55,16 +55,13 @@
     font-size: $big;
   }
   
-  a.img-circle {
+  .img-circle {
     vertical-align: bottom;
     position: relative;
-    margin-right: $smaller;
     overflow: hidden;
     text-align: center;
     border-radius: 50%;
     display: inline-block;
-    width: 120px;
-    height: 120px;
       
     
     & > img {
@@ -77,15 +74,6 @@
       margin: auto;
     }
     
-    &.img-circle-small {
-      width: 40px;
-      height: 40px;
-    }
-    
-    &.img-circle-xs {
-      width: 20px;
-      height: 20px;
-    }
   }
   
   .uppercase {

@@ -177,7 +177,7 @@ function custom_taxonomies_terms_links($id){
 		
         $result .= '<div class="divider"></div>
  <div class="row">
-          <div class="col-md-3">
+          <div class="col-md-3 hidden-xs">
             <div class="card-white">
               <div id="search-filters">
                 <h4 class="text-blue">Search Filters</h4>

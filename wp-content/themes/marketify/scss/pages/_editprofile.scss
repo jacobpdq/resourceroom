@@ -31,11 +31,19 @@
   
   .fes-submit {
     text-align: center;
+    margin-bottom: $big;
   }
   
   input.edd-submit {
-    width: 50% !important;
+    min-width: 200px !important; // just so it is big enough lookin'
   }
 }
   
-  
+// XS only
+@media (max-width: $screen-xs-max){
+  .page-editprofile {
+    .fes-label {
+      text-align: left;
+    }
+  }
+}

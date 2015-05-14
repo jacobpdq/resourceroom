@@ -2,7 +2,7 @@
   background: $darkgray-dark;
   padding: $double-gutter 0;
   
-  & h2{
+  & #dashboard-title{
   color: #fff;
   }
   
@@ -59,8 +59,10 @@
   border-radius: 5px;
   background: lighten($darkgray-dark,5);
   text-align: center;
+  height:93px;
+  color: #fff;
   
-  & > h3{
+  & h3{
   color: #fff;
   }
   
@@ -72,4 +74,17 @@
 
 .fes-product-list-td img {
   max-width: 100px;
+}
+
+//XS 
+
+@media (max-width: $screen-xs-max){
+  #dashboard-title {
+    text-align: center;
+    font-size: $bigger;
+  }
+  
+  .dashboard-snapshot-card {
+    font-size: $small;
+  }
 }

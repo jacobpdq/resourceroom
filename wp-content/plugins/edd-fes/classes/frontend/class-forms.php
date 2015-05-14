@@ -3261,9 +3261,6 @@ class FES_Forms {
 		case 'vendor-contact':
 ?>
 				<fieldset class="fes-submit">
-					<div class="fes-label">
-						&nbsp;
-					</div>
 					<?php wp_nonce_field( 'fes-form-vendor-contact-form' ); ?>
 					<input type="hidden" name="form_id" value="<?php echo $form_id; ?>">
 					<input type="hidden" name="action" value="fes_submit_vendor_contact_form">
@@ -3276,9 +3273,6 @@ class FES_Forms {
 		case 'submission':
 ?>
 				<fieldset class="fes-submit row">
-					<div class="fes-label">
-						&nbsp;
-					</div>
 
 					<?php wp_nonce_field( 'fes-form-submission-form' );
 					$meta_data = get_user_meta(get_current_user_id());
@@ -3326,9 +3320,7 @@ class FES_Forms {
 ?>
                 <div class="divider divider-xl"></div>
 				<fieldset class="fes-submit">
-					<div class="fes-label">
-						&nbsp;
-					</div>
+
 					<?php wp_nonce_field( 'fes-form-update-profile' ); ?>
 					<input type="hidden" name="form_id" value="<?php echo $form_id; ?>">
 					<input type="hidden" name="action" value="fes_update_profile">
@@ -3344,9 +3336,7 @@ class FES_Forms {
 		case 'login':
 ?>
 				<fieldset class="fes-submit">
-					<div class="fes-label">
-						&nbsp;
-					</div>
+
 					<?php wp_nonce_field( 'fes-form-login' ); ?>
 					<input type="hidden" name="action" value="fes_submit_login">
 					<input type="hidden" name="form_id" value="<?php echo $form_id; ?>">
@@ -3364,9 +3354,7 @@ class FES_Forms {
 ?>
 			   <div class="divider"></div>
               <fieldset class="fes-submit RegSubmit">
-				<div class="fes-label">
-					&nbsp;
-				</div>
+
 				<?php wp_nonce_field( 'fes-form-registration' ); ?>
 				<input type="hidden" name="action" value="fes_submit_registration">
 				<input type="hidden" name="form_id" value="<?php echo $form_id; ?>">

@@ -83,7 +83,7 @@ get_header();
 
 		
         <div class="row">
-          <div class="col-md-4 col-sm-6">
+          <div class="col-md-4 col-sm-6 margin-bottom">
             <div class="profile-image"><?php echo getUserimage($user_ID) ?></div>
             <div class="card-white">
               <div class="profile-text">

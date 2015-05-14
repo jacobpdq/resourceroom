@@ -15,6 +15,8 @@
   
   & .feat-author-pic {
     border: 2px solid $lightgray-dark;
+    width: 120px;
+    height: 120px;
     &:hover {
       border-color: $blue-light;
     }
@@ -23,5 +25,20 @@
   & .feat-author-name {
     color: $blue-light;
     margin-bottom: 0;
+  }
+}
+
+//XS Only
+
+@media (max-width: $screen-xs-max){
+  .feat-authors {
+    .feat-author-pic {
+      width: 60px;
+      height: 60px;
+    }
+    
+    .feat-author-name {
+      text-align: center;
+    }
   }
 }

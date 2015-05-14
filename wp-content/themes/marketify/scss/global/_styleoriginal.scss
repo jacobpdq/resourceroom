@@ -270,27 +270,6 @@ input {
 }
 
 
-
-button:hover,
-html input[type="button"]:hover,
-input[type="reset"]:hover,
-input[type="submit"]:hover {
-	border-color: #5c9be5;
-    background-color: #5c9be5;
-}
-
-button:focus,
-html input[type="button"]:focus,
-input[type="reset"]:focus,
-input[type="submit"]:focus,
-button:active,
-html input[type="button"]:active,
-input[type="reset"]:active,
-input[type="submit"]:active {
-	border-color: #5c9be5;
-    background-color: #5c9be5;
-}
-
 input[type="checkbox"],
 input[type="radio"] {
 	box-sizing: border-box; /* Addresses box sizing set to content-box in IE8/9 */
@@ -2285,16 +2264,11 @@ object {
 }
 
 .comment-content {
-	line-height: 25px;
 	position: relative;
 }
 
 .comment-content p:last-child {
 	margin-bottom: 0;
-}
-
-.comment.depth-1 .comment-content {
-	margin-left: 80px;
 }
 
 .comment-list .children {
@@ -4018,286 +3992,6 @@ body .marketify_widget_slider_hero .soliloquy-theme-classic .soliloquy-pager {
 /* =Responsive Suppliments
 ----------------------------------------------- */
 
-@media screen and (min-width: 1200px) {
-	.minimal .col-lg-offset-3 {
-		margin-left: 30%;
-	}
-}
-
-@media screen and (max-width: 992px) {
-	/** Menu */
-	.site,
-	.site-header {
-		position: relative;
-	}
-
-	.site-header.toggled {
-		padding-top: 0;
-	}
-
-	.site-header .site-branding {
-		margin-left: 15px;
-	}
-
-	.site-header .container {
-		max-width: 100%;
-		padding: 0;
-		position: inherit;
-	}
-
-	.main-navigation .menu,
-	.main-navigation .search-form,
-	.main-navigation .main-menu {
-		float: none;
-	}
-
-	.main-navigation {
-		max-height: 50px;
-		overflow: hidden;
-		position: absolute;
-		top: 50%;
-		left: auto;
-		right: 0;
-		float: none;
-
-		-webkit-transition: max-height 0.3s;
-		-moz-transition:    max-height 0.3s;
-		transition:         max-height 0.3s;
-	}
-
-	.main-navigation.toggled {
-		max-height: 2000px;
-		top: auto;
-		right: auto;
-		position: static;
-		background: rgba(0, 0, 0, .60);
-		margin-bottom: 50px;
-		padding-bottom: 20px;
-
-		-webkit-transform: translate(0, 0);
-		-moz-transform:    translate(0, 0);
-		transform:         translate(0, 0);
-	}
-
-	.main-navigation.toggled ul {
-		display: block;
-	}
-
-	.main-navigation h1 {
-		margin-right: 15px;
-	}
-
-	.main-navigation.toggled h1 {
-		margin: 20px 0 0 8px;
-	}
-
-	.menu-toggle,
-	.main-navigation.toggled .nav-menu,
-	.main-navigation.toggled .search-form {
-		display: block;
-		float: none;
-	}
-
-	.main-navigation.toggled li {
-		float: none;
-		margin-bottom: 8px;
-	}
-
-	.main-navigation li {
-		margin: 0;
-		float: none;
-	}
-
-	.main-navigation .menu > li {
-		max-width: 90%;
-	}
-
-	.main-navigation a {
-		color: #636D77;
-		font-size: 16px;
-		border: 0;
-		display: block;
-	}
-
-	.main-navigation a:hover {
-		color: #fff;
-		background: none;
-	}
-
-	.main-navigation ul ul {
-		border-left: 1px solid #515a63;
-		background: none;
-		box-shadow: none;
-		border-radius: 0;
-		float: none;
-		position: relative;
-		top: auto;
-		left: 20px;
-		z-index: 99999;
-		width: auto;
-		opacity: 1;
-
-		-webkit-transform: translate(0, 0) scale(1);
-		-moz-transform:    translate(0, 0) scale(1);
-		transform:         translate(0, 0) scale(1);
-	}
-
-	.main-navigation ul ul:after,
-	.main-navigation ul ul ul:after {
-		display: none;
-	}
-
-	.main-navigation ul ul ul {
-		z-index: 5;
-		margin-right: 0;
-		border: 0;
-		left: auto;
-		top: auto;
-		right: auto;
-		margin-left: 15px;
-	}
-
-	.main-navigation ul ul a {
-		color: #7D8892;
-		font-size: 14px;
-		padding: 5px 15px;
-		width: auto;
-	}
-
-	.main-navigation ul ul ul a {
-		padding: 5px 15px;
-	}
-
-	.main-navigation ul ul li:first-child a,
-	.main-navigation ul ul li:last-child a {
-		border-radius: 0;
-	}
-
-	.main-navigation ul ul li {
-		margin-left: 0;
-	}
-
-	.main-navigation ul li:hover > ul {
-		-webkit-transform: translate(0, 0) scale(1);
-		-moz-transform:    translate(0, 0) scale(1);
-		transform:         translate(0, 0) scale(1);
-	}
-
-	.main-navigation ul ul a:hover {
-		color: #fff;
-		background: none;
-	}
-
-	.main-navigation li ul li a:first-child:nth-last-child(2):before {
-		display: none;
-	}
-
-	.main-navigation ul,
-	.main-navigation .search-form,
-	.header-search-icon {
-		display: none;
-	}
-
-	.main-navigation.toggled .search-form label {
-		float: none;
-		opacity: 1;
-	}
-
-	.main-navigation.toggled .search-form {
-		padding: 20px;
-		margin-right: 0;
-		margin-top: 20px;
-	}
-
-	.main-navigation.toggled .search-form .search-field {
-		width: 90%;
-	}
-
-	.main-navigation.toggled .search-form .search-submit {
-		width: 10%;
-	}
-
-	.main-navigation .edd-cart {
-		margin-left: 0;
-	}
-
-	.main-navigation .edd-cart .cart_item,
-	.main-navigation .edd-cart .cart_item.empty {
-		padding: 5px 15px;
-	}
-
-	.main-navigation .edd-cart .cart_item,
-	.main-navigation .edd-cart .edd-cart-item,
-	.main-navigation .widget .edd-cart .edd-cart-item-price {
-		color: #7D8892;
-		background: none;
-		border-color: #515a63;
-	}
-
-	.main-navigation .edd-cart .cart_item.empty {
-		color: #7D8892;
-		font: 700 13px/normal 'Montserrat', sans-serif;
-		text-transform: uppercase;
-	}
-
-	.main-navigation .edd-cart .cart_item.edd_checkout {
-		border-color: #515a63;
-	}
-
-	h2.soliloquy-caption-title {
-		font-size: 38px;
-	}
-
-	.search-form-overlay .search-form {
-		width: 50%;
-		left: 25%;
-	}
-}
-
-@media screen and (min-width: 992px) {
-	.page-title,
-	.home-search .page-header .search-form {
-		max-width: 60%;
-		margin-left: auto;
-		margin-right: auto;
-	}
-
-	.home-search .page-header .search-form {
-		max-width: 50%;
-	}
-
-	/* Footer */
-	.site-footer.light .footer-widget,
-	.site-footer.light .site-info [class^="col-"] {
-		border-right: 1px solid #bdc3c7;
-		border-bottom: 0;
-	}
-
-	.site-footer.light .site-info {
-		border-top: 1px solid #bdc3c7;
-	}
-
-	/** Testimonials */
-	.individual-testimonial {
-		float: left;
-		clear: none;
-		margin-bottom: 0;
-	}
-
-	.individual-testimonial .testimonials-text{
-		max-width: 90%;
-	}
-
-	.download-image .flex-direction-nav {
-		width: 100%;
-		left: 0;
-	}
-
-	.single-download .featured-image img {
-		max-width: 85%;
-	}
-}
-
 @media screen and (max-width: 768px) {
 	body .marketify_widget_slider_hero .soliloquy-container .soliloquy-caption  {
 		max-width: 80%;
@@ -4373,10 +4067,7 @@ body .marketify_widget_slider_hero .soliloquy-theme-classic .soliloquy-pager {
 		height: 40px;
 	}
 
-	.comment-list .comment-content,
-	.comment-list .comment.depth-1 .comment-content {
-		margin-left: 100px;
-	}
+
 
 	.comment-list .children .comment-meta {
 		display: none;
@@ -4451,22 +4142,6 @@ body .marketify_widget_slider_hero .soliloquy-theme-classic .soliloquy-pager {
 		display: inline-block;
 	}
 
-	/** Page */
-	.entry-page-title {
-		padding-top: 0;
-		padding-bottom: 40px;
-	}
-
-	.site-content {
-		margin-top: 50px;
-	}
-
-	/** FES */
-	.entry-content #fes_half {
-		width: 100%;
-		float: none;
-		display: block;
-	}
 
 	/** Popular/Recent */
 	.marketify_widget_featured_popular .home-widget-title span {

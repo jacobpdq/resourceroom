@@ -16,6 +16,7 @@
     border: 0 !important;
     padding: 8px 12px;
     position: relative;
+    right:0;
     opacity: .75;
     outline: 0 !important;
     
@@ -24,6 +25,14 @@
       opacity: 1;
     }
   }
-  
-  
+}
+
+// XS only
+
+@media (max-width: $screen-xs-max) {
+  .search-bar {
+    .search-button {
+      margin-right: 10px;
+    }
+  }
 }

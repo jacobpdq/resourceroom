@@ -47,14 +47,14 @@ function moreproduct()
 	$result .='
 	<div class="item-mini">
         <div class="row margin-bottom">
-            <div class="col-md-4">';
+            <div class="col-xs-4">';
 				if(isset($resource_thumbnail_image_data['file'])){
 					$result .='<div class="item-thumbnail"><a href="'.get_permalink($res->ID).'">'.$img.'</a></div>';
 					}else{
 					$result .='<div class="item-thumbnail"><a href="'.get_permalink($res->ID).'">Image not available</a></div>';
 					}
 					$result .='</div>
-					<div class="col-md-8">
+					<div class="col-xs-8">
 						<div class="item-text"><a href="'.get_permalink($res->ID).'" class="item-title">'.$res->post_title.'</a>
 						<div class="item-author"> <span>by </span><a href="'.$site_url.'/user-profile?user_id='.$res->post_author.'">'.$name.'</a>
 					</div>

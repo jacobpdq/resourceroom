@@ -2,7 +2,7 @@
 
   //applies only to the bottom checkboxes
   .fes-fields {
-    @extend .col-md-12;
+    @extend .col-sm-12;
   }
   
   .user_email,
@@ -14,13 +14,16 @@
   .password {
     
     .fes-label {
-      @extend .col-md-4;
-      text-align: right;
+      @extend .col-sm-4;
       margin-top: 5px;
+      
+      @media (min-width: $screen-sm-min){
+        text-align: right;
+      }
     }
     
     .fes-fields {
-      @extend .col-md-4;
+      @extend .col-sm-4;
     }
   }
   

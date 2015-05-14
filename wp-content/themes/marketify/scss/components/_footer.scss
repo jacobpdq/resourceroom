@@ -35,6 +35,7 @@ $footer-height:               90px;
 
     #menu-footer-menu {
       margin-bottom: 0;
+      padding-left: 0;
     }
     
     .footer-col {
@@ -58,22 +59,9 @@ $footer-height:               90px;
     &-logo,
     &-nav {
       float: left;
-      padding: 0 20px;
       width: 20%;
     }
-    
-    @media (max-width: 768px) {
-      &-logo {
-        margin-bottom: 20px;
-      }
-      &-logo,
-      &-nav {
-        float: none;
-        display: block;
-        width: 100%;
-      }
-    }
-    
+
     &-logo {
       margin-top: -5px;
       height: 32px;
@@ -120,4 +108,20 @@ $footer-height:               90px;
 
 }
 
+// XS
 
+@media (max-width: $screen-xs-max){
+  .footer {
+    padding: $sizeup-1 0;
+    
+    li.menu-item {
+      display: block;
+    }
+  }
+}
+
+// Above XS 
+
+@media (min-width: $screen-sm-min){
+  
+}

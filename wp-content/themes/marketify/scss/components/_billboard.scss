@@ -53,23 +53,35 @@
 	.billboard {
 	padding: $double-gutter $gutter;
 
-		& .billboard-title {
-			margin-bottom: 10px;
-		}
+    .billboard-logo {
+      height: $sizeup-1;
+      margin-bottom: $base;
+    }
+      
+    & .billboard-title {
+        margin-bottom: 10px;
+    }
 
-		& .billboard-text {
-			font-size: $big;
-			line-height: 1.1;
-		}
+    & .billboard-text {
+        font-size: $big;
+        line-height: 1.1;
+    }
 
-		& .billboard-link {
-			font-size: $base;
-			line-height: 1.1;
-		}
-	}
+    & .billboard-link {
+        font-size: $big;
+        line-height: 1.1;
+    }
+  }
 }
 
-/****** SMALL AND ABOVE ******/
-@media (min-width: $screen-sm-min){
-
+/****** XS AND SM ******/
+@media (max-width: $screen-sm-max){
+  .billboard {
+    a#browse-resources{
+      margin-right: 0;
+    }
+    a#upload-resource {
+      display: none;
+    }
+  }
 }

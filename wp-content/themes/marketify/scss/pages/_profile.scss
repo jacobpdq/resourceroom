@@ -28,3 +28,11 @@
     border-bottom: 0;
   }
 }
+
+// XS Only
+
+@media (max-width: $screen-xs-max){
+  .profile-username {
+    font-size: $big;
+  }
+}

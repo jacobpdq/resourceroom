@@ -31,14 +31,15 @@
 <body <?php body_class(); ?>>
   <div id="wrap">
 	  
-      <nav role="navigation" class="navbar navbar-default">
+      <nav role="navigation" class="navbar">
         <div class="container-fluid">
           <div class="navbar-header">
             <button type="button" data-toggle="collapse" data-target=".navbar-collapse" class="navbar-toggle"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button><a href="<?php echo site_url(); ?>" class="navbar-brand"><img class="navbar-logo" src="<?php echo get_template_directory_uri(); ?>/img/resource-room-logo-white.svg" alt="Resource Room"></a>
           </div>
           <div class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
-              <li><a href="<?php echo site_url();?>/browse" class="nav-link">Browse Resources</a></li>
+              <!-- Browse link for normal nav --->
+              <li><a href="<?php echo site_url();?>/browse" class="nav-link hidden-sm hidden-xs">Browse Resources</a></li>
 			   <li>
                 <form role="search" class="navbar-form search-bar" action="<?php echo site_url();?>/search-result">
                   <div class="input-group">
@@ -49,9 +50,12 @@
                   </div>
                 </form>
               </li>
-             
+              <!-- Browse link for collapsed nav only --->
+              <li><a href="<?php echo site_url();?>/browse" class="nav-link hidden-md hidden-lg">Browse Resources</a></li>
+			   <li>
               <li><a href="<?php echo site_url();?>/advanced-search" class="nav-link">Advanced Search</a></li>
             </ul>
+            <div class="navbar-divider visible-xs visible-sm"></div>
             <ul class="nav navbar-nav navbar-right">
               
 			  
@@ -74,7 +78,7 @@
                   <li><a href="<?php echo site_url()?>/purchases">Purchase History</a></li>
                   <li class="divider"></li>
                   <li><a href="<?php echo site_url()?>/my-homeroom">My Homeroom</a></li>
-                  <li><a href="<?php echo site_url(); ?>/upload-resource">Upload Resource</a></li>
+                  <li class="visible-md visible-lg"><a href="<?php echo site_url(); ?>/upload-resource">Upload Resource</a></li>
                   <li><a href="<?php echo site_url(); ?>/cart">View Cart</a></li>
                   <li class="divider"></li>
                   <li><a href="<?php echo site_url(); ?>/account-settings">Account Settings</a></li>
@@ -99,9 +103,9 @@
               <img class="billboard-logo" src="<?php echo get_template_directory_uri(); ?>/img/resource-room-logo-blue.svg" alt="Resource Room">
               <p class="billboard-text">Welcome to the Resource Room: A collection of educational resources made for Canadian teachers, by Canadian teachers.</p>
               <p class="billboard-links">
-              <a id="browse-resources" href="<?php echo site_url() ;?>/browse" class="billboard-link billboard-link-left">
+              <a id="browse-resources" href="<?php echo site_url() ;?>/browse" class="billboard-link">
                 <img src="<?php echo get_template_directory_uri(); ?>/img/icons/icon-browse.svg" class="icon icon-left icon-lg">Browse Resources</a>
-              <a href="<?php echo site_url() ;?>/upload-resource" class="billboard-link"> <img src="<?php echo get_template_directory_uri(); ?>/img/icons/icon-upload.svg" class="icon icon-left icon-lg">Upload A Resource</a>
+              <a id="upload-resource" href="<?php echo site_url() ;?>/upload-resource" class="billboard-link"><img src="<?php echo get_template_directory_uri(); ?>/img/icons/icon-upload.svg" class="icon icon-left icon-lg">Upload A Resource</a>
               </p>
               <p class="billboard-profits">
                 *10% of our profits are donated to projects that benefit Canadian education – <a href="<?php echo $siteurl ?>/faq/#profits">submit a project</a>

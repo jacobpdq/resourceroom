@@ -116,38 +116,41 @@
     background: #fff;
     border-radius: 0 0 $global-radius $global-radius;
   }
+}
   
   /******* XS only *******/
-  @media (max-width: $screen-xs-max){
-    
-    & {
-      margin-bottom: $biggest;
+@media (max-width: $screen-xs-max){
+
+  .item-square {
+    margin-bottom: $biggest;
+
+    .item-thumbnail {
+      height: 205px;
     }
     
     & .item-title {
       font-size: $big;
     }
-    
+
     & .item-author {
       font-size: $base;
     }
-  
   }
+}
   
   /******* MD and up *****/
   
-  @media (min-width: $screen-md-min){
-    &:hover {
-      & .item-text {
-        top: -5px;
-      }
-      & .item-thumbnail {
-        opacity: .8;
-      }
+@media (min-width: $screen-md-min){
+  .item-square:hover {
+    & .item-text {
+      top: -5px;
+    }
+    & .item-thumbnail {
+      opacity: .8;
     }
   }
-  
 }
+  
 
 .item-mini {
   
