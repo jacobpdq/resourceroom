@@ -30,6 +30,11 @@
   margin: auto;
 }
 
+.uploader-inline.hidden {
+  display: block !important;
+  visibility: visible !important;
+}
+
 .uploader-inline-content {
   top: 15% !important;
 }
@@ -52,10 +57,28 @@
   }
 }
 
+.attachments-browser{
+  .attachments {
+    display: none !important;
+  }
+  .media-toolbar {
+    display: none;
+  }
+  
+  .uploader-inline {
+    top: 0 !important;
+    right: 0 !important;
+  }
+}
+
+
+
 .media-sidebar {
+  background: transparent !important;
   position: relative !important;
   width: 100% !important;
   height: 100% !important;
+  box-sizing: border-box !important;
 }
 
 .media-toolbar-primary .button {
